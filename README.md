@@ -30,7 +30,7 @@
 - 💻 Also build full-stack web apps (**React, Next.js, Node/Express, MongoDB**) and GenAI tools (**Gemini API**, prompt engineering, LLM integration)
 - ⚡ Background in **IoT/embedded systems** (Arduino, sensors, home automation)
 - 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available for internships now, full-time from June 2026
-- 📫 dhruvpratapsingh30.official2.o@gmail.com · +91-6398621486
+- 📫 dhruvpratapsingh30.official2.o@gmail.com ·
 
 ---
 
@@ -135,14 +135,7 @@
 
 ### 📈 GitHub Stats
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamdpsingh&theme=tokyonight&hide_border=true" />
-</p>
+<p align="center"> <img height="165" src="https://github-stats-extended.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" /> <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true" /> </p> <p align="center"> <img src="https://streak-stats.demolab.com/?user=iamdpsingh&theme=tokyonight&hide_border=true" /> </p>
 
 ---
 
@@ -187,4 +180,4 @@
   <img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=Profile%20Views&color=2E9EF7&style=flat" alt="profile views" />
 </p>
 
-<p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available for internships now, full-time from June 2026. Let's connect!</i></p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=Profile%20Views&color=2E9EF7&style=flat" alt="profile views" /> </p> <!--FOOTER_STATUS_START--> <p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p> <!--FOOTER_STATUS_END-->
