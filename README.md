@@ -40,7 +40,7 @@
   - **Tech & Tools:** Google BigQuery, Google Cloud Storage, Apache Airflow, dbt (Data Build Tool), Apache Spark (PySpark), Apache Kafka, Docker, Terraform
   - **Techniques & Concepts:** ELT (Extract, Load, Transform), Dimensional Modeling (Star Schema), Data Partitioning & Clustering, Event-Driven Ingestion, Idempotency, CI/CD
 <!--STATUS_START-->
-- 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available for internships now, full-time from June 2026
+- 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available for internships now, full-time from Dec 2026
 <!--STATUS_END-->
 - 📫 dhruvpratapsingh30.official2.o@gmail.com ·
 
