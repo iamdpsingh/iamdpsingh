@@ -36,7 +36,9 @@
 - 🛠️ Full data stack: **ETL, SQL/PostgreSQL, Pandas, Scikit-learn, Power BI, GCP/BigQuery**
 - 💻 Also build full-stack web apps (**React, Next.js, Node/Express, MongoDB**) and GenAI tools (**Gemini API**, prompt engineering, LLM integration)
 - ⚡ Background in **IoT/embedded systems** (Arduino, sensors, home automation)
-- 🌱 Currently learning **data engineering techniques**
+- 🌱 Currently learning **data engineering techniques & tools**:
+  - **Tech & Tools:** Google BigQuery, Google Cloud Storage, Apache Airflow, dbt (Data Build Tool), Apache Spark (PySpark), Apache Kafka, Docker, Terraform
+  - **Techniques & Concepts:** ELT (Extract, Load, Transform), Dimensional Modeling (Star Schema), Data Partitioning & Clustering, Event-Driven Ingestion, Idempotency, CI/CD
 <!--STATUS_START-->
 - 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available for internships now, full-time from June 2026
 <!--STATUS_END-->
