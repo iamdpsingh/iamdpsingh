@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="100%" />
+</div>
+
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="40" height="40" />, I'm Dhruv Pratap Singh</h1>
 <h3 align="center">Data Science & Analytics | ETL Pipelines | ML/AI | Full-Stack Builder | Open to Remote Roles Worldwide</h3>
 
@@ -23,7 +27,7 @@
 <!--DATE_START-->
 <!--DATE_END-->
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="28" height="28" /> About Me
 
@@ -40,7 +44,7 @@
   - **Tech & Tools:** Google BigQuery, Google Cloud Storage, Apache Airflow, dbt (Data Build Tool), Apache Spark (PySpark), Apache Kafka, Docker, Terraform
   - **Techniques & Concepts:** ELT (Extract, Load, Transform), Dimensional Modeling (Star Schema), Data Partitioning & Clustering, Event-Driven Ingestion, Idempotency, CI/CD
 <!--STATUS_START-->
-- 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available for full-time, part-time, contract-based roles.
+- 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available for internships now, full-time from June 2026
 <!--STATUS_END-->
 - 📫 dhruvpratapsingh30.official2.o@gmail.com ·
 
@@ -51,7 +55,7 @@
   </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="28" height="28" /> Tech Stack
 
@@ -84,7 +88,7 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" alt="Briefcase" width="28" height="28" /> Experience
 
@@ -95,7 +99,7 @@
 - Delivered stakeholder-facing dashboards in Power BI, Matplotlib, and Seaborn
 - Automated end-to-end reporting pipelines, **cutting manual reporting effort by 40%**
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="28" height="28" /> Featured Projects
 
@@ -152,7 +156,7 @@
 
 </details>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" alt="Graduation Cap" width="28" height="28" /> Education
 
@@ -162,7 +166,7 @@
 | Agra Vanasthali Vidyalaya, Agra | Intermediate (Class XII) | 70.6% | 2022 |
 | Christ The King High School, Tundla | High School (Class X) | 83% | 2020 |
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="28" height="28" /> Certifications
 
@@ -189,10 +193,10 @@
 **DataCamp**
 - Introduction to R — 4-hour course, completed Apr 26, 2025
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=Profile%20Views&color=2E9EF7&style=flat" alt="profile views" />
+  <img src="https://profile-counter.glitch.me/iamdpsingh/count.svg" alt="profile views" />
 </p>
 
 <!--FOOTER_STATUS_START--> <p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p> <!--FOOTER_STATUS_END-->
