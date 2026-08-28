@@ -102,25 +102,25 @@
 <table>
   <tr>
     <td width="50%">
-      <h4>🌦️ Weather Data Pipeline</h4>
+      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sun%20Behind%20Rain%20Cloud.png" alt="Weather" width="25" height="25" /> Weather Data Pipeline</h4>
       <p>Automated pipeline pulling real-time weather via REST API into PostgreSQL with incremental loads, dedup, and cron scheduling; time-series analysis on temperature/precipitation trends.</p>
       <b>Stack:</b> Python, PostgreSQL, OpenWeather API, GCP, BigQuery
     </td>
     <td width="50%">
-      <h4>🛒 E-commerce Analytics Pipeline</h4>
+      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shopping%20Cart.png" alt="Shopping Cart" width="25" height="25" /> E-commerce Analytics Pipeline</h4>
       <p>End-to-end pipeline transforming raw transactions into a star-schema data mart; automated KPI generation (revenue, AOV, churn, CLV) with Power BI dashboards and pre-load data quality gates.</p>
       <b>Stack:</b> Python, SQL, BigQuery, GCP, Power BI
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h4>📊 Vendor Performance Analysis</h4>
+      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Bar Chart" width="25" height="25" /> Vendor Performance Analysis</h4>
       <p>Unified purchase, sales, and logistics data into a vendor summary; EDA on sales trends, inventory turnover, and profit margins with automated KPI scripts.</p>
       <b>Stack:</b> Python, SQL, Pandas, Seaborn<br/>
       <a href="https://github.com/iamdpsingh/Vendor_Performance_Analysis">🔗 Repo</a>
     </td>
     <td width="50%">
-      <h4>🏠 House Price Prediction</h4>
+      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/House.png" alt="House" width="25" height="25" /> House Price Prediction</h4>
       <p>Random Forest + XGBoost regression on real estate data, <b>R² > 0.87</b>; feature engineering improved accuracy by ~12%. Deployed as a Flask REST API for real-time predictions.</p>
       <b>Stack:</b> Python, Scikit-learn, XGBoost, Flask<br/>
       <a href="https://github.com/iamdpsingh/House-Price-Prediction-Web-App">🔗 Repo</a>
@@ -128,13 +128,13 @@
   </tr>
   <tr>
     <td width="50%">
-      <h4>🎥 Zoomer — Video Conferencing App</h4>
+      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Movie%20Camera.png" alt="Movie Camera" width="25" height="25" /> Zoomer — Video Conferencing App</h4>
       <p>Real-time video conferencing platform inspired by Zoom, with secure auth, meeting management, and live streaming.</p>
       <b>Stack:</b> Next.js, TypeScript, Node.js, Clerk, ShadCN UI<br/>
       <a href="https://github.com/iamdpsingh/Zoomer">🔗 Repo</a> · <a href="https://zoomer-dps-gauram.vercel.app/">🌐 Live Demo</a>
     </td>
     <td width="50%">
-      <h4>🤖 AI Chatbot with Gemini API</h4>
+      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="25" height="25" /> AI Chatbot with Gemini API</h4>
       <p>Conversational AI chatbot using Gemini (gemini-1.5-flash) with multi-turn dialogue and context management via prompt engineering; interactive Streamlit frontend for real-time interaction.</p>
       <b>Stack:</b> Python, Google Gemini API, Streamlit<br/>
       <a href="https://github.com/iamdpsingh/AI5-chatbot-gemini">🔗 Repo</a>
@@ -196,3 +196,5 @@
 </p>
 
 <!--FOOTER_STATUS_START--> <p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p> <!--FOOTER_STATUS_END-->
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,50:8e2de2,100:6a11cb&height=120&section=footer" width="100%"/>
