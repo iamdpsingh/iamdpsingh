@@ -1,10 +1,11 @@
-<div align="center">
+<h1 align="center">Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="40" height="40" />, I'm Dhruv Pratap Singh</h1>
+<h3 align="center">Data Science & Analytics | ETL Pipelines | ML/AI | Full-Stack Builder | Open to Remote Roles Worldwide</h3>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6a11cb,50:8e2de2,100:2575fc&height=220&section=header&text=Dhruv%20Pratap%20Singh&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Data%20Scientist%20%C2%B7%20Full-Stack%20Builder%20%C2%B7%20Gamer%20at%20Heart&descAlignY=54&descSize=18&descColor=e5e5ff" width="100%"/>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=650&lines=Building+ETL+pipelines+%26+data+marts;Turning+raw+data+into+dashboards+%26+decisions;Training+%2B+deploying+ML+models;Shipping+full-stack+%26+GenAI+apps;Open+to+remote+Data+Analytics%2FDS%2FDE+roles" alt="Typing SVG" />
+</p>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=8E75B2&center=true&vCenter=true&width=700&lines=Building+ETL+pipelines+%26+data+marts+%F0%9F%93%8A;Training+%2B+deploying+ML+models+%F0%9F%A4%96;Shipping+full-stack+%26+GenAI+apps+%E2%9A%A1;Grinding+leaderboards+%26+sketching+frames+%F0%9F%8E%AE;Open+to+remote+Data+Analytics%2FDS%2FDE+roles+%F0%9F%8C%8D" alt="Typing SVG" />
-
-<p>
+<p align="center">
   <a href="https://www.linkedin.com/in/dhruvpratapsingh30/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
@@ -20,41 +21,37 @@
 </p>
 
 <!--DATE_START-->
-<p align="center">
-  <img src="https://img.shields.io/badge/Last%20Updated-August%202026-2E9EF7?style=for-the-badge" alt="Last Updated" />
-</p>
 <!--DATE_END-->
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6a11cb,100:2575fc&height=3&width=100%" width="100%"/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-</div>
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="28" height="28" /> About Me
 
-### 🚀 About Me
+<table>
+  <tr>
+    <td width="60%">
 
 - 🎓 B.Tech Computer Science, **GLA University, Mathura** (2022 – 2026)
 - 📊 Remote **Data Science Intern @ Krutanic Solutions** — built cleaning pipelines, ran EDA, shipped Power BI dashboards
 - 🛠️ Full data stack: **ETL, SQL/PostgreSQL, Pandas, Scikit-learn, Power BI, GCP/BigQuery**
 - 💻 Also build full-stack web apps (**React, Next.js, Node/Express, MongoDB**) and GenAI tools (**Gemini API**, prompt engineering, LLM integration)
 - ⚡ Background in **IoT/embedded systems** (Arduino, sensors, home automation)
-- 🎮 Off the clock: gaming and frame-by-frame animation are where the same problem-solving itch gets scratched
+- 🌱 Currently learning **data engineering techniques**
 <!--STATUS_START-->
-- 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available full-time now
+- 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available for internships now, full-time from June 2026
 <!--STATUS_END-->
-- 📫 dhruvpratapsingh30.official2.o@gmail.com
+- 📫 dhruvpratapsingh30.official2.o@gmail.com ·
 
-<div align="center">
+    </td>
+    <td width="40%" align="center">
+      <img src="https://raw.githubusercontent.com/TheDudeThatCode/TheDudeThatCode/master/Assets/Developer.gif" alt="Developer" width="90%" />
+    </td>
+  </tr>
+</table>
 
-### 🎮 Beyond the Code
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<img src="https://img.shields.io/badge/Gamer-8E2DE2?style=for-the-badge&logo=playstation&logoColor=white" />
-<img src="https://img.shields.io/badge/Animation%20%26%20Anime-FF6B6B?style=for-the-badge&logo=funimation&logoColor=white" />
-<img src="https://img.shields.io/badge/Retro%20Tech-2575FC?style=for-the-badge&logo=retroarch&logoColor=white" />
-
-</div>
-
----
-
-### 🧰 Tech Stack
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="28" height="28" /> Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -85,9 +82,9 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-### 💼 Experience
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" alt="Briefcase" width="28" height="28" /> Experience
 
 **Data Science Intern — Krutanic Solutions** *(Remote, Aug 2025 – Nov 2025)*
 - Automated data cleaning scripts (Python, Pandas, NumPy, SQL) that **cut data errors by ~30%**
@@ -96,9 +93,9 @@
 - Delivered stakeholder-facing dashboards in Power BI, Matplotlib, and Seaborn
 - Automated end-to-end reporting pipelines, **cutting manual reporting effort by 40%**
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-### 📌 Featured Projects
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="28" height="28" /> Featured Projects
 
 <table>
   <tr>
@@ -144,7 +141,7 @@
 </table>
 
 <details>
-<summary><b>🔩 Earlier IoT / Hardware Projects</b></summary>
+<summary><b><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Nut%20and%20Bolt.png" alt="Nut and Bolt" width="20" height="20" /> Earlier IoT / Hardware Projects</b></summary>
 <br/>
 
 - **Smart Cane for Visually Impaired** — obstacle detection, haptic + audio feedback, GPS tracking, GSM alerts (Arduino, Raspberry Pi 3)
@@ -153,36 +150,9 @@
 
 </details>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-### 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="assets/trophy.svg" alt="GitHub Trophies" />
-</p>
-
-### 📈 GitHub Stats
-
-<p align="center">
-  <img height="165" src="assets/stats.svg" />
-  <img height="165" src="assets/top-langs.svg" />
-</p>
-
-<p align="center">
-  <img src="assets/streak.svg" />
-</p>
-
-### 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/output/github-contribution-grid-snake.svg" width="100%"/>
-</picture>
-
----
-
-### 🎓 Education
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" alt="Graduation Cap" width="28" height="28" /> Education
 
 | Institution | Qualification | Score | Year |
 |---|---|---|---|
@@ -190,9 +160,9 @@
 | Agra Vanasthali Vidyalaya, Agra | Intermediate (Class XII) | 70.6% | 2022 |
 | Christ The King High School, Tundla | High School (Class X) | 83% | 2020 |
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-### 🏅 Certifications
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="28" height="28" /> Certifications
 
 **Infosys Springboard**
 - Basics of Python — Python fundamentals
@@ -217,16 +187,10 @@
 **DataCamp**
 - Introduction to R — 4-hour course, completed Apr 26, 2025
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<div align="center">
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=Profile%20Views&color=2E9EF7&style=flat" alt="profile views" />
+</p>
 
-<img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=Profile%20Views&color=8E2DE2&style=for-the-badge" alt="profile views" />
-
-<!--FOOTER_STATUS_START-->
-<p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
-<!--FOOTER_STATUS_END-->
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,50:8e2de2,100:6a11cb&height=120&section=footer" width="100%"/>
-
-</div>
+<!--FOOTER_STATUS_START--> <p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p> <!--FOOTER_STATUS_END-->
