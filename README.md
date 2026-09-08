@@ -112,8 +112,9 @@
     </td>
     <td width="50%">
       <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shopping%20Cart.png" alt="Shopping Cart" width="25" height="25" /> E-commerce Analytics Pipeline</h4>
-      <p>End-to-end pipeline transforming raw transactions into a star-schema data mart; automated KPI generation (revenue, AOV, churn, CLV) with Power BI dashboards and pre-load data quality gates.</p>
-      <b>Stack:</b> Python, SQL, BigQuery, GCP, Power BI
+      <p>Cloud-native ELT pipeline processing <b>133M+ rows (16GB)</b> in under 30s. Extracted data via GCE VMs to Cloud Storage, modeled a star-schema in BigQuery, and built a custom Streamlit dashboard analyzing 1.9M orders.</p>
+      <b>Stack:</b> Python, SQL, BigQuery, GCP, Streamlit<br/>
+      <a href="https://github.com/iamdpsingh/Project-3--E-commerce-Analytics-Pipeline">🔗 Repo</a>
     </td>
   </tr>
   <tr>
