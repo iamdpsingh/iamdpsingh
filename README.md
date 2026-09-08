@@ -220,8 +220,6 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 
 </details>
 
-<!-- DIVIDER: colorful animated -->
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="100%"/>
 
 <!-- EDUCATION HEADER: Capsule-Render slice style -->
 <img src="https://capsule-render.vercel.app/api?type=slice&color=0:48C4D3,100:C850C0&height=60&text=%F0%9F%8E%93%20Education&fontSize=26&fontColor=fff&fontAlign=70&reversal=false" width="100%"/>
@@ -267,10 +265,9 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <!-- STATS CARDS: github-readme-stats (sigma-five instance) + streak-stats (demolab) -->
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=C850C0&icon_color=48C4D3&text_color=ffffff" width="49%"/>&nbsp;<img src="https://streak-stats.demolab.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=0D1117&stroke=C850C0&ring=C850C0&fire=FF6B6B&currStreakLabel=48C4D3&sideLabels=ffffff&dates=ffffff" width="49%"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=C850C0&icon_color=48C4D3&text_color=ffffff" width="49%"/>&nbsp;<img src="https://streak-stats.demolab.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=0D1117&stroke=C850C0&ring=C850C0&fire=FF6B6B&currStreakLabel=48C4D3&sideLabels=ffffff&dates=ffffff" width="49%"/>
 
-<!-- TOP LANGS: donut chart (unique style) -->
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=iamdpsingh&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=C850C0&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="35%"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=C850C0&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="45%"/>
 
 </div>
 
@@ -290,19 +287,13 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 
 </div>
 
-<!-- DIVIDER: colorful -->
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="100%"/>
 
-<!-- FOOTER: animated coding gif + counter + capsule-render wave -->
+<!-- FOOTER: animated coding gif + capsule-render wave -->
 <div align="center">
 
 <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="300"/>
 
 <br/><br/>
-
-<img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=Profile+Views&color=C850C0&style=for-the-badge"/>
-
-<br/>
 
 <!--FOOTER_STATUS_START-->
 <p><i>🌏 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
