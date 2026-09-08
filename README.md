@@ -1,222 +1,280 @@
-<!--
-=========================================================
-SYSTEM IDENTITY: DHRUV PRATAP SINGH
-CLASS: DATA ENGINEER // CLOUD ARCHITECT
-STATUS: ONLINE
-=========================================================
--->
+<!-- HEADER: Capsule-Render (waving + twinkling) -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A0572,50:C850C0,100:48C4D3&height=200&section=header&text=Dhruv%20Pratap%20Singh&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Data%20Engineer%20%E2%80%A2%20ML%2FAI%20%E2%80%A2%20Full-Stack%20Builder&descAlignY=57&descSize=18" width="100%"/>
 
-<div align="center">
+<!-- TYPING: readme-typing-svg (demolab) -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=C850C0&center=true&vCenter=true&width=800&lines=Building+Cloud+ELT+Pipelines+%26+Data+Marts;Turning+Raw+Data+into+Decisions+%26+Dashboards;Training+%26+Deploying+ML+Models;Shipping+Full-Stack+%26+GenAI+Apps;Open+to+Remote+Data+Eng+%2F+DS+%2F+DA+Roles" />
+</p>
 
-<!-- HERO ANIMATION -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0F,30:1A0533,60:2D1B69,100:00D4FF&height=230&section=header&text=DHRUV%20PRATAP%20SINGH&fontSize=46&fontColor=ffffff&animation=twinkling" width="100%"/>
+<!-- SOCIALS: shields.io for-the-badge -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/dhruvpratapsingh30/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
+  <a href="https://dps-gauram-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-%23C850C0.svg?style=for-the-badge&logo=netlify&logoColor=white"/></a>&nbsp;
+  <a href="mailto:dhruvpratapsingh30.official2.o@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
+  <a href="https://www.instagram.com/iam_dpsingh/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>
+</p>
 
-<!-- SUBTITLE TYPING -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=800&color=00D4FF&center=true&vCenter=true&width=800&lines=Building+Cloud+Data+Pipelines;Turning+Raw+Data+Into+Intelligence;Engineering+Scalable+Data+Systems;GCP+%7C+BigQuery+%7C+PySpark+%7C+Airflow;Data+Engineer+in+Progress" />
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=Profile+Views&color=C850C0&style=flat-square"/>
+</p>
 
-<br/><br/>
+<!--DATE_START-->
+<!--DATE_END-->
 
-<!-- SOCIAL MATRIX -->
-<a href="https://www.linkedin.com/in/dhruvpratapsingh30/"><img src="https://img.shields.io/badge/LINKEDIN-0A0A0F?style=for-the-badge&logo=linkedin&logoColor=00D4FF&borderColor=00D4FF"/></a>
-<a href="https://dps-gauram-portfolio.netlify.app/"><img src="https://img.shields.io/badge/PORTFOLIO-0A0A0F?style=for-the-badge&logo=codeigniter&logoColor=FF00FF&borderColor=FF00FF"/></a>
-<a href="mailto:dhruvpratapsingh30.official2.o@gmail.com"><img src="https://img.shields.io/badge/COMM_LINK-0A0A0F?style=for-the-badge&logo=gmail&logoColor=00D4FF&borderColor=00D4FF"/></a>
-<a href="https://www.instagram.com/iam_dpsingh/"><img src="https://img.shields.io/badge/INSTAGRAM-0A0A0F?style=for-the-badge&logo=instagram&logoColor=FF00FF&borderColor=FF00FF"/></a>
+<!-- DIVIDER 1: animated neon line (GitHub CDN user-images) -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 
-</div>
+<!-- ABOUT ME HEADER: Capsule-Render rect style -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:6A0572,100:C850C0&height=40&text=%F0%9F%91%8B%20About%20Me&fontSize=22&fontColor=fff&fontAlign=50&animation=fadeIn" width="100%"/>
+
+<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="360"/>
 
 <br/>
 
-<!-- GLOWING DIVIDER -->
+🎓 **B.Tech CS** — GLA University, Mathura (2022–2026)
+
+📊 **Data Science Intern** @ Krutanic Solutions *(Remote)* — cleaning pipelines, EDA, Power BI dashboards
+
+🛠️ **Full Data Stack:** ETL/ELT · SQL/PostgreSQL · Pandas · Scikit-learn · Power BI · GCP/BigQuery
+
+💻 **Full-Stack:** React · Next.js · Node/Express · MongoDB · GenAI (Gemini API)
+
+⚡ **IoT Background:** Arduino · Sensors · Home Automation
+
+🌱 **Currently Learning:**
+&nbsp;&nbsp;&nbsp;&nbsp;→ **Tools:** BigQuery · GCS · Airflow · dbt · PySpark · Kafka · Docker · Terraform
+&nbsp;&nbsp;&nbsp;&nbsp;→ **Concepts:** ELT · Star Schema · Partitioning · Idempotency · CI/CD
+
+<!--STATUS_START-->
+🌏 **Open to remote** Data Analytics / Data Science / Data Engineering roles
+<!--STATUS_END-->
+
+📫 dhruvpratapsingh30.official2.o@gmail.com
+
+<br clear="right"/>
+
+<!-- DIVIDER 2: colorful animated line (GitHub CDN) -->
+<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="100%"/>
+
+<!-- TECH STACK HEADER: Capsule-Render soft style -->
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:48C4D3,100:6A0572&height=40&text=%F0%9F%9B%A0%EF%B8%8F%20Tech%20Stack&fontSize=22&fontColor=fff&fontAlign=50" width="100%"/>
+
+<br/>
+
+<!-- TECH ICONS: skillicons.dev (icon grid style) -->
+<div align="center">
+
+### 🗄️ Data Engineering & Analytics
+<img src="https://skillicons.dev/icons?i=python,postgres,gcp&theme=dark" /><br/>
+
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![PySpark](https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+
+### 🌐 Full-Stack & DevOps
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,ts,js,mongodb,flask,fastapi,docker,terraform&theme=dark" />
+
+### 🛠️ Tools & Platforms
+<img src="https://skillicons.dev/icons?i=git,linux,arduino,github,vscode,jupyter&theme=dark" />
+
+<!-- EXTRA TOOL BADGES: go-skill-icons for variety -->
+<br/>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=gemini,html,css&theme=dark" />
+
+</div>
+
+<!-- DIVIDER 3: original glowing divider (GitHub CDN) -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## ▓▒░ SYSTEM STATUS
+<!-- EXPERIENCE HEADER: Capsule-Render cylinder style -->
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:C850C0,100:48C4D3&height=50&text=%F0%9F%92%BC%20Experience&fontSize=24&fontColor=fff&fontAlign=50&animation=blinking" width="100%"/>
 
-```text
-NAME       → Dhruv Pratap Singh
-ROLE       → Data Engineer
-MISSION    → Build scalable, high-performance data systems
-FOCUS      → Cloud • ETL • ELT • Analytics
-CURRENT    → Learning GCP • BigQuery • PySpark
-STATUS     → ONLINE
-```
+<br/>
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300"/>
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="200"/>
 
-## ▓▒░ ABOUT UNIT
+**Data Science Intern — Krutanic Solutions** *(Remote · Aug 2025 – Nov 2025)*
 
-I am a Data Engineer focusing on modern cloud data stacks. With a foundation in Computer Science and hands-on experience in full-stack development and data science, my primary mission is transforming raw data into scalable intelligence.
+- 🧹 Automated data cleaning (Python, Pandas, SQL) → **cut errors by ~30%**
+- 🔍 EDA & statistical analysis — surfaced trends, anomalies, and KPIs
+- 🤖 Built regression, classification & time-series models with Scikit-learn
+- 📊 Delivered Power BI, Matplotlib & Seaborn stakeholder dashboards
+- ⚙️ Automated reporting pipelines → **cut manual effort by 40%**
 
-**🎓 BACKGROUND:** B.Tech Computer Science @ GLA University (2022–2026)  
-**🔍 PREVIOUS XP:** Data Science Intern @ Krutanic Solutions (Remote)  
-**⚡ CORE EXP:** Python • SQL • BigQuery • Pandas • Power BI  
-**🌐 SECONDARY:** React • Next.js • GenAI • IoT Systems  
+<br clear="right"/>
 
-<br clear="both"/>
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0F,100:00D4FF&height=3&text=" width="100%"/>
+<!-- DIVIDER 4: neon line again -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 
-## ▓▒░ SKILL MATRIX
+<!-- PROJECTS HEADER: Capsule-Render shark style -->
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:48C4D3,100:6A0572&height=50&text=%F0%9F%93%8C%20Featured%20Projects&fontSize=24&fontColor=fff&fontAlign=50&section=header" width="100%"/>
 
-### ⚡ DATA ENGINEERING & CLOUD [PRIMARY]
-<img src="https://skillicons.dev/icons?i=python,postgres,gcp&theme=dark" />
-<br/><br/>
-![BigQuery](https://img.shields.io/badge/BigQuery-0A0A0F?style=for-the-badge&logo=googlebigquery&logoColor=00D4FF)
-![Airflow](https://img.shields.io/badge/Apache_Airflow-0A0A0F?style=for-the-badge&logo=apacheairflow&logoColor=FF00FF)
-![dbt](https://img.shields.io/badge/dbt-0A0A0F?style=for-the-badge&logo=dbt&logoColor=00D4FF)
-![PySpark](https://img.shields.io/badge/PySpark-0A0A0F?style=for-the-badge&logo=apachespark&logoColor=FF00FF)
-![Kafka](https://img.shields.io/badge/Kafka-0A0A0F?style=for-the-badge&logo=apachekafka&logoColor=00D4FF)
-![GCS](https://img.shields.io/badge/GCS-0A0A0F?style=for-the-badge&logo=googlecloud&logoColor=FF00FF)
+<br/>
 
-### 📊 ANALYTICS & ML
-<img src="https://skillicons.dev/icons?i=scikitlearn,tensorflow&theme=dark" />
-<br/><br/>
-![Pandas](https://img.shields.io/badge/Pandas-0A0A0F?style=for-the-badge&logo=pandas&logoColor=00D4FF)
-![Power BI](https://img.shields.io/badge/Power_BI-0A0A0F?style=for-the-badge&logo=powerbi&logoColor=FF00FF)
-![XGBoost](https://img.shields.io/badge/XGBoost-0A0A0F?style=for-the-badge&logo=xgboost&logoColor=00D4FF)
-
-### 🌐 DEVELOPMENT & TOOLS
-<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,ts,mongodb,fastapi,flask,docker,terraform,git,linux&theme=dark" />
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-## ▓▒░ CURRENT MISSION // 2026
-
-```text
-[██████████████████░░] 90% // GCP DATA STACK
-[███████████████░░░░░] 75% // BIGQUERY ARCHITECTURE
-[████████████░░░░░░░] 60% // PYSPARK PROCESSING
-[███████████░░░░░░░░] 55% // AIRFLOW ORCHESTRATION
-[████████░░░░░░░░░░░] 40% // KAFKA STREAMING
-```
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0F,100:00D4FF&height=3&text=" width="100%"/>
-
-## ▓▒░ MISSION ARCHIVES [PROJECTS]
-
+<!-- PROJECT CARDS: shields.io flat-square badges for stacks -->
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 01 // E-commerce Analytics Pipeline
-Cloud-native ELT pipeline processing **133M+ rows (16GB)** in under 30s. Extracted via GCE VMs to GCS, transformed in BigQuery star-schema. Output drives a Streamlit dashboard analyzing **1.9M orders** and **$628M revenue**.
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sun%20Behind%20Rain%20Cloud.png" width="24"/> Weather Data Pipeline
 
-![BigQuery](https://img.shields.io/badge/BigQuery-0A0A0F?style=for-the-badge&logo=googlebigquery&logoColor=00D4FF)
-![GCP](https://img.shields.io/badge/GCP-0A0A0F?style=for-the-badge&logo=googlecloud&logoColor=00D4FF)
-![SQL](https://img.shields.io/badge/SQL-0A0A0F?style=for-the-badge&logo=postgresql&logoColor=FF00FF)
+Automated pipeline pulling real-time weather via REST API into PostgreSQL with incremental loads, dedup & cron scheduling; time-series analysis on temperature/precipitation trends.
 
-[🔗 ACCESS DATABANK](https://github.com/iamdpsingh/Project-3--E-commerce-Analytics-Pipeline)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+
+[🔗 Repo](https://github.com/iamdpsingh/Project-2--Weather-Data-Pipeline)
 
 </td>
 <td width="50%" valign="top">
 
-### 02 // Weather Data Pipeline
-Automated ingestion pipeline pulling real-time API weather data into PostgreSQL. Features incremental loads, deduplication, and cron scheduling for robust time-series analysis.
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shopping%20Cart.png" width="24"/> E-commerce Analytics Pipeline
 
-![Python](https://img.shields.io/badge/Python-0A0A0F?style=for-the-badge&logo=python&logoColor=00D4FF)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A0A0F?style=for-the-badge&logo=postgresql&logoColor=00D4FF)
-![BigQuery](https://img.shields.io/badge/BigQuery-0A0A0F?style=for-the-badge&logo=googlebigquery&logoColor=FF00FF)
+Cloud-native ELT pipeline processing **133M+ rows (16GB)** in under 30s. GCE VMs → GCS → BigQuery star-schema. Streamlit dashboard: **1.9M orders · $628M revenue**.
 
-[🔗 ACCESS DATABANK](https://github.com/iamdpsingh/Project-2--Weather-Data-Pipeline)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+[🔗 Repo](https://github.com/iamdpsingh/Project-3--E-commerce-Analytics-Pipeline)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 03 // Vendor Performance Analysis
-Unified disparate purchase, sales, and logistics data sources to generate vendor summaries. Automated KPI scripts to perform EDA on sales trends and inventory turnover.
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="24"/> Vendor Performance Analysis
 
-![Python](https://img.shields.io/badge/Python-0A0A0F?style=for-the-badge&logo=python&logoColor=00D4FF)
-![Pandas](https://img.shields.io/badge/Pandas-0A0A0F?style=for-the-badge&logo=pandas&logoColor=FF00FF)
+Unified purchase, sales & logistics data into a vendor summary; EDA on sales trends, inventory turnover, and profit margins with automated KPI scripts.
 
-[🔗 ACCESS DATABANK](https://github.com/iamdpsingh/Vendor_Performance_Analysis)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat-square)
+
+[🔗 Repo](https://github.com/iamdpsingh/Vendor_Performance_Analysis)
 
 </td>
 <td width="50%" valign="top">
 
-### 04 // AI Chatbot — Gemini API
-Context-aware GenAI chatbot utilizing Gemini 1.5-flash. Engineered prompts for multi-turn dialogue state management with a real-time Streamlit UI.
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/House.png" width="24"/> House Price Prediction
 
-![Python](https://img.shields.io/badge/Python-0A0A0F?style=for-the-badge&logo=python&logoColor=00D4FF)
-![Gemini](https://img.shields.io/badge/Gemini_API-0A0A0F?style=for-the-badge&logo=google&logoColor=FF00FF)
+Random Forest + XGBoost regression, **R² > 0.87**; feature engineering improved accuracy by ~12%. Deployed as a Flask REST API for real-time predictions.
 
-[🔗 ACCESS DATABANK](https://github.com/iamdpsingh/AI5-chatbot-gemini)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-016A70?style=flat-square)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+[🔗 Repo](https://github.com/iamdpsingh/House-Price-Prediction-Web-App)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Movie%20Camera.png" width="24"/> Zoomer — Video Conferencing
+
+Real-time video conferencing with secure auth, meeting management, and live streaming.
+
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat-square)
+
+[🔗 Repo](https://github.com/iamdpsingh/Zoomer) · [🌐 Live Demo](https://zoomer-dps-gauram.vercel.app/)
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="24"/> AI Chatbot — Gemini API
+
+Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prompt engineering, and Streamlit frontend for real-time interaction.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Gemini API](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=google&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+[🔗 Repo](https://github.com/iamdpsingh/AI5-chatbot-gemini)
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>[+] DECRYPT SECONDARY MISSIONS</b></summary>
+<summary><b><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Nut%20and%20Bolt.png" width="18"/> Earlier IoT / Hardware Projects</b></summary>
 <br/>
 
-- **Zoomer (Video Conferencing):** Real-time Next.js app with WebRTC, secure auth, and live streaming.
-- **House Price Prediction:** Scikit-learn Random Forest/XGBoost model (R² > 0.87) deployed as a Flask REST API.
-- **IoT Hardware:** Smart cane for the visually impaired (Arduino, haptics, GPS), Home automation.
+- **Smart Cane for Visually Impaired** — obstacle detection, haptic + audio feedback, GPS, GSM (Arduino, Raspberry Pi 3)
+- **Home Automation System** — servo + ultrasonic sensors, RGB lighting, TV automation
+- **Room Heater with Controlled Humidification** — temp/humidity regulation (Arduino, DHT11)
 
 </details>
 
+
+<!-- EDUCATION HEADER: Capsule-Render slice style -->
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:48C4D3,100:C850C0&height=60&text=%F0%9F%8E%93%20Education&fontSize=26&fontColor=fff&fontAlign=70&reversal=false" width="100%"/>
+
+<br/>
+
+| 🏛️ Institution | 📚 Qualification | 🏆 Score | 📅 Year |
+|:---|:---|:---|:---|
+| GLA University, Mathura | B.Tech — Computer Science | CGPA 6.96/10 | 2022–2026 |
+| Agra Vanasthali Vidyalaya, Agra | Intermediate (Class XII) | 70.6% | 2022 |
+| Christ The King High School, Tundla | High School (Class X) | 83% | 2020 |
+
+<!-- DIVIDER: glowing -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## ▓▒░ TARGET DATA ARCHITECTURE
+<!-- CERTIFICATIONS HEADER: Capsule-Render rect -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:C850C0,100:48C4D3&height=40&text=%F0%9F%8F%85%20Certifications&fontSize=22&fontColor=fff&fontAlign=50&animation=fadeIn" width="100%"/>
 
-```mermaid
-graph LR
-    A([RAW DATA]) -.-> B[[INGESTION]]
-    B ==> C[(GCS)]
-    C ==> D[[TRANSFORMATION]]
-    D ==> E[(BIGQUERY)]
-    E -.-> F[STAR SCHEMA]
-    F ==> G{{ANALYTICS}}
-    G -.-> H[DASHBOARD]
+<br/>
 
-    style A fill:#0A0A0F,stroke:#00D4FF,stroke-width:2px,color:#fff
-    style B fill:#0A0A0F,stroke:#FF00FF,stroke-width:2px,color:#fff
-    style C fill:#0A0A0F,stroke:#00D4FF,stroke-width:2px,color:#fff
-    style D fill:#0A0A0F,stroke:#FF00FF,stroke-width:2px,color:#fff
-    style E fill:#0A0A0F,stroke:#00D4FF,stroke-width:2px,color:#fff
-    style F fill:#0A0A0F,stroke:#FF00FF,stroke-width:2px,color:#fff
-    style G fill:#0A0A0F,stroke:#00D4FF,stroke-width:2px,color:#fff
-    style H fill:#0A0A0F,stroke:#FF00FF,stroke-width:2px,color:#fff
-```
+<details open>
+<summary><b>📜 View All Certifications</b></summary>
+<br/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0F,100:00D4FF&height=3&text=" width="100%"/>
+| 🏢 Issuer | 📜 Certificate |
+|:---|:---|
+| **Infosys Springboard** | Basics of Python · Programming Fundamentals using Python |
+| **NPTEL** | E-Business · Management Information System · Software Engineering · Ethics in Engineering |
+| **GLA CSED** | Intro to IoT · IIoT Communication · Smart Industrial Connectivity · Data Science & Analytics · ML for IIoT |
+| **GLA University** | Job Oriented Value Added Course |
+| **DataCamp** | Introduction to R *(Apr 2025)* |
 
-## ▓▒░ EXPERIENCE LOG
+</details>
 
-**[ KRUTANIC SOLUTIONS ] // Data Science Intern (Remote)**
-*Aug 2025 – Nov 2025*
-- 🧹 Automated data cleaning pipelines (Python, SQL) → **Reduced errors by ~30%**.
-- 🔍 Performed EDA & statistical modeling; delivered Power BI stakeholder dashboards.
-- ⚙️ Automated reporting workflows → **Cut manual effort by 40%**.
+<!-- DIVIDER: neon -->
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+<!-- STATS HEADER: Capsule-Render soft -->
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:6A0572,100:48C4D3&height=40&text=%F0%9F%8F%86%20GitHub%20Stats&fontSize=22&fontColor=fff&fontAlign=50" width="100%"/>
 
-## ▓▒░ CREDENTIALS
+<br/>
 
-### EDUCATION
-**GLA University, Mathura** // *B.Tech — Computer Science* (2022–2026) | CGPA 6.96/10
-
-### SYSTEM CERTIFICATIONS
-- **DataCamp:** Introduction to R
-- **Infosys Springboard:** Python Programming Fundamentals
-- **GLA CSED:** Data Science & Analytics, ML for IIoT, Intro to IoT
-- **NPTEL:** Software Engineering, E-Business, MIS
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0A0A0F,100:00D4FF&height=3&text=" width="100%"/>
-
-## ▓▒░ GITHUB BATTLE STATS
-
+<!-- STATS CARDS: github-readme-stats (sigma-five instance) + streak-stats (demolab) -->
 <div align="center">
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0A0A0F&title_color=00D4FF&icon_color=FF00FF&text_color=ffffff" width="49%"/>&nbsp;<img src="https://streak-stats.demolab.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=0A0A0F&stroke=00D4FF&ring=00D4FF&fire=FF00FF&currStreakLabel=FF00FF&sideLabels=ffffff&dates=ffffff" width="49%"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=C850C0&icon_color=48C4D3&text_color=ffffff" width="49%"/>&nbsp;<img src="https://streak-stats.demolab.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=0D1117&stroke=C850C0&ring=C850C0&fire=FF6B6B&currStreakLabel=48C4D3&sideLabels=ffffff&dates=ffffff" width="49%"/>
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0A0A0F&title_color=00D4FF&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="45%"/>
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=C850C0&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="45%"/>
 
 </div>
 
+<!-- DIVIDER: glowing -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## ▓▒░ ACTIVITY GRID
+## 🐍 Contribution Snake
 
 <div align="center">
 <picture>
@@ -225,11 +283,23 @@ graph LR
   <img src="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%"/>
 </picture>
 
-> ⚡ **SYSTEM OVERRIDE:** Run [Actions](https://github.com/iamdpsingh/iamdpsingh/actions/workflows/snake.yml) to initiate contribution matrix generation.
+> ⚡ **To activate the snake:** Go to [Actions](https://github.com/iamdpsingh/iamdpsingh/actions/workflows/snake.yml) → Click **"Run workflow"** → The snake will appear here and auto-update daily!
 
-<br/><br/>
-<img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=SYSTEM_ACCESS_COUNT&color=FF00FF&style=for-the-badge&labelColor=0A0A0F"/>
 </div>
 
-<!-- FOOTER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D4FF,50:2D1B69,100:0A0A0F&height=120&section=footer" width="100%"/>
+
+<!-- FOOTER: animated coding gif + capsule-render wave -->
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="300"/>
+
+<br/><br/>
+
+<!--FOOTER_STATUS_START-->
+<p><i>🌏 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
+<!--FOOTER_STATUS_END-->
+
+</div>
+
+<!-- FOOTER WAVE: Capsule-Render matching header colors -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:48C4D3,50:C850C0,100:6A0572&height=120&section=footer" width="100%"/>
