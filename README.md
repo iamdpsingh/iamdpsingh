@@ -58,20 +58,20 @@ I am a Data Engineer focusing on modern cloud data stacks. With a foundation in 
 
 ### ⚡ DATA ENGINEERING & CLOUD [PRIMARY]
 <img src="https://skillicons.dev/icons?i=python,postgres,gcp&theme=dark" />
-<br/>
-![BigQuery](https://img.shields.io/badge/BigQuery-0A0A0F?style=flat-square&logo=googlebigquery&logoColor=00D4FF)
-![Airflow](https://img.shields.io/badge/Apache_Airflow-0A0A0F?style=flat-square&logo=apacheairflow&logoColor=FF00FF)
-![dbt](https://img.shields.io/badge/dbt-0A0A0F?style=flat-square&logo=dbt&logoColor=00D4FF)
-![PySpark](https://img.shields.io/badge/PySpark-0A0A0F?style=flat-square&logo=apachespark&logoColor=FF00FF)
-![Kafka](https://img.shields.io/badge/Kafka-0A0A0F?style=flat-square&logo=apachekafka&logoColor=00D4FF)
-![GCS](https://img.shields.io/badge/GCS-0A0A0F?style=flat-square&logo=googlecloud&logoColor=FF00FF)
+<br/><br/>
+![BigQuery](https://img.shields.io/badge/BigQuery-0A0A0F?style=for-the-badge&logo=googlebigquery&logoColor=00D4FF)
+![Airflow](https://img.shields.io/badge/Apache_Airflow-0A0A0F?style=for-the-badge&logo=apacheairflow&logoColor=FF00FF)
+![dbt](https://img.shields.io/badge/dbt-0A0A0F?style=for-the-badge&logo=dbt&logoColor=00D4FF)
+![PySpark](https://img.shields.io/badge/PySpark-0A0A0F?style=for-the-badge&logo=apachespark&logoColor=FF00FF)
+![Kafka](https://img.shields.io/badge/Kafka-0A0A0F?style=for-the-badge&logo=apachekafka&logoColor=00D4FF)
+![GCS](https://img.shields.io/badge/GCS-0A0A0F?style=for-the-badge&logo=googlecloud&logoColor=FF00FF)
 
 ### 📊 ANALYTICS & ML
 <img src="https://skillicons.dev/icons?i=scikitlearn,tensorflow&theme=dark" />
-<br/>
-![Pandas](https://img.shields.io/badge/Pandas-0A0A0F?style=flat-square&logo=pandas&logoColor=00D4FF)
-![Power BI](https://img.shields.io/badge/Power_BI-0A0A0F?style=flat-square&logo=powerbi&logoColor=FF00FF)
-![XGBoost](https://img.shields.io/badge/XGBoost-0A0A0F?style=flat-square&logo=xgboost&logoColor=00D4FF)
+<br/><br/>
+![Pandas](https://img.shields.io/badge/Pandas-0A0A0F?style=for-the-badge&logo=pandas&logoColor=00D4FF)
+![Power BI](https://img.shields.io/badge/Power_BI-0A0A0F?style=for-the-badge&logo=powerbi&logoColor=FF00FF)
+![XGBoost](https://img.shields.io/badge/XGBoost-0A0A0F?style=for-the-badge&logo=xgboost&logoColor=00D4FF)
 
 ### 🌐 DEVELOPMENT & TOOLS
 <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,ts,mongodb,fastapi,flask,docker,terraform,git,linux&theme=dark" />
@@ -99,9 +99,9 @@ I am a Data Engineer focusing on modern cloud data stacks. With a foundation in 
 ### 01 // E-commerce Analytics Pipeline
 Cloud-native ELT pipeline processing **133M+ rows (16GB)** in under 30s. Extracted via GCE VMs to GCS, transformed in BigQuery star-schema. Output drives a Streamlit dashboard analyzing **1.9M orders** and **$628M revenue**.
 
-![BigQuery](https://img.shields.io/badge/BigQuery-0A0A0F?style=flat-square&logo=googlebigquery&logoColor=00D4FF)
-![GCP](https://img.shields.io/badge/GCP-0A0A0F?style=flat-square&logo=googlecloud&logoColor=00D4FF)
-![SQL](https://img.shields.io/badge/SQL-0A0A0F?style=flat-square&logo=postgresql&logoColor=FF00FF)
+![BigQuery](https://img.shields.io/badge/BigQuery-0A0A0F?style=for-the-badge&logo=googlebigquery&logoColor=00D4FF)
+![GCP](https://img.shields.io/badge/GCP-0A0A0F?style=for-the-badge&logo=googlecloud&logoColor=00D4FF)
+![SQL](https://img.shields.io/badge/SQL-0A0A0F?style=for-the-badge&logo=postgresql&logoColor=FF00FF)
 
 [🔗 ACCESS DATABANK](https://github.com/iamdpsingh/Project-3--E-commerce-Analytics-Pipeline)
 
@@ -111,9 +111,9 @@ Cloud-native ELT pipeline processing **133M+ rows (16GB)** in under 30s. Extract
 ### 02 // Weather Data Pipeline
 Automated ingestion pipeline pulling real-time API weather data into PostgreSQL. Features incremental loads, deduplication, and cron scheduling for robust time-series analysis.
 
-![Python](https://img.shields.io/badge/Python-0A0A0F?style=flat-square&logo=python&logoColor=00D4FF)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A0A0F?style=flat-square&logo=postgresql&logoColor=00D4FF)
-![BigQuery](https://img.shields.io/badge/BigQuery-0A0A0F?style=flat-square&logo=googlebigquery&logoColor=FF00FF)
+![Python](https://img.shields.io/badge/Python-0A0A0F?style=for-the-badge&logo=python&logoColor=00D4FF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-0A0A0F?style=for-the-badge&logo=postgresql&logoColor=00D4FF)
+![BigQuery](https://img.shields.io/badge/BigQuery-0A0A0F?style=for-the-badge&logo=googlebigquery&logoColor=FF00FF)
 
 [🔗 ACCESS DATABANK](https://github.com/iamdpsingh/Project-2--Weather-Data-Pipeline)
 
@@ -125,8 +125,8 @@ Automated ingestion pipeline pulling real-time API weather data into PostgreSQL.
 ### 03 // Vendor Performance Analysis
 Unified disparate purchase, sales, and logistics data sources to generate vendor summaries. Automated KPI scripts to perform EDA on sales trends and inventory turnover.
 
-![Python](https://img.shields.io/badge/Python-0A0A0F?style=flat-square&logo=python&logoColor=00D4FF)
-![Pandas](https://img.shields.io/badge/Pandas-0A0A0F?style=flat-square&logo=pandas&logoColor=FF00FF)
+![Python](https://img.shields.io/badge/Python-0A0A0F?style=for-the-badge&logo=python&logoColor=00D4FF)
+![Pandas](https://img.shields.io/badge/Pandas-0A0A0F?style=for-the-badge&logo=pandas&logoColor=FF00FF)
 
 [🔗 ACCESS DATABANK](https://github.com/iamdpsingh/Vendor_Performance_Analysis)
 
@@ -136,8 +136,8 @@ Unified disparate purchase, sales, and logistics data sources to generate vendor
 ### 04 // AI Chatbot — Gemini API
 Context-aware GenAI chatbot utilizing Gemini 1.5-flash. Engineered prompts for multi-turn dialogue state management with a real-time Streamlit UI.
 
-![Python](https://img.shields.io/badge/Python-0A0A0F?style=flat-square&logo=python&logoColor=00D4FF)
-![Gemini](https://img.shields.io/badge/Gemini_API-0A0A0F?style=flat-square&logo=google&logoColor=FF00FF)
+![Python](https://img.shields.io/badge/Python-0A0A0F?style=for-the-badge&logo=python&logoColor=00D4FF)
+![Gemini](https://img.shields.io/badge/Gemini_API-0A0A0F?style=for-the-badge&logo=google&logoColor=FF00FF)
 
 [🔗 ACCESS DATABANK](https://github.com/iamdpsingh/AI5-chatbot-gemini)
 
