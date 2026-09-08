@@ -19,9 +19,6 @@
 </p>
 
 <!--DATE_START-->
-<p align="center">
-  <img src="https://img.shields.io/badge/Last%20Updated-September%202026-2E9EF7?style=for-the-badge" alt="Last Updated" />
-</p>
 <!--DATE_END-->
 
 <!-- DIVIDER 1: animated neon line (GitHub CDN user-images) -->
@@ -49,15 +46,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;→ **Concepts:** ELT · Star Schema · Partitioning · Idempotency · CI/CD
 
 <!--STATUS_START-->
-- 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available full-time now
+🌏 **Open to remote** Data Analytics / Data Science / Data Engineering roles
 <!--STATUS_END-->
 
 📫 dhruvpratapsingh30.official2.o@gmail.com
 
 <br clear="right"/>
 
-<!-- DIVIDER 2: colorful animated line (GitHub CDN) -->
-<img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="100%"/>
 
 <!-- TECH STACK HEADER: Capsule-Render soft style -->
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:48C4D3,100:6A0572&height=40&text=%F0%9F%9B%A0%EF%B8%8F%20Tech%20Stack&fontSize=22&fontColor=fff&fontAlign=50" width="100%"/>
@@ -299,7 +294,7 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <br/><br/>
 
 <!--FOOTER_STATUS_START-->
-<p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
+<p><i>🌏 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
 <!--FOOTER_STATUS_END-->
 
 </div>
