@@ -3,7 +3,7 @@
 
 <!-- TYPING: readme-typing-svg (demolab) -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=C850C0&center=true&vCenter=true&width=750&lines=⚡+Building+Cloud+ELT+Pipelines+%26+Data+Marts;📊+Turning+Raw+Data+into+Decisions+%26+Dashboards;🤖+Training+%26+Deploying+ML+Models;🚀+Shipping+Full-Stack+%26+GenAI+Apps;🌏+Open+to+Remote+Data+Engineering+%2F+DS+%2F+DA+Roles" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=800&color=C850C0&center=true&vCenter=true&width=800&lines=Building+Cloud+ELT+Pipelines+%26+Data+Marts;Turning+Raw+Data+into+Decisions+%26+Dashboards;Training+%26+Deploying+ML+Models;Shipping+Full-Stack+%26+GenAI+Apps;Open+to+Remote+Data+Eng+%2F+DS+%2F+DA+Roles" />
 </p>
 
 <!-- SOCIALS: shields.io for-the-badge -->
@@ -285,9 +285,10 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/output/github-contribution-grid-snake.svg" />
   <img src="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%"/>
 </picture>
-</div>
 
-> ⚡ *Auto-generates daily via GitHub Actions — manually trigger ["Generate Snake Animation"](https://github.com/iamdpsingh/iamdpsingh/actions) once to see it immediately.*
+> ⚡ **To activate the snake:** Go to [Actions](https://github.com/iamdpsingh/iamdpsingh/actions/workflows/snake.yml) → Click **"Run workflow"** → The snake will appear here and auto-update daily!
+
+</div>
 
 <!-- DIVIDER: colorful -->
 <img src="https://user-images.githubusercontent.com/74038190/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="100%"/>
@@ -299,7 +300,7 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 
 <br/><br/>
 
-<img src="https://profile-counter.glitch.me/iamdpsingh/count.svg" alt="profile views"/>
+<img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=Profile+Views&color=C850C0&style=for-the-badge"/>
 
 <br/>
 
