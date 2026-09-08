@@ -257,29 +257,41 @@ Conversational AI chatbot using Gemini (gemini-1.5-flash) with multi-turn dialog
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" width="32"/> GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=C850C0&icon_color=48C4D3&text_color=ffffff" width="48%"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=0D1117&stroke=C850C0&ring=C850C0&fire=FF6B6B&currStreakLabel=48C4D3" width="48%"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=C850C0&text_color=ffffff&langs_count=8" width="40%"/>
-</p>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=C850C0&icon_color=48C4D3&text_color=ffffff&ring_color=C850C0" width="49%"/>&nbsp;<img src="https://streak-stats.demolab.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=0D1117&stroke=C850C0&ring=C850C0&fire=FF6B6B&currStreakLabel=48C4D3&sideLabels=ffffff&dates=ffffff" width="49%"/>
+
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=iamdpsingh&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=C850C0&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="35%"/>
+
+</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="30%"/>
-</p>
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Milky%20Way.png" width="32"/> Contribution Snake
 
-<p align="center">
-  <img src="https://profile-counter.glitch.me/iamdpsingh/count.svg" alt="profile views"/>
-</p>
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/output/github-contribution-grid-snake.svg" alt="GitHub contribution grid snake animation" width="100%"/>
+</picture>
+</div>
 
-<p align="center">
-  <!--FOOTER_STATUS_START-->
-  <i>🌏 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i>
-  <!--FOOTER_STATUS_END-->
-</p>
+> ⚡ *Snake animation auto-generates daily via GitHub Actions — if it's not visible yet, it will appear after the first workflow run.*
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="280"/>
+
+<img src="https://profile-counter.glitch.me/iamdpsingh/count.svg" alt="profile views"/>
+
+<!--FOOTER_STATUS_START-->
+<p><i>🌏 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
+<!--FOOTER_STATUS_END-->
+
+</div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6A0572,50:C850C0,100:48C4D3&height=120&section=footer" width="100%"/>
+
