@@ -1,0 +1,38 @@
+name: Auto-update README
+
+on:
+  schedule:
+    # Runs once a day at 00:10 UTC. Cheap and frequent enough that the
+    # "Last Updated" badge and status line never go stale.
+    - cron: "10 0 * * *"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update README
+        run: python update_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md assets/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: auto-update stats cards, last-updated badge, and availability status"
+            git push
+          fi
