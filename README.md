@@ -1,96 +1,96 @@
-<div align="center">
-  <img src="https://media.giphy.com/media/f3iwJFOVOwuy7K6FFw/giphy.gif" width="100%" />
-</div>
-
-<h1 align="center">Hi <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="40" height="40" />, I'm Dhruv Pratap Singh</h1>
-<h3 align="center">Data Science & Analytics | ETL Pipelines | ML/AI | Full-Stack Builder | Open to Remote Roles Worldwide</h3>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Dhruv%20Pratap%20Singh&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Data%20Engineer%20%7C%20ML%2FAI%20%7C%20Full-Stack%20Builder&descAlignY=55&descSize=18" width="100%"/>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=650&lines=Building+ETL+pipelines+%26+data+marts;Turning+raw+data+into+dashboards+%26+decisions;Training+%2B+deploying+ML+models;Shipping+full-stack+%26+GenAI+apps;Open+to+remote+Data+Analytics%2FDS%2FDE+roles" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=6AD4F7&center=true&vCenter=true&random=false&width=700&lines=🔥+Building+Cloud+ELT+Pipelines+%26+Data+Marts;📊+Turning+Raw+Data+into+Dashboards+%26+Decisions;🤖+Training+%2B+Deploying+ML+Models;🚀+Shipping+Full-Stack+%26+GenAI+Apps;🌍+Open+to+Remote+Data+Analytics%2FDS%2FDE+Roles" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/dhruvpratapsingh30/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://dps-gauram-portfolio.netlify.app/" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=netlify&logoColor=white" />
+    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=white" />
   </a>
   <a href="mailto:dhruvpratapsingh30.official2.o@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://www.instagram.com/iam_dpsingh/" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" />
   </a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=Profile+Views&color=0e75b6&style=flat-square" alt="profile views" />
 </p>
 
 <!--DATE_START-->
 <!--DATE_END-->
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Ninja.png" alt="Ninja" width="28" height="28" /> About Me
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="35" height="35" /> About Me
 
 <table>
   <tr>
-    <td width="60%">
+    <td width="55%" valign="top">
+<br/>
 
 - 🎓 B.Tech Computer Science, **GLA University, Mathura** (2022 – 2026)
-- 📊 Remote **Data Science Intern @ Krutanic Solutions** — built cleaning pipelines, ran EDA, shipped Power BI dashboards
-- 🛠️ Full data stack: **ETL, SQL/PostgreSQL, Pandas, Scikit-learn, Power BI, GCP/BigQuery**
-- 💻 Also build full-stack web apps (**React, Next.js, Node/Express, MongoDB**) and GenAI tools (**Gemini API**, prompt engineering, LLM integration)
+- 📊 Remote **Data Science Intern @ Krutanic Solutions** — cleaning pipelines, EDA, Power BI dashboards
+- 🛠️ Full data stack: **ETL/ELT, SQL/PostgreSQL, Pandas, Scikit-learn, Power BI, GCP/BigQuery**
+- 💻 Full-stack: **React, Next.js, Node/Express, MongoDB** + GenAI (**Gemini API**, prompt engineering)
 - ⚡ Background in **IoT/embedded systems** (Arduino, sensors, home automation)
 - 🌱 Currently learning **data engineering techniques & tools**:
-  - **Tech & Tools:** Google BigQuery, Google Cloud Storage, Apache Airflow, dbt (Data Build Tool), Apache Spark (PySpark), Apache Kafka, Docker, Terraform
-  - **Techniques & Concepts:** ELT (Extract, Load, Transform), Dimensional Modeling (Star Schema), Data Partitioning & Clustering, Event-Driven Ingestion, Idempotency, CI/CD
+  - 🏗️ **Tools:** BigQuery, GCS, Airflow, dbt, PySpark, Kafka, Docker, Terraform
+  - 📐 **Concepts:** ELT, Star Schema, Partitioning, Event-Driven Ingestion, Idempotency, CI/CD
 <!--STATUS_START-->
-- 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available for internships now, full-time from June 2026
+- 🌍 **Open to remote Data Analytics / Data Science / Data Engineering roles**
 <!--STATUS_END-->
-- 📫 dhruvpratapsingh30.official2.o@gmail.com ·
+- 📫 dhruvpratapsingh30.official2.o@gmail.com
 
     </td>
-    <td width="40%" align="center">
-      <img src="https://media.giphy.com/media/qgQUggCGvnPji/giphy.gif" alt="Anime Coder" width="90%" />
+    <td width="45%" align="center">
+      <img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="100%" alt="coding gif" />
     </td>
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Crossed%20Swords.png" alt="Crossed Swords" width="28" height="28" /> Tech Stack
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="35" height="35" /> Tech Stack
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-  <img src="https://img.shields.io/badge/XGBoost-016A70?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+<div align="center">
+
+### 🗄️ Data Engineering & Analytics
+<p>
+  <img src="https://skillicons.dev/icons?i=python,postgres,gcp,pytorch&theme=dark" /><br/>
   <img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <br/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter%20Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Gemini%20API-8E75B2?style=for-the-badge&logo=google&logoColor=white" />
-  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Apache%20Airflow-017CEE?style=for-the-badge&logo=Apache%20Airflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
 </p>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
+### 🌐 Full-Stack & DevOps
+<p>
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,ts,js,mongodb,flask,fastapi,docker,terraform&theme=dark" />
+</p>
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" alt="Alien Monster" width="28" height="28" /> Experience
+### 🛠️ Tools & Platforms
+<p>
+  <img src="https://skillicons.dev/icons?i=git,linux,arduino,github,vscode,jupyter&theme=dark" />
+  <img src="https://img.shields.io/badge/Gemini%20API-8E75B2?style=for-the-badge&logo=google&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+</p>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Briefcase.png" alt="Briefcase" width="35" height="35" /> Experience
 
 **Data Science Intern — Krutanic Solutions** *(Remote, Aug 2025 – Nov 2025)*
 - Automated data cleaning scripts (Python, Pandas, NumPy, SQL) that **cut data errors by ~30%**
@@ -99,50 +99,92 @@
 - Delivered stakeholder-facing dashboards in Power BI, Matplotlib, and Seaborn
 - Automated end-to-end reporting pipelines, **cutting manual reporting effort by 40%**
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="28" height="28" /> Featured Projects
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Pushpin.png" alt="Pushpin" width="35" height="35" /> Featured Projects
 
 <table>
   <tr>
-    <td width="50%">
-      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sun%20Behind%20Rain%20Cloud.png" alt="Weather" width="25" height="25" /> Weather Data Pipeline</h4>
+    <td width="50%" valign="top">
+      <h3 align="center">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sun%20Behind%20Rain%20Cloud.png" width="28"/> Weather Data Pipeline
+      </h3>
       <p>Automated pipeline pulling real-time weather via REST API into PostgreSQL with incremental loads, dedup, and cron scheduling; time-series analysis on temperature/precipitation trends.</p>
-      <b>Stack:</b> Python, PostgreSQL, OpenWeather API, GCP, BigQuery
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white"/>
+        <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
+      </p>
+      <p align="center"><a href="https://github.com/iamdpsingh/Project-2--Weather-Data-Pipeline">🔗 Repo</a></p>
     </td>
-    <td width="50%">
-      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shopping%20Cart.png" alt="Shopping Cart" width="25" height="25" /> E-commerce Analytics Pipeline</h4>
-      <p>Cloud-native ELT pipeline processing <b>133M+ rows (16GB)</b> in under 30s. Extracted data via GCE VMs to Cloud Storage, modeled a star-schema in BigQuery, and built a custom Streamlit dashboard analyzing 1.9M orders.</p>
-      <b>Stack:</b> Python, SQL, BigQuery, GCP, Streamlit<br/>
-      <a href="https://github.com/iamdpsingh/Project-3--E-commerce-Analytics-Pipeline">🔗 Repo</a>
+    <td width="50%" valign="top">
+      <h3 align="center">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shopping%20Cart.png" width="28"/> E-commerce Analytics Pipeline
+      </h3>
+      <p>Cloud-native ELT pipeline processing <b>133M+ rows (16GB)</b> in under 30s. GCE VMs → Cloud Storage → BigQuery star-schema. Custom Streamlit dashboard: 1.9M orders, $628M revenue.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white"/>
+        <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+      </p>
+      <p align="center"><a href="https://github.com/iamdpsingh/Project-3--E-commerce-Analytics-Pipeline">🔗 Repo</a></p>
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Bar Chart" width="25" height="25" /> Vendor Performance Analysis</h4>
+    <td width="50%" valign="top">
+      <h3 align="center">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="28"/> Vendor Performance Analysis
+      </h3>
       <p>Unified purchase, sales, and logistics data into a vendor summary; EDA on sales trends, inventory turnover, and profit margins with automated KPI scripts.</p>
-      <b>Stack:</b> Python, SQL, Pandas, Seaborn<br/>
-      <a href="https://github.com/iamdpsingh/Vendor_Performance_Analysis">🔗 Repo</a>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
+        <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Seaborn-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      </p>
+      <p align="center"><a href="https://github.com/iamdpsingh/Vendor_Performance_Analysis">🔗 Repo</a></p>
     </td>
-    <td width="50%">
-      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/House.png" alt="House" width="25" height="25" /> House Price Prediction</h4>
+    <td width="50%" valign="top">
+      <h3 align="center">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/House.png" width="28"/> House Price Prediction
+      </h3>
       <p>Random Forest + XGBoost regression on real estate data, <b>R² > 0.87</b>; feature engineering improved accuracy by ~12%. Deployed as a Flask REST API for real-time predictions.</p>
-      <b>Stack:</b> Python, Scikit-learn, XGBoost, Flask<br/>
-      <a href="https://github.com/iamdpsingh/House-Price-Prediction-Web-App">🔗 Repo</a>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white"/>
+        <img src="https://img.shields.io/badge/XGBoost-016A70?style=flat-square"/>
+        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+      </p>
+      <p align="center"><a href="https://github.com/iamdpsingh/House-Price-Prediction-Web-App">🔗 Repo</a></p>
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Movie%20Camera.png" alt="Movie Camera" width="25" height="25" /> Zoomer — Video Conferencing App</h4>
+    <td width="50%" valign="top">
+      <h3 align="center">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Movie%20Camera.png" width="28"/> Zoomer — Video Conferencing
+      </h3>
       <p>Real-time video conferencing platform inspired by Zoom, with secure auth, meeting management, and live streaming.</p>
-      <b>Stack:</b> Next.js, TypeScript, Node.js, Clerk, ShadCN UI<br/>
-      <a href="https://github.com/iamdpsingh/Zoomer">🔗 Repo</a> · <a href="https://zoomer-dps-gauram.vercel.app/">🌐 Live Demo</a>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white"/>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Clerk-6C47FF?style=flat-square"/>
+      </p>
+      <p align="center"><a href="https://github.com/iamdpsingh/Zoomer">🔗 Repo</a> · <a href="https://zoomer-dps-gauram.vercel.app/">🌐 Live Demo</a></p>
     </td>
-    <td width="50%">
-      <h4><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="25" height="25" /> AI Chatbot with Gemini API</h4>
-      <p>Conversational AI chatbot using Gemini (gemini-1.5-flash) with multi-turn dialogue and context management via prompt engineering; interactive Streamlit frontend for real-time interaction.</p>
-      <b>Stack:</b> Python, Google Gemini API, Streamlit<br/>
-      <a href="https://github.com/iamdpsingh/AI5-chatbot-gemini">🔗 Repo</a>
+    <td width="50%" valign="top">
+      <h3 align="center">
+        <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" width="28"/> AI Chatbot — Gemini API
+      </h3>
+      <p>Conversational AI chatbot using Gemini (gemini-1.5-flash) with multi-turn dialogue and context management via prompt engineering; Streamlit frontend for real-time interaction.</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat-square&logo=google&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white"/>
+      </p>
+      <p align="center"><a href="https://github.com/iamdpsingh/AI5-chatbot-gemini">🔗 Repo</a></p>
     </td>
   </tr>
 </table>
@@ -157,19 +199,19 @@
 
 </details>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" alt="Graduation Cap" width="28" height="28" /> Education
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Graduation%20Cap.png" alt="Graduation Cap" width="35" height="35" /> Education
 
-| Institution | Qualification | Score | Year |
+| 🏛️ Institution | 📚 Qualification | 🏆 Score | 📅 Year |
 |---|---|---|---|
 | GLA University, Mathura | B.Tech, Computer Science | CGPA 6.96/10 | 2022 – 2026 |
 | Agra Vanasthali Vidyalaya, Agra | Intermediate (Class XII) | 70.6% | 2022 |
 | Christ The King High School, Tundla | High School (Class X) | 83% | 2020 |
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="28" height="28" /> Certifications
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" alt="Trophy" width="35" height="35" /> Certifications
 
 **Infosys Springboard**
 - Basics of Python — Python fundamentals
@@ -194,16 +236,29 @@
 **DataCamp**
 - Introduction to R — 4-hour course, completed Apr 26, 2025
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%" />
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
 
-<p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2d7qc9qQBiqgU/giphy.gif" width="400" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://profile-counter.glitch.me/iamdpsingh/count.svg" alt="profile views" />
-</p>
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Trophy.png" width="30" /> GitHub Stats
 
-<!--FOOTER_STATUS_START--> <p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p> <!--FOOTER_STATUS_END-->
+<img src="https://github-readme-stats.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=0D1117&title_color=6AD4F7&icon_color=6AD4F7&text_color=C9D1D9" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=0D1117&stroke=6AD4F7&ring=6AD4F7&fire=FF6B6B&currStreakLabel=6AD4F7" width="48%" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2575fc,50:8e2de2,100:6a11cb&height=120&section=footer" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6AD4F7&text_color=C9D1D9" width="48%" />
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" />
+
+<div align="center">
+
+<!--FOOTER_STATUS_START-->
+<p><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
+<!--FOOTER_STATUS_END-->
+
+<img src="https://profile-counter.glitch.me/iamdpsingh/count.svg" alt="profile views" />
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" width="100%"/>
