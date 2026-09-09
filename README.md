@@ -19,6 +19,9 @@
 </p>
 
 <!--DATE_START-->
+<p align="center">
+  <img src="https://img.shields.io/badge/Last%20Updated-September%202026-2E9EF7?style=for-the-badge" alt="Last Updated" />
+</p>
 <!--DATE_END-->
 
 <!-- DIVIDER 1: animated neon line (GitHub CDN user-images) -->
@@ -46,7 +49,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;→ **Concepts:** ELT · Star Schema · Partitioning · Idempotency · CI/CD
 
 <!--STATUS_START-->
-🌏 **Open to remote** Data Analytics / Data Science / Data Engineering roles
+- 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available full-time now
 <!--STATUS_END-->
 
 📫 dhruvpratapsingh30.official2.o@gmail.com
@@ -294,7 +297,7 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <br/><br/>
 
 <!--FOOTER_STATUS_START-->
-<p><i>🌏 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
+<p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
 <!--FOOTER_STATUS_END-->
 
 </div>
