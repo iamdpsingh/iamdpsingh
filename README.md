@@ -19,9 +19,6 @@
 </p>
 
 <!--DATE_START-->
-<p align="center">
-  <img src="https://img.shields.io/badge/Last%20Updated-September%202026-2E9EF7?style=for-the-badge" alt="Last Updated" />
-</p>
 <!--DATE_END-->
 
 <!-- DIVIDER 1: animated neon line (GitHub CDN user-images) -->
@@ -49,7 +46,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;→ **Concepts:** ELT · Star Schema · Partitioning · Idempotency · CI/CD
 
 <!--STATUS_START-->
-- 🌍 **Open to remote Data QA / Data Analytics / Data Science / Data Engineering roles** — available full-time now
+🌏 **Open to remote** Data Analytics / Data Science / Data Engineering roles
 <!--STATUS_END-->
 
 📫 dhruvpratapsingh30.official2.o@gmail.com
@@ -120,6 +117,35 @@
 
 <!-- PROJECT CARDS: shields.io flat-square badges for stacks -->
 <table>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Money%20Bag.png" width="24"/> Financial Risk & Fraud Detection
+
+Production-grade pipeline processing **10M+ events**. Batch (GCS → Dataflow → BigQuery) & streaming (Pub/Sub → Dataflow). Real-time fraud scoring with dbt modeling and Streamlit dashboard.
+
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+
+[🔗 Repo](https://github.com/iamdpsingh/Project-4-Financial-Risk-Fraud-Detection-Data-Platform)
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Delivery%20Truck.png" width="24"/> Enterprise Supply Chain & Logistics
+
+*(🚧 Under Development)* Architecting a real-time fleet analytics and enterprise supply chain data platform natively on Google Cloud.
+
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+*[🔗 Repo Coming Soon]*
+
+</td>
+</tr>
 <tr>
 <td width="50%" valign="top">
 
@@ -297,7 +323,7 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <br/><br/>
 
 <!--FOOTER_STATUS_START-->
-<p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
+<p><i>🌏 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
 <!--FOOTER_STATUS_END-->
 
 </div>
