@@ -9,7 +9,7 @@
 <!-- SOCIALS: shields.io for-the-badge -->
 <p align="center">
   <a href="https://www.linkedin.com/in/dhruvpratapsingh30/"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/></a>&nbsp;
-  <a href="https://dps-gauram-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-%23C850C0.svg?style=for-the-badge&logo=netlify&logoColor=white"/></a>&nbsp;
+  <a href="https://iamdpsingh-github-io.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-%23C850C0.svg?style=for-the-badge&logo=netlify&logoColor=white"/></a>&nbsp;
   <a href="mailto:dhruvpratapsingh30.official2.o@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>&nbsp;
   <a href="https://www.instagram.com/iam_dpsingh/"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white"/></a>
 </p>
