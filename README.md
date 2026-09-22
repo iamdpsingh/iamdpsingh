@@ -222,7 +222,7 @@ Real-time video conferencing with secure auth, meeting management, and live stre
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat-square)
 
-[🔗 Repo](https://github.com/iamdpsingh/Zoomer) · [🌐 Live Demo](https://zoomer-dps-gauram.vercel.app/)
+[🔗 Repo](https://github.com/iamdpsingh/Zoomer)
 
 </td>
 <td width="50%" valign="top">
