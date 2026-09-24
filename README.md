@@ -68,30 +68,27 @@
 
 </div>
 
+<!-- DIVIDER: Glowing -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+## 💼 ＥＸＰＥＲＩＥＮＣＥ
+
+<img align="right" src="https://user-images.githubusercontent.com/74038190/212284158-e840e285-664b-44d7-b79b-e264b5e54825.gif" width="200"/>
+
+**Data Science Intern — Krutanic Solutions** *(Remote · Aug 2025 – Nov 2025)*
+
+- 🧹 Automated data cleaning (Python, Pandas, SQL) → **cut errors by ~30%**
+- 🔍 EDA & statistical analysis — surfaced trends, anomalies, and KPIs
+- 🤖 Built regression, classification & time-series models with Scikit-learn
+- 📊 Delivered Power BI, Matplotlib & Seaborn stakeholder dashboards
+- ⚙️ Automated reporting pipelines → **cut manual effort by 40%**
+
+<br clear="right"/>
+
 <!-- DIVIDER: Neon Line -->
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
 </p>
-
-## 📊 ＤＡＴＡ_ＭＥＴＲＩＣＳ
-
-<p align="center">
-    <a href="https://github.com/ishandutta2007/beautiful-github-homepage">
-        <picture><img align="" height='180px' src="https://beautiful-github-homepage.vercel.app/api?username=iamdpsingh&hide_title=true&show_icons=true&theme=cyberpunk&include_all_commits=true" alt="iamdpsingh" /></picture>
-    </a>
-    <a href="https://github.com/iamdpsingh/beautiful-github-homepage">
-        <picture><img align="" height='180px' src="https://beautiful-github-homepage.vercel.app/api/top-langs/?username=iamdpsingh&hide_title=false&layout=compact&theme=cyberpunk&count_private=true" /></picture>
-    </a>
-</p>
-
-<p align="center">
-    <a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=iamdpsingh&theme=react-dark&hide_border=true&color=00FFFF&line=FF007F&point=FFFFFF" width="100%"/></a>
-</p>
-
-<p align="center">
-    <a href="https://github.com/iamdpsingh?tab=stars"><img src="https://github-readme-streak-stats.herokuapp.com?user=iamdpsingh&theme=cyberpunk&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" width="80%" alt="streak-stats" /></a>
-</p>
-
 
 ## 🚀 ＦＥＡＴＵＲＥＤ_ＭＩＳＳＩＯＮＳ
 
@@ -147,11 +144,117 @@ Automated pipeline pulling real-time weather via REST API into PostgreSQL with i
 
 </td>
 </tr>
+<tr>
+<td width="50%" valign="top">
+
+### 📊 Vendor Performance Analysis
+Unified purchase, sales & logistics data into a vendor summary; EDA on sales trends, inventory turnover, and profit margins with automated KPI scripts.
+
+![Python](https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=00FFFF)
+![Pandas](https://img.shields.io/badge/Pandas-050505?style=flat-square&logo=pandas&logoColor=FF007F)
+![SQL](https://img.shields.io/badge/SQL-050505?style=flat-square&logo=postgresql&logoColor=00FFFF)
+
+[🔗 Repo](https://github.com/iamdpsingh/Vendor_Performance_Analysis)
+
+</td>
+<td width="50%" valign="top">
+
+### 🏠 House Price Prediction
+Random Forest + XGBoost regression, **R² > 0.87**; feature engineering improved accuracy by ~12%. Deployed as a Flask REST API for real-time predictions.
+
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-050505?style=flat-square&logo=scikitlearn&logoColor=FF9E00)
+![Flask](https://img.shields.io/badge/Flask-050505?style=flat-square&logo=flask&logoColor=00FFFF)
+![Python](https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=00FFFF)
+
+[🔗 Repo](https://github.com/iamdpsingh/House-Price-Prediction-Web-App)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🎥 Zoomer — Video Conferencing
+Real-time video conferencing with secure auth, meeting management, and live streaming.
+
+![Next.js](https://img.shields.io/badge/Next.js-050505?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
+![TypeScript](https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=00FFFF)
+![Node.js](https://img.shields.io/badge/Node.js-050505?style=flat-square&logo=nodedotjs&logoColor=FF007F)
+
+[🔗 Repo](https://github.com/iamdpsingh/Zoomer)
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 AI Chatbot — Gemini API
+Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prompt engineering, and Streamlit frontend for real-time interaction.
+
+![Python](https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=00FFFF)
+![Gemini API](https://img.shields.io/badge/Gemini_API-050505?style=flat-square&logo=google&logoColor=FF9E00)
+![Streamlit](https://img.shields.io/badge/Streamlit-050505?style=flat-square&logo=streamlit&logoColor=FF007F)
+
+[🔗 Repo](https://github.com/iamdpsingh/AI5-chatbot-gemini)
+
+</td>
+</tr>
 </table>
+
+<details>
+<summary><b><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Nut%20and%20Bolt.png" width="18"/> Earlier IoT / Hardware Projects</b></summary>
+<br/>
+
+- **Smart Cane for Visually Impaired** — obstacle detection, haptic + audio feedback, GPS, GSM (Arduino, Raspberry Pi 3)
+- **Home Automation System** — servo + ultrasonic sensors, RGB lighting, TV automation
+- **Room Heater with Controlled Humidification** — temp/humidity regulation (Arduino, DHT11)
+
+</details>
+
+<!-- DIVIDER: glowing -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+## 🎓 ＥＤＵＣＡＴＩＯＮ & ＣＥＲＴＩＦＩＣＡＴＩＯＮＳ
+
+| 🏛️ Institution | 📚 Qualification | 🏆 Score | 📅 Year |
+|:---|:---|:---|:---|
+| GLA University, Mathura | B.Tech — Computer Science | CGPA 6.96/10 | 2022–2026 |
+| Agra Vanasthali Vidyalaya, Agra | Intermediate (Class XII) | 70.6% | 2022 |
+| Christ The King High School, Tundla | High School (Class X) | 83% | 2020 |
+
+<details>
+<summary><b>📜 View All Certifications</b></summary>
+<br/>
+
+| 🏢 Issuer | 📜 Certificate |
+|:---|:---|
+| **Infosys Springboard** | Basics of Python · Programming Fundamentals using Python |
+| **NPTEL** | E-Business · Management Information System · Software Engineering · Ethics in Engineering |
+| **GLA CSED** | Intro to IoT · IIoT Communication · Smart Industrial Connectivity · Data Science & Analytics · ML for IIoT |
+| **GLA University** | Job Oriented Value Added Course |
+| **DataCamp** | Introduction to R *(Apr 2025)* |
+
+</details>
+
 
 <!-- DIVIDER: Neon Line -->
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%"/>
+</p>
+
+
+## 📊 ＤＡＴＡ_ＭＥＴＲＩＣＳ
+
+<!-- STATS CARDS: github-readme-stats (sigma-five instance) + streak-stats (demolab) -->
+<div align="center">
+
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=050505&title_color=00FFFF&icon_color=FF007F&text_color=ffffff" width="49%"/>&nbsp;<img src="https://streak-stats.demolab.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=050505&stroke=00FFFF&ring=FF007F&fire=FF9E00&currStreakLabel=FF007F&sideLabels=ffffff&dates=ffffff" width="49%"/>
+
+<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=00FFFF&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="45%"/>
+
+</div>
+
+
+<!-- DIVIDER: Neon Line -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 </p>
 
 ## 🐍 ＣＯＮＴＲＩＢＵＴＩＯＮ_ＧＲＩＤ
