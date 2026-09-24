@@ -103,7 +103,7 @@ End-to-end Medallion data platform (Bronze/Silver/Gold) on Google Cloud. Real-ti
 ![Pub/Sub](https://img.shields.io/badge/Pub%2FSub-050505?style=flat-square&logo=googlecloud&logoColor=FF007F)
 ![Next.js](https://img.shields.io/badge/Next.js-050505?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
 
-[🔗 Mission Logs (Repo)](https://github.com/iamdpsingh/Project-5-Enterprise-Supply-Chain-Logistics-Data-Platform-with-Real-Time-Fleet-Analytics-on-GCP)
+<a href="https://github.com/iamdpsingh/Project-5-Enterprise-Supply-Chain-Logistics-Data-Platform-with-Real-Time-Fleet-Analytics-on-GCP"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 <td width="50%" valign="top">
@@ -115,7 +115,7 @@ Production-grade pipeline processing **10M+ events**. Batch (GCS → Dataflow �
 ![Airflow](https://img.shields.io/badge/Airflow-050505?style=flat-square&logo=apacheairflow&logoColor=FF007F)
 ![Terraform](https://img.shields.io/badge/Terraform-050505?style=flat-square&logo=terraform&logoColor=9370DB)
 
-[🔗 Mission Logs (Repo)](https://github.com/iamdpsingh/Project-4-Financial-Risk-Fraud-Detection-Data-Platform)
+<a href="https://github.com/iamdpsingh/Project-4-Financial-Risk-Fraud-Detection-Data-Platform"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 </tr>
@@ -128,7 +128,7 @@ Cloud-native ELT pipeline processing **133M+ rows (16GB)** in under 30s. GCE VMs
 ![BigQuery](https://img.shields.io/badge/BigQuery-050505?style=flat-square&logo=googlebigquery&logoColor=00FFFF)
 ![SQL](https://img.shields.io/badge/SQL-050505?style=flat-square&logo=postgresql&logoColor=FF007F)
 
-[🔗 Mission Logs (Repo)](https://github.com/iamdpsingh/Project-3--E-commerce-Analytics-Pipeline)
+<a href="https://github.com/iamdpsingh/Project-3--E-commerce-Analytics-Pipeline"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 <td width="50%" valign="top">
@@ -139,7 +139,7 @@ Automated pipeline pulling real-time weather via REST API into PostgreSQL with i
 ![Python](https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=FFDD00)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-050505?style=flat-square&logo=postgresql&logoColor=4169E1)
 
-[🔗 Mission Logs (Repo)](https://github.com/iamdpsingh/Project-2--Weather-Data-Pipeline)
+<a href="https://github.com/iamdpsingh/Project-2--Weather-Data-Pipeline"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 </tr>
@@ -244,9 +244,9 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <!-- STATS CARDS: github-readme-stats (sigma-five instance) + streak-stats (demolab) -->
 <div align="center">
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=050505&title_color=F97316&icon_color=EF4444&text_color=ffffff" width="49%"/>&nbsp;<img src="https://github-readme-streak-stats.herokuapp.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=050505&stroke=F97316&ring=EF4444&fire=F97316&currStreakLabel=EF4444&sideLabels=ffffff&dates=ffffff" width="49%"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=050505&title_color=F97316&icon_color=EF4444&text_color=ffffff" width="49%"/>&nbsp;<img src="https://github-readme-streak-stats.herokuapp.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=050505&stroke=F97316&ring=EF4444&fire=F97316&currStreakLabel=EF4444&sideLabels=ffffff&dates=ffffff" width="49%"/>
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=F97316&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="45%"/>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=F97316&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="45%"/>
 
 </div>
 
