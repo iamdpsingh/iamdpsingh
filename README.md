@@ -1,11 +1,11 @@
-<!-- HEADER: Cyberpunk / Anime / Neon Aesthetic -->
+<!-- HEADER: Clean Dark Theme Aesthetic -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:EF4444,100:F97316&height=250&section=header&text=Dhruv%20Pratap%20Singh&fontSize=55&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Data%20Engineer%20%E2%80%A2%20Full-Stack%20Architect%20%E2%80%A2%20Cyber-Analyst&descAlignY=57&descSize=20&stroke=00FFFF" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:EF4444,100:F97316&height=250&section=header&text=Dhruv%20Pratap%20Singh&fontSize=55&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Data%20Engineer%20%E2%80%A2%20Full-Stack%20Builder%20%E2%80%A2%20ML%2FAI&descAlignY=57&descSize=20&stroke=000000" width="100%"/>
 </p>
 
 <!-- TYPING: Futuristic Tech Focus -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=4000&pause=1000&color=F97316&center=true&vCenter=true&width=800&lines=Building+Next-Gen+Data+Pipelines+on+GCP;Architecting+Medallion+Data+Lakes;Deploying+Real-Time+Stream+Processing;Crafting+Cyberpunk+Web+Experiences;Open+for+Data+Engineering+Roles!" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=4000&pause=1000&color=F97316&center=true&vCenter=true&width=800&lines=Building+Next-Gen+Data+Pipelines+on+GCP;Architecting+Medallion+Data+Lakes;Deploying+Real-Time+Stream+Processing;Shipping+Full-Stack+%26+GenAI+Apps;Open+for+Data+Engineering+Roles!" />
 </p>
 
 <!-- SOCIALS: Minimalist Neon Badges -->
@@ -269,7 +269,7 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 </div>
 
 
-<!-- FOOTER: Cyberpunk Anime Girl GIF -->
+<!-- FOOTER: Aesthetic GIF -->
 <div align="center">
 <img src="https://media.giphy.com/media/V83Xv6O0U0kRk2g327/giphy.gif" width="300" style="border-radius:15px;"/>
 <br/><br/>
@@ -278,5 +278,5 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <!--FOOTER_STATUS_END-->
 </div>
 
-<!-- FOOTER WAVE: Cyberpunk styling -->
+<!-- FOOTER WAVE: Aesthetic styling -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,50:EF4444,100:050505&height=120&section=footer" width="100%"/>
