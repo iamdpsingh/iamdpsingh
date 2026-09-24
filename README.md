@@ -32,7 +32,6 @@
 
 <img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300"/>
 
-**Initiating Neural Link... Connection Established.**
 
 > *I architect robust data pipelines and build immersive full-stack applications. Inspired by visually rich virtual worlds and intricate storytelling, I craft digital experiences that are as performant as they are beautiful.*
 
@@ -154,7 +153,7 @@ Unified purchase, sales & logistics data into a vendor summary; EDA on sales tre
 ![Pandas](https://img.shields.io/badge/Pandas-050505?style=flat-square&logo=pandas&logoColor=FF007F)
 ![SQL](https://img.shields.io/badge/SQL-050505?style=flat-square&logo=postgresql&logoColor=00FFFF)
 
-[🔗 Repo](https://github.com/iamdpsingh/Vendor_Performance_Analysis)
+<a href="https://github.com/iamdpsingh/Vendor_Performance_Analysis"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 <td width="50%" valign="top">
@@ -166,7 +165,7 @@ Random Forest + XGBoost regression, **R² > 0.87**; feature engineering improved
 ![Flask](https://img.shields.io/badge/Flask-050505?style=flat-square&logo=flask&logoColor=00FFFF)
 ![Python](https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=00FFFF)
 
-[🔗 Repo](https://github.com/iamdpsingh/House-Price-Prediction-Web-App)
+<a href="https://github.com/iamdpsingh/House-Price-Prediction-Web-App"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 </tr>
@@ -180,7 +179,7 @@ Real-time video conferencing with secure auth, meeting management, and live stre
 ![TypeScript](https://img.shields.io/badge/TypeScript-050505?style=flat-square&logo=typescript&logoColor=00FFFF)
 ![Node.js](https://img.shields.io/badge/Node.js-050505?style=flat-square&logo=nodedotjs&logoColor=FF007F)
 
-[🔗 Repo](https://github.com/iamdpsingh/Zoomer)
+<a href="https://github.com/iamdpsingh/Zoomer"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 <td width="50%" valign="top">
@@ -192,7 +191,7 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 ![Gemini API](https://img.shields.io/badge/Gemini_API-050505?style=flat-square&logo=google&logoColor=FF9E00)
 ![Streamlit](https://img.shields.io/badge/Streamlit-050505?style=flat-square&logo=streamlit&logoColor=FF007F)
 
-[🔗 Repo](https://github.com/iamdpsingh/AI5-chatbot-gemini)
+<a href="https://github.com/iamdpsingh/AI5-chatbot-gemini"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 </tr>
@@ -245,9 +244,9 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <!-- STATS CARDS: github-readme-stats (sigma-five instance) + streak-stats (demolab) -->
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=050505&title_color=F97316&icon_color=EF4444&text_color=ffffff" width="49%"/>&nbsp;<img src="https://github-readme-streak-stats.herokuapp.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=050505&stroke=F97316&ring=EF4444&fire=F97316&currStreakLabel=EF4444&sideLabels=ffffff&dates=ffffff" width="49%"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=050505&title_color=F97316&icon_color=EF4444&text_color=ffffff" width="49%"/>&nbsp;<img src="https://github-readme-streak-stats.herokuapp.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=050505&stroke=F97316&ring=EF4444&fire=F97316&currStreakLabel=EF4444&sideLabels=ffffff&dates=ffffff" width="49%"/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=F97316&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="45%"/>
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=F97316&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="45%"/>
 
 </div>
 
