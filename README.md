@@ -82,16 +82,12 @@
                 <img src="https://skillicons.dev/icons?i=pytorch&theme=dark" width="48" height="48" alt="PyTorch" />
                 <br>PyTorch
             </td>
-            <td align="center" width="96">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="48" height="48" alt="Keras" />
-                <br>Keras
-            </td>
+        </tr>
+        <tr>
             <td align="center" width="96">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" width="48" height="48" alt="Jupyter" />
                 <br>Jupyter
             </td>
-        </tr>
-        <tr>
             <td align="center" width="96">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width="48" height="48" alt="Matplotlib" />
                 <br>Matplotlib
@@ -109,20 +105,8 @@
                 <br>XGBoost
             </td>
             <td align="center" width="96">
-                <img src="https://raw.githubusercontent.com/microsoft/LightGBM/master/docs/logo/LightGBM_logo_black_text.svg" width="48" height="48" alt="LightGBM" />
-                <br>LightGBM
-            </td>
-            <td align="center" width="96">
-                <img src="https://chainer.org/images/logo.png" width="48" height="48" alt="Chainer" />
-                <br>Chainer
-            </td>
-            <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=opencv&theme=dark" width="48" height="48" alt="OpenCV" />
                 <br>OpenCV
-            </td>
-            <td align="center" width="96">
-                <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="48" height="48" alt="Hugging Face" />
-                <br>Hugging Face
             </td>
             <td align="center" width="96">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="48" height="48" alt="OpenAI" />
@@ -173,14 +157,6 @@
                 <br>GCP
             </td>
             <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=aws&theme=dark" width="48" height="48" alt="AWS" />
-                <br>AWS
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=azure&theme=dark" width="48" height="48" alt="Azure" />
-                <br>Azure
-            </td>
-            <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" />
                 <br>Docker
             </td>
@@ -193,23 +169,15 @@
                 <br>Linux
             </td>
             <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=bash&theme=dark" width="48" height="48" alt="Bash" />
-                <br>Bash
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=powershell&theme=dark" width="48" height="48" alt="PowerShell" />
-                <br>PowerShell
-            </td>
-            <td align="center" width="96">
                 <img src="https://profilinator.rishav.dev/skills-assets/raspberrypi.png" width="48" height="48" alt="Raspberry Pi" />
                 <br>Raspberry Pi
             </td>
-        </tr>
-        <tr>
             <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" />
                 <br>PostgreSQL
             </td>
+        </tr>
+        <tr>
             <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="48" height="48" alt="MySQL" />
                 <br>MySQL
@@ -219,31 +187,13 @@
                 <br>MongoDB
             </td>
             <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=firebase&theme=dark" width="48" height="48" alt="Firebase" />
-                <br>Firebase
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" />
-                <br>Git
-            </td>
-            <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" />
                 <br>GitHub
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=gitlab&theme=dark" width="48" height="48" alt="GitLab" />
-                <br>GitLab
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=jenkins&theme=dark" width="48" height="48" alt="Jenkins" />
-                <br>Jenkins
             </td>
             <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="48" height="48" alt="VS Code" />
                 <br>VS Code
             </td>
-        </tr>
-        <tr>
             <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React" />
                 <br>React
@@ -252,6 +202,8 @@
                 <img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="48" height="48" alt="Next.js" />
                 <br>Next.js
             </td>
+        </tr>
+        <tr>
             <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Node.js" />
                 <br>Node.js
@@ -265,46 +217,12 @@
                 <br>JavaScript
             </td>
             <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" height="48" alt="C++" />
-                <br>C++
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=c&theme=dark" width="48" height="48" alt="C" />
-                <br>C
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=cs&theme=dark" width="48" height="48" alt="C#" />
-                <br>C#
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" />
-                <br>Java
-            </td>
-        </tr>
-        <tr>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=dotnet&theme=dark" width="48" height="48" alt=".NET" />
-                <br>.NET
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=graphql&theme=dark" width="48" height="48" alt="GraphQL" />
-                <br>GraphQL
-            </td>
-            <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48" height="48" alt="FastAPI" />
                 <br>FastAPI
             </td>
             <td align="center" width="96">
                 <img src="https://skillicons.dev/icons?i=flask&theme=dark" width="48" height="48" alt="Flask" />
                 <br>Flask
-            </td>
-            <td align="center" width="96">
-                <img src="https://skillicons.dev/icons?i=androidstudio&theme=dark" width="48" height="48" alt="Android" />
-                <br>Android
-            </td>
-            <td align="center" width="96">
-                <img src="https://profilinator.rishav.dev/skills-assets/arduino.png" width="48" height="48" alt="Arduino" />
-                <br>Arduino
             </td>
         </tr>
     </table>
