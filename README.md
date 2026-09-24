@@ -1,11 +1,11 @@
 <!-- HEADER: Cyberpunk / Anime / Neon Aesthetic -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:FF007F,100:00FFFF&height=250&section=header&text=Dhruv%20Pratap%20Singh&fontSize=55&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Data%20Engineer%20%E2%80%A2%20Full-Stack%20Architect%20%E2%80%A2%20Cyber-Analyst&descAlignY=57&descSize=20&stroke=00FFFF" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:EF4444,100:F97316&height=250&section=header&text=Dhruv%20Pratap%20Singh&fontSize=55&fontColor=fff&animation=twinkling&fontAlignY=36&desc=Data%20Engineer%20%E2%80%A2%20Full-Stack%20Architect%20%E2%80%A2%20Cyber-Analyst&descAlignY=57&descSize=20&stroke=00FFFF" width="100%"/>
 </p>
 
 <!-- TYPING: Futuristic Tech Focus -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=4000&pause=1000&color=00FFFF&center=true&vCenter=true&width=800&lines=Building+Next-Gen+Data+Pipelines+on+GCP;Architecting+Medallion+Data+Lakes;Deploying+Real-Time+Stream+Processing;Crafting+Cyberpunk+Web+Experiences;Open+for+Data+Engineering+Roles!" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=4000&pause=1000&color=F97316&center=true&vCenter=true&width=800&lines=Building+Next-Gen+Data+Pipelines+on+GCP;Architecting+Medallion+Data+Lakes;Deploying+Real-Time+Stream+Processing;Crafting+Cyberpunk+Web+Experiences;Open+for+Data+Engineering+Roles!" />
 </p>
 
 <!-- SOCIALS: Minimalist Neon Badges -->
@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=SYSTEM+ACCESSES&color=00FFFF&style=for-the-badge&labelColor=050505"/>
+  <img src="https://komarev.com/ghpvc/?username=iamdpsingh&label=SYSTEM+ACCESSES&color=F97316&style=for-the-badge&labelColor=050505"/>
 </p>
 
 <!--DATE_START-->
@@ -245,9 +245,9 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <!-- STATS CARDS: github-readme-stats (sigma-five instance) + streak-stats (demolab) -->
 <div align="center">
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=050505&title_color=00FFFF&icon_color=FF007F&text_color=ffffff" width="49%"/>&nbsp;<img src="https://streak-stats.demolab.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=050505&stroke=00FFFF&ring=FF007F&fire=FF9E00&currStreakLabel=FF007F&sideLabels=ffffff&dates=ffffff" width="49%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=iamdpsingh&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&bg_color=050505&title_color=F97316&icon_color=EF4444&text_color=ffffff" width="49%"/>&nbsp;<img src="https://github-readme-streak-stats.herokuapp.com/?user=iamdpsingh&theme=tokyonight&hide_border=true&background=050505&stroke=F97316&ring=EF4444&fire=F97316&currStreakLabel=EF4444&sideLabels=ffffff&dates=ffffff" width="49%"/>
 
-<img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=00FFFF&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="45%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamdpsingh&layout=compact&theme=tokyonight&hide_border=true&bg_color=050505&title_color=F97316&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" width="45%"/>
 
 </div>
 
@@ -280,4 +280,4 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 </div>
 
 <!-- FOOTER WAVE: Cyberpunk styling -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FFFF,50:FF007F,100:000000&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,50:EF4444,100:050505&height=120&section=footer" width="100%"/>
