@@ -48,23 +48,267 @@
 
 ## 💻 ＴＥＣＨ_ＡＲＳＥＮＡＬ
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,postgres,gcp,react,nextjs,nodejs,ts,js,mongodb,flask,fastapi,docker,terraform,git,linux&theme=dark&perline=8" />
-  </a>
-</p>
-
 <div align="center">
 
-![BigQuery](https://img.shields.io/badge/BigQuery-050505?style=flat-square&logo=googlebigquery&logoColor=00FFFF)
-![Airflow](https://img.shields.io/badge/Airflow-050505?style=flat-square&logo=apacheairflow&logoColor=FF007F)
-![dbt](https://img.shields.io/badge/dbt-050505?style=flat-square&logo=dbt&logoColor=FF9E00)
-![PySpark](https://img.shields.io/badge/PySpark-050505?style=flat-square&logo=apachespark&logoColor=00FFFF)
-![Kafka](https://img.shields.io/badge/Kafka-050505?style=flat-square&logo=apachekafka&logoColor=FF007F)
-![Pandas](https://img.shields.io/badge/Pandas-050505?style=flat-square&logo=pandas&logoColor=00FFFF)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-050505?style=flat-square&logo=scikitlearn&logoColor=FF9E00)
-![Power BI](https://img.shields.io/badge/Power_BI-050505?style=flat-square&logo=powerbi&logoColor=FFDD00)
+<h3 align="center">📊 Data Science, Analytics & Engineering</h3>
+<div style="display: flex; align-items: flex-start; justify-content: center;">
+    <table align="center">
+        <tr>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=python&theme=dark" width="48" height="48" alt="Python" />
+                <br>Python
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=r&theme=dark" width="48" height="48" alt="R" />
+                <br>R
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Pandas_logo.svg" width="48" height="48" alt="Pandas" />
+                <br>Pandas
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/31/NumPy_logo_2020.svg" width="48" height="48" alt="NumPy" />
+                <br>NumPy
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="48" height="48" alt="Scikit-learn" />
+                <br>Scikit-learn
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=tensorflow&theme=dark" width="48" height="48" alt="TensorFlow" />
+                <br>TensorFlow
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=pytorch&theme=dark" width="48" height="48" alt="PyTorch" />
+                <br>PyTorch
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Keras_logo.svg" width="48" height="48" alt="Keras" />
+                <br>Keras
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg" width="48" height="48" alt="Jupyter" />
+                <br>Jupyter
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" width="48" height="48" alt="Matplotlib" />
+                <br>Matplotlib
+            </td>
+            <td align="center" width="96">
+                <img src="https://seaborn.pydata.org/_static/logo-mark-lightbg.svg" width="48" height="48" alt="Seaborn" />
+                <br>Seaborn
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/SCIPY_2.svg" width="48" height="48" alt="SciPy" />
+                <br>SciPy
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/XGBoost_logo.png" width="48" height="48" alt="XGBoost" />
+                <br>XGBoost
+            </td>
+            <td align="center" width="96">
+                <img src="https://raw.githubusercontent.com/microsoft/LightGBM/master/docs/logo/LightGBM_logo_black_text.svg" width="48" height="48" alt="LightGBM" />
+                <br>LightGBM
+            </td>
+            <td align="center" width="96">
+                <img src="https://chainer.org/images/logo.png" width="48" height="48" alt="Chainer" />
+                <br>Chainer
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=opencv&theme=dark" width="48" height="48" alt="OpenCV" />
+                <br>OpenCV
+            </td>
+            <td align="center" width="96">
+                <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" width="48" height="48" alt="Hugging Face" />
+                <br>Hugging Face
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg" width="48" height="48" alt="OpenAI" />
+                <br>OpenAI
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://raw.githubusercontent.com/microsoft/PowerBI-Icons/main/SVG/Power-BI.svg" width="48" height="48" alt="Power BI" />
+                <br>Power BI
+            </td>
+            <td align="center" width="96">
+                <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" height="48" alt="Tableau" style="border-radius: 8px;" />
+                <br>Tableau
+            </td>
+            <td align="center" width="96">
+                <img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white" height="48" alt="BigQuery" style="border-radius: 8px;" />
+                <br>BigQuery
+            </td>
+            <td align="center" width="96">
+                <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" height="48" alt="Airflow" style="border-radius: 8px;" />
+                <br>Airflow
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" width="48" height="48" alt="Apache Spark" />
+                <br>Apache Spark
+            </td>
+            <td align="center" width="96">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hadoop_logo.svg" width="48" height="48" alt="Hadoop" />
+                <br>Hadoop
+            </td>
+            <td align="center" width="96">
+                <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" height="48" alt="dbt" style="border-radius: 8px;" />
+                <br>dbt
+            </td>
+        </tr>
+    </table>
+</div>
 
+<br/>
+
+<h3 align="center">🌐 Full-Stack, Cloud & Tools</h3>
+<div style="display: flex; align-items: flex-start; justify-content: center;">
+    <table align="center">
+        <tr>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=gcp&theme=dark" width="48" height="48" alt="GCP" />
+                <br>GCP
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=aws&theme=dark" width="48" height="48" alt="AWS" />
+                <br>AWS
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=azure&theme=dark" width="48" height="48" alt="Azure" />
+                <br>Azure
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=docker&theme=dark" width="48" height="48" alt="Docker" />
+                <br>Docker
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=kubernetes&theme=dark" width="48" height="48" alt="Kubernetes" />
+                <br>Kubernetes
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=linux&theme=dark" width="48" height="48" alt="Linux" />
+                <br>Linux
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=bash&theme=dark" width="48" height="48" alt="Bash" />
+                <br>Bash
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=powershell&theme=dark" width="48" height="48" alt="PowerShell" />
+                <br>PowerShell
+            </td>
+            <td align="center" width="96">
+                <img src="https://profilinator.rishav.dev/skills-assets/raspberrypi.png" width="48" height="48" alt="Raspberry Pi" />
+                <br>Raspberry Pi
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=postgres&theme=dark" width="48" height="48" alt="PostgreSQL" />
+                <br>PostgreSQL
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=mysql&theme=dark" width="48" height="48" alt="MySQL" />
+                <br>MySQL
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=mongodb&theme=dark" width="48" height="48" alt="MongoDB" />
+                <br>MongoDB
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=firebase&theme=dark" width="48" height="48" alt="Firebase" />
+                <br>Firebase
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=git&theme=dark" width="48" height="48" alt="Git" />
+                <br>Git
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=github&theme=dark" width="48" height="48" alt="GitHub" />
+                <br>GitHub
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=gitlab&theme=dark" width="48" height="48" alt="GitLab" />
+                <br>GitLab
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=jenkins&theme=dark" width="48" height="48" alt="Jenkins" />
+                <br>Jenkins
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=vscode&theme=dark" width="48" height="48" alt="VS Code" />
+                <br>VS Code
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=react&theme=dark" width="48" height="48" alt="React" />
+                <br>React
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=nextjs&theme=dark" width="48" height="48" alt="Next.js" />
+                <br>Next.js
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=nodejs&theme=dark" width="48" height="48" alt="Node.js" />
+                <br>Node.js
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=ts&theme=dark" width="48" height="48" alt="TypeScript" />
+                <br>TypeScript
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=js&theme=dark" width="48" height="48" alt="JavaScript" />
+                <br>JavaScript
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=cpp&theme=dark" width="48" height="48" alt="C++" />
+                <br>C++
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=c&theme=dark" width="48" height="48" alt="C" />
+                <br>C
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=cs&theme=dark" width="48" height="48" alt="C#" />
+                <br>C#
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=java&theme=dark" width="48" height="48" alt="Java" />
+                <br>Java
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=dotnet&theme=dark" width="48" height="48" alt=".NET" />
+                <br>.NET
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=graphql&theme=dark" width="48" height="48" alt="GraphQL" />
+                <br>GraphQL
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=fastapi&theme=dark" width="48" height="48" alt="FastAPI" />
+                <br>FastAPI
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=flask&theme=dark" width="48" height="48" alt="Flask" />
+                <br>Flask
+            </td>
+            <td align="center" width="96">
+                <img src="https://skillicons.dev/icons?i=androidstudio&theme=dark" width="48" height="48" alt="Android" />
+                <br>Android
+            </td>
+            <td align="center" width="96">
+                <img src="https://profilinator.rishav.dev/skills-assets/arduino.png" width="48" height="48" alt="Arduino" />
+                <br>Arduino
+            </td>
+        </tr>
+    </table>
+</div>
 </div>
 
 <!-- DIVIDER: Glowing -->
