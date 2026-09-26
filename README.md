@@ -369,7 +369,7 @@ A modern platform for community building and social interactions. Currently unde
 
 ![Work In Progress](https://img.shields.io/badge/Status-Under_Development-FFDD00?style=flat-square&logo=git&logoColor=050505)
 
-<a href="https://github.com/iamdpsingh/Social-Forge"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/iamdpsingh/SocialForge"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 <td width="50%" valign="top">
@@ -380,7 +380,7 @@ Real-time data intelligence platform utilizing Databricks Lakehouse architecture
 ![Work In Progress](https://img.shields.io/badge/Status-Under_Development-FFDD00?style=flat-square&logo=git&logoColor=050505)
 ![Databricks](https://img.shields.io/badge/Databricks-050505?style=flat-square&logo=databricks&logoColor=FF3621)
 
-<a href="https://github.com/iamdpsingh/Databricks-Lakehouse-Real-Time-Data-Intelligence-Platform"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/iamdpsingh/Enterprise-Databricks-Lakehouse-Real-Time-Data-Intelligence-Platform"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 </tr>
