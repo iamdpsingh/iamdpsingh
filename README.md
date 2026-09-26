@@ -369,7 +369,7 @@ A modern platform for community building and social interactions. Currently unde
 
 ![Work In Progress](https://img.shields.io/badge/Status-Under_Development-FFDD00?style=flat-square&logo=git&logoColor=050505)
 
-<a href="#"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/iamdpsingh/Social-Forge"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 <td width="50%" valign="top">
@@ -380,7 +380,7 @@ Real-time data intelligence platform utilizing Databricks Lakehouse architecture
 ![Work In Progress](https://img.shields.io/badge/Status-Under_Development-FFDD00?style=flat-square&logo=git&logoColor=050505)
 ![Databricks](https://img.shields.io/badge/Databricks-050505?style=flat-square&logo=databricks&logoColor=FF3621)
 
-<a href="#"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/iamdpsingh/Databricks-Lakehouse-Real-Time-Data-Intelligence-Platform"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 </tr>
@@ -392,7 +392,7 @@ Innovative software solution. Work in progress.
 
 ![Work In Progress](https://img.shields.io/badge/Status-Under_Development-FFDD00?style=flat-square&logo=git&logoColor=050505)
 
-<a href="#"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/iamdpsingh/Vishwakarma"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 <td width="50%" valign="top">
@@ -403,7 +403,7 @@ Contributing to various open source projects and communities. Currently under re
 ![Under Review](https://img.shields.io/badge/Status-Under_Review-00FFFF?style=flat-square&logo=git-pull-request&logoColor=050505)
 ![Open Source](https://img.shields.io/badge/Open_Source-050505?style=flat-square&logo=open-source-initiative&logoColor=3DA639)
 
-<a href="#"><img src="https://img.shields.io/badge/View_Contributions-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/iamdpsingh?tab=repositories"><img src="https://img.shields.io/badge/View_Contributions-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 </tr>
