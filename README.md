@@ -375,12 +375,12 @@ Real-time data intelligence platform utilizing Databricks Lakehouse architecture
 </td>
 <td width="50%" valign="top">
 
-### 🔨 Vishwakarma
-Innovative software solution. Work in progress.
+### 🧠 Career Intelligence & Personal Brand Autopilot
+Automated career intelligence and personal branding tool. Currently under active development.
 
 ![Work In Progress](https://img.shields.io/badge/Status-Under_Development-FFDD00?style=flat-square&logo=git&logoColor=050505)
 
-<a href="https://github.com/iamdpsingh/Vishwakarma"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://github.com/iamdpsingh/Career-Intelligence-Personal-Brand-Autopilot"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
 </tr>
