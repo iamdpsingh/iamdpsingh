@@ -400,6 +400,10 @@ Innovative software solution. Work in progress.
 ### 🌍 Open Source Contributions
 Contributing to various open source projects and communities. Currently under review.
 
+<a href="https://github.com/dask/dask"><img src="https://img.shields.io/badge/dask-050505?style=flat-square&logo=dask&logoColor=FF8800"/></a>
+<a href="https://github.com/pandas-dev/pandas"><img src="https://img.shields.io/badge/pandas-050505?style=flat-square&logo=pandas&logoColor=150458"/></a>
+<a href="https://github.com/fivetran/great_expectations"><img src="https://img.shields.io/badge/great_expectations-050505?style=flat-square&logo=git&logoColor=FFFFFF"/></a>
+<br/>
 ![Under Review](https://img.shields.io/badge/Status-Under_Review-00FFFF?style=flat-square&logo=git-pull-request&logoColor=050505)
 ![Open Source](https://img.shields.io/badge/Open_Source-050505?style=flat-square&logo=open-source-initiative&logoColor=3DA639)
 
