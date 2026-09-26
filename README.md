@@ -364,16 +364,6 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <tr>
 <td width="50%" valign="top">
 
-### 🛠️ Social Forge
-A modern platform for community building and social interactions. Currently under active development.
-
-![Work In Progress](https://img.shields.io/badge/Status-Under_Development-FFDD00?style=flat-square&logo=git&logoColor=050505)
-
-<a href="https://github.com/iamdpsingh/SocialForge"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
-
-</td>
-<td width="50%" valign="top">
-
 ### 🌊 Databricks-Lakehouse-Real-Time-Data-Intelligence-Platform
 Real-time data intelligence platform utilizing Databricks Lakehouse architecture. Currently under active development.
 
@@ -383,8 +373,6 @@ Real-time data intelligence platform utilizing Databricks Lakehouse architecture
 <a href="https://github.com/iamdpsingh/Enterprise-Databricks-Lakehouse-Real-Time-Data-Intelligence-Platform"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🔨 Vishwakarma
@@ -395,6 +383,8 @@ Innovative software solution. Work in progress.
 <a href="https://github.com/iamdpsingh/Vishwakarma"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🌍 Open Source Contributions
@@ -409,6 +399,8 @@ Contributing to various open source projects and communities. Currently under re
 
 <a href="https://github.com/iamdpsingh?tab=repositories"><img src="https://img.shields.io/badge/View_Contributions-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
+</td>
+<td width="50%" valign="top">
 </td>
 </tr>
 </table>
