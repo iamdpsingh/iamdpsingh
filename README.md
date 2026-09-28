@@ -420,11 +420,11 @@ Contributing to various open source projects and communities. Currently under re
 
 ## 🎓 ＥＤＵＣＡＴＩＯＮ & ＣＥＲＴＩＦＩＣＡＴＩＯＮＳ
 
-| 🏛️ Institution | 📚 Qualification | 🏆 Score | 📅 Year |
-|:---|:---|:---|:---|
-| GLA University, Mathura | B.Tech — Computer Science | CGPA 6.96/10 | 2022–2026 |
-| Agra Vanasthali Vidyalaya, Agra | Intermediate (Class XII) | 70.6% | 2022 |
-| Christ The King High School, Tundla | High School (Class X) | 83% | 2020 |
+| 🏛️ Institution | 📚 Qualification | 📅 Year |
+|:---|:---|:---|
+| GLA University, Mathura | B.Tech — Computer Science | 2022–2026 |
+| Agra Vanasthali Vidyalaya, Agra | Intermediate (Class XII) | 2022 |
+| Christ The King High School, Tundla | High School (Class X) | 2020 |
 
 <details>
 <summary><b>📜 View All Certifications</b></summary>
