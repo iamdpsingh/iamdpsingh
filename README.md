@@ -379,6 +379,10 @@ Real-time data intelligence platform utilizing Databricks Lakehouse architecture
 Automated career intelligence and personal branding tool to enhance online presence and job tracking.
 
 ![Completed](https://img.shields.io/badge/Status-Completed-10B981?style=flat-square&logo=check&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 
 <a href="https://github.com/iamdpsingh/Career-Intelligence-Personal-Brand-Autopilot"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
 
