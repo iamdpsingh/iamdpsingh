@@ -511,3 +511,4 @@ Contributing to various open source projects and communities. Currently under re
 
 <!-- FOOTER WAVE: Aesthetic styling -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,50:EF4444,100:050505&height=120&section=footer" width="100%"/>
+ 
