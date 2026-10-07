@@ -123,15 +123,15 @@
                 <br>Power BI
             </td>
             <td align="center" width="96">
-                <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white" height="48" alt="Tableau" style="border-radius: 8px;" />
+                <img src="https://img.shields.io/badge/Tableau-050505?style=for-the-badge&logo=Tableau&logoColor=E97627" height="48" alt="Tableau" style="border-radius: 8px;" />
                 <br>Tableau
             </td>
             <td align="center" width="96">
-                <img src="https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white" height="48" alt="BigQuery" style="border-radius: 8px;" />
+                <img src="https://img.shields.io/badge/BigQuery-050505?style=for-the-badge&logo=googlebigquery&logoColor=669DF6" height="48" alt="BigQuery" style="border-radius: 8px;" />
                 <br>BigQuery
             </td>
             <td align="center" width="96">
-                <img src="https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white" height="48" alt="Airflow" style="border-radius: 8px;" />
+                <img src="https://img.shields.io/badge/Airflow-050505?style=for-the-badge&logo=apacheairflow&logoColor=017CEE" height="48" alt="Airflow" style="border-radius: 8px;" />
                 <br>Airflow
             </td>
             <td align="center" width="96">
@@ -143,7 +143,7 @@
                 <br>Hadoop
             </td>
             <td align="center" width="96">
-                <img src="https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white" height="48" alt="dbt" style="border-radius: 8px;" />
+                <img src="https://img.shields.io/badge/dbt-050505?style=for-the-badge&logo=dbt&logoColor=FF694B" height="48" alt="dbt" style="border-radius: 8px;" />
                 <br>dbt
             </td>
         </tr>
