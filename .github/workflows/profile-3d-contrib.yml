@@ -21,8 +21,7 @@ jobs:
           SETTING_JSON: .github/profile-3d-settings.json
       - name: Crop SVG to hide donut chart
         run: |
-          sed -i 's/height="850"/height="520"/g' profile-3d-contrib/profile-night-view.svg
-          sed -i 's/viewBox="0 0 1280 850"/viewBox="0 0 1280 520"/g' profile-3d-contrib/profile-night-view.svg
+          sed -i 's/<g transform="translate(40, 520)">/<g transform="translate(40, 520)" display="none">/g' profile-3d-contrib/profile-night-view.svg
       - name: Commit & Push
         run: |
           git config user.name github-actions
