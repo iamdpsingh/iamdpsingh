@@ -19,6 +19,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
           SETTING_JSON: .github/profile-3d-settings.json
+      - name: Crop SVG to hide donut chart
+        run: |
+          sed -i 's/height="850"/height="520"/g' profile-3d-contrib/profile-night-view.svg
+          sed -i 's/viewBox="0 0 1280 850"/viewBox="0 0 1280 520"/g' profile-3d-contrib/profile-night-view.svg
       - name: Commit & Push
         run: |
           git config user.name github-actions
