@@ -21,6 +21,11 @@ jobs:
             dist/github-contribution-grid-snake.svg?palette=github&color_snake=#f97316
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#f97316
 
+      - name: Recolor snake progress bar to orange
+        run: |
+          sed -i -E 's/fill:var\(--c[1-4]\);animation-name:u/fill:#f97316;animation-name:u/g' dist/github-contribution-grid-snake.svg
+          sed -i -E 's/fill:var\(--c[1-4]\);animation-name:u/fill:#f97316;animation-name:u/g' dist/github-contribution-grid-snake-dark.svg
+
       - name: Push snake SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:

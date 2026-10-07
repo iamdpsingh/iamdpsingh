@@ -15,7 +15,7 @@ jobs:
       - uses: jasineri/gitartwork@v1
         with:
            user_name: iamdpsingh
-           text: DP SINGH
+           text: D.P.SINGH
       - name: Recolor gitartwork to orange theme
         run: |
           sed -i 's/rgba(27, 31, 35, 0.06)/#1a1b26/g' gitartwork.svg
