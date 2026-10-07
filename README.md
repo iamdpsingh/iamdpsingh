@@ -468,6 +468,36 @@ Contributing to various open source projects and communities. Currently under re
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 </p>
 
+## 🖥️ ＧＩＴＨＵＢ_ＡＣＴＩＶＩＴＹ
+
+<div align="center">
+  <p align="center">
+    <img src="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/main/profile-3d-contrib/profile-night-view.svg" width="100%" alt="3D Profile Contrib" />
+  </p>
+
+  <div align="center">
+    <a href="https://git.io/typing-svg">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F97316&center=true&vCenter=true&width=500&lines=Data+Engineer+🖥️;Full-Stack+Builder+🚀;ML%2FAI+Enthusiast+🧠;Open+Source+Contributor+🌍" alt="Typing SVG" />
+    </a>
+  </div>
+</div>
+
+<table>
+<tr>
+<td width="50%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=iamdpsingh&theme=tokyonight" />
+</td>
+<td width="50%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamdpsingh&theme=tokyonight&utc_offset=5.5" />
+</td>
+</tr>
+</table>
+
+<!-- DIVIDER: Glowing -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+</p>
+
 ## 🐍 ＣＯＮＴＲＩＢＵＴＩＯＮ_ＧＲＩＤ
 
 <div align="center">
