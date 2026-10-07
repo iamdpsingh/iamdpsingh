@@ -16,11 +16,6 @@ jobs:
         with:
            user_name: iamdpsingh
            text: DHRUV
-      - name: Commit and push
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add gitartwork.svg
-          git commit -m "Update gitartwork" || exit 0
-          git pull --rebase origin main
-          git push
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: Update gitartwork
