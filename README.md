@@ -499,9 +499,7 @@ Contributing to various open source projects and communities. Currently under re
 </div>
 
 <div align="center">
-  <a href="https://github.com/iamdpsingh">
-    <img src="gitartwork.svg" alt="iamdpsingh's gitartwork" width="100%" />
-  </a>
+  <img src="gitartwork.svg" alt="iamdpsingh's gitartwork" width="100%" />
 </div>
 
 <!-- FOOTER_STATUS_START-->
