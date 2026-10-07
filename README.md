@@ -477,7 +477,7 @@ Contributing to various open source projects and communities. Currently under re
 
   <div align="center">
     <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F97316&center=true&vCenter=true&width=500&lines=Data+Engineer+🖥️;Full-Stack+Builder+🚀;ML%2FAI+Enthusiast+🧠;Open+Source+Contributor+🌍" alt="Typing SVG" />
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F97316&center=true&vCenter=true&width=500&lines=Data+Engineer;Full-Stack+Builder;ML%2FAI+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
     </a>
   </div>
 </div>
@@ -517,32 +517,12 @@ Contributing to various open source projects and communities. Currently under re
   </a>
 </div>
 
+<!-- FOOTER_STATUS_START-->
 <div align="center">
-  <h2>
-    🖥️ Github Activity
-    <img height="40" alt="Activity" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" />
-  </h2>
-
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Profile Contrib" />
-  </p>
-
-  <div align="center">
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F97316&center=true&vCenter=true&width=435&lines=Data+Engineer;Full-Stack+Builder;ML%2FAI+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
-    </a>
-  </div>
+  <br/><br/>
+  <p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
 </div>
-
-<!-- FOOTER: Aesthetic GIF -->
-<div align="center">
-<img src="https://raw.githubusercontent.com/Adam-pw/Adam-pw/main/animation_500_kxa883sd.gif" width="300" style="border-radius:15px;"/>
-<br/><br/>
-
-<!--FOOTER_STATUS_START-->
-<p align="center"><i>🌍 Open to remote Data Analytics / Data Science / Data Engineering roles worldwide — available full-time now. Let's connect!</i></p>
 <!--FOOTER_STATUS_END-->
-</div>
 
 <!-- FOOTER WAVE: Aesthetic styling -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,50:EF4444,100:050505&height=120&section=footer" width="100%"/>
