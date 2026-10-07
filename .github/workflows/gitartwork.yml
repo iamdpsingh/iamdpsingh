@@ -23,6 +23,19 @@ jobs:
           sed -i 's/#40c463/#c2410c/g' gitartwork.svg
           sed -i 's/#30a14e/#ea580c/g' gitartwork.svg
           sed -i 's/#216e39/#f97316/g' gitartwork.svg
+      - name: Add single dot periods
+        run: |
+          python3 -c '
+          svg = open("gitartwork.svg").read()
+          for col in [176, 368]:
+              idx = svg.find(f"<g transform=\"translate({col}, 0)\">")
+              if idx != -1:
+                  end_idx = svg.find("</g>", idx)
+                  block = svg[idx:end_idx]
+                  block = block.replace("y=\"90\" data-level=\"0\" rx=\"2\" ry=\"2\" class=\"o\"", "y=\"90\" data-level=\"0\" rx=\"2\" ry=\"2\" class=\"o\" style=\"fill: var(--c4); stroke: var(--c4);\"")
+                  svg = svg[:idx] + block + svg[end_idx:]
+          open("gitartwork.svg", "w").write(svg)
+          '
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update gitartwork
