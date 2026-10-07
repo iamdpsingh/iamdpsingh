@@ -482,21 +482,6 @@ Contributing to various open source projects and communities. Currently under re
   </div>
 </div>
 
-<table align="center">
-<tr>
-<td width="33%">
-<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iamdpsingh&layout=donut&theme=tokyonight&hide_border=true&bg_color=050505&title_color=F97316&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" height="190" />
-</td>
-<td width="33%">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=iamdpsingh&theme=tokyonight&bg_color=050505&title_color=EF4444" height="190" />
-</td>
-<td width="33%">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamdpsingh&theme=tokyonight&utc_offset=5.5&bg_color=050505&title_color=EF4444" height="190" />
-</td>
-</tr>
-</table>
-
-
 
 <!-- DIVIDER: Glowing -->
 <p align="center">
@@ -511,8 +496,6 @@ Contributing to various open source projects and communities. Currently under re
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/output/github-contribution-grid-snake.svg" />
   <img src="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/output/github-contribution-grid-snake.svg" alt="snake animation" width="100%"/>
 </picture>
-
-> ⚡ **System Node Update:** Snake is active and auto-updates daily via Actions.
 </div>
 
 <div align="center">
