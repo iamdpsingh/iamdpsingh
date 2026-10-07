@@ -481,25 +481,57 @@ Contributing to various open source projects and communities. Currently under re
 </div>
 
 <div align="center">
+
   <h2>
     🖥️ Github Activity
-    <img height="40" alt="Activity" src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" />
+    <img
+      height="40"
+      alt="Activity"
+      src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif"
+    />
   </h2>
 
-  <p align="center">
-    <img src="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Profile Contrib" />
-  </p>
+  <p align="left">
+  <img src="https://raw.githubusercontent.com/iamdpsingh/iamdpsingh/main/profile-3d-contrib/profile-night-rainbow.svg">
+</p>
 
   <div align="center">
     <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F97316&center=true&vCenter=true&width=435&lines=Data+Engineer;Full-Stack+Builder;ML%2FAI+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
+      <img
+        src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F97316&center=true&vCenter=true&width=435&lines=Data+Engineer;Full-Stack+Builder;ML%2FAI+Enthusiast;Open+Source+Contributor"
+      />
     </a>
   </div>
+  
+<div align="center">
+  <img width="48%" src="https://github-readme-stats-fast.vercel.app/api?username=iamdpsingh&show_icons=true&theme=radical"/>
+  <img width="48%" src="https://github-readme-streak-stats-eight.vercel.app/?user=iamdpsingh&theme=radical"/>
 </div>
 
-<!-- FOOTER: Aesthetic GIF -->
+<table>
+<tr>
+<td width="33%">
+
+<img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=iamdpsingh&layout=donut&theme=transparent&hide_border=true&langs_count=8&border_radius=20&title_color=00FF41&text_color=C9D1D9&bg_color=00000000" height="200" />
+
+</td>
+<td width="33%">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=iamdpsingh&theme=transparent" />
+
+</td>
+<td width="33%">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamdpsingh&theme=transparent&utc_offset=5.5" />
+
+</td>
+</tr>
+</table>
+</p>
+
+</div>
+
 <div align="center">
-<img src="https://raw.githubusercontent.com/Adam-pw/Adam-pw/main/animation_500_kxa883sd.gif" width="300" style="border-radius:15px;"/>
 <br/><br/>
 
 <!--FOOTER_STATUS_START-->
