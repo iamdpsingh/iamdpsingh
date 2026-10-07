@@ -23,6 +23,7 @@ jobs:
 
       - name: Recolor snake progress bar to orange
         run: |
+          sudo chown -R $USER:$USER dist
           sed -i -E 's/fill:var\(--c[1-4]\);animation-name:u/fill:#f97316;animation-name:u/g' dist/github-contribution-grid-snake.svg
           sed -i -E 's/fill:var\(--c[1-4]\);animation-name:u/fill:#f97316;animation-name:u/g' dist/github-contribution-grid-snake-dark.svg
 
