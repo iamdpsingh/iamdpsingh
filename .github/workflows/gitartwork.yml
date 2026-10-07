@@ -22,4 +22,5 @@ jobs:
           git config user.email github-actions@github.com
           git add gitartwork.svg
           git commit -m "Update gitartwork" || exit 0
+          git pull --rebase origin main
           git push
