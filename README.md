@@ -482,6 +482,20 @@ Contributing to various open source projects and communities. Currently under re
   </div>
 </div>
 
+<table align="center">
+<tr>
+<td width="33%">
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=iamdpsingh&layout=donut&theme=tokyonight&hide_border=true&bg_color=050505&title_color=F97316&text_color=ffffff&langs_count=8&hide=jupyter%20notebook" height="190" />
+</td>
+<td width="33%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=iamdpsingh&theme=tokyonight&bg_color=050505&title_color=EF4444" height="190" />
+</td>
+<td width="33%">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamdpsingh&theme=tokyonight&utc_offset=5.5&bg_color=050505&title_color=EF4444" height="190" />
+</td>
+</tr>
+</table>
+
 
 
 <!-- DIVIDER: Glowing -->
@@ -502,7 +516,6 @@ Contributing to various open source projects and communities. Currently under re
 </div>
 
 <div align="center">
-  <h3>✨ Contribution Grid Name Writing ✨</h3>
   <a href="https://github.com/iamdpsingh">
     <img src="gitartwork.svg" alt="iamdpsingh's gitartwork" width="100%" />
   </a>
