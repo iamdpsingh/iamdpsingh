@@ -482,16 +482,7 @@ Contributing to various open source projects and communities. Currently under re
   </div>
 </div>
 
-<table>
-<tr>
-<td width="50%">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=iamdpsingh&theme=tokyonight" />
-</td>
-<td width="50%">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=iamdpsingh&theme=tokyonight&utc_offset=5.5" />
-</td>
-</tr>
-</table>
+
 
 <!-- DIVIDER: Glowing -->
 <p align="center">
