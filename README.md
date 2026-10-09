@@ -262,7 +262,7 @@
 <td width="50%" valign="top">
 
 ### 🚚 Enterprise Supply Chain Data Platform
-End-to-end Medallion data platform (Bronze/Silver/Gold) on Google Cloud. Real-time IoT fleet telemetry for 4,000+ vehicles across 6 continents, powering a live Next.js Control Tower dashboard.
+End-to-end Medallion data platform (Bronze/Silver/Gold) on Google Cloud. Real-time IoT fleet telemetry (Pub/Sub → Dataflow) for 400 vehicles across 6 continents, powering a live Next.js Control Tower dashboard.
 
 ![GCP](https://img.shields.io/badge/GCP-050505?style=flat-square&logo=googlecloud&logoColor=00FFFF)
 ![BigQuery](https://img.shields.io/badge/BigQuery-050505?style=flat-square&logo=googlebigquery&logoColor=00FFFF)
@@ -275,7 +275,7 @@ End-to-end Medallion data platform (Bronze/Silver/Gold) on Google Cloud. Real-ti
 <td width="50%" valign="top">
 
 ### 💰 Financial Risk & Fraud Detection
-Production-grade pipeline processing **10M+ events**. Batch (GCS → Dataflow → BigQuery) & streaming (Pub/Sub → Dataflow). Real-time fraud scoring with dbt modeling and Streamlit dashboard.
+Pipeline processing **10M+ events**. Batch (GCS → Dataflow → BigQuery) & streaming (Pub/Sub → Dataflow). Real-time 7-rule fraud scoring engine on Apache Beam, dbt, and Airflow, with a Streamlit dashboard.
 
 ![GCP](https://img.shields.io/badge/GCP-050505?style=flat-square&logo=googlecloud&logoColor=00FFFF)
 ![Airflow](https://img.shields.io/badge/Airflow-050505?style=flat-square&logo=apacheairflow&logoColor=FF007F)
