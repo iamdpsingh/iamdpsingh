@@ -139,8 +139,8 @@
                 <br>Apache Spark
             </td>
             <td align="center" width="96">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Hadoop_logo.svg" width="48" height="48" alt="Hadoop" />
-                <br>Hadoop
+                <img src="https://img.shields.io/badge/Databricks-050505?style=for-the-badge&logo=databricks&logoColor=FF3621" height="48" alt="Databricks" style="border-radius: 8px;" />
+                <br>Databricks
             </td>
             <td align="center" width="96">
                 <img src="https://img.shields.io/badge/dbt-050505?style=for-the-badge&logo=dbt&logoColor=FF694B" height="48" alt="dbt" style="border-radius: 8px;" />
