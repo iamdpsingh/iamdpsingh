@@ -365,7 +365,7 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <td width="50%" valign="top">
 
 ### 🌊 Databricks Lakehouse Data Intelligence Platform
-Real-time data intelligence platform utilizing Databricks Lakehouse architecture.
+Real-time Medallion Lakehouse on Databricks (Unity Catalog) processing 17B+ telemetry records. Serverless PySpark pipelines with Quarantine mechanics and a live Next.js command centre using Databricks SQL Serverless.
 
 ![Completed](https://img.shields.io/badge/Status-Completed-10B981?style=flat-square&logo=check&logoColor=white)
 ![Improvement Needed](https://img.shields.io/badge/Status-Improvement_Needed-FFDD00?style=flat-square&logo=git&logoColor=050505)
