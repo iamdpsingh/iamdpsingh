@@ -364,14 +364,15 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <tr>
 <td width="50%" valign="top">
 
-### 🌊 Databricks Lakehouse Data Intelligence Platform
-Real-time Medallion Lakehouse on Databricks (Unity Catalog) processing 17B+ telemetry records. Serverless PySpark pipelines with Quarantine mechanics and a live Next.js command centre using Databricks SQL Serverless.
+### 🌊 Enterprise Databricks Lakehouse & Real-Time Data Intelligence Platform
+Production-grade Data Intelligence Platform architected entirely on the Databricks Lakehouse (provisioned on GCP). Processes massive, globally distributed, high-velocity datasets (Ethereum Web3, GitHub Archive, Overture Maps) using Serverless PySpark, Delta Lake, Unity Catalog, and Next.js.
 
 ![Completed](https://img.shields.io/badge/Status-Completed-10B981?style=flat-square&logo=check&logoColor=white)
 ![Improvement Needed](https://img.shields.io/badge/Status-Improvement_Needed-FFDD00?style=flat-square&logo=git&logoColor=050505)
 ![Databricks](https://img.shields.io/badge/Databricks-050505?style=flat-square&logo=databricks&logoColor=FF3621)
-![Python](https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=FFDD00)
-![PySpark](https://img.shields.io/badge/PySpark-050505?style=flat-square&logo=apachespark&logoColor=E25A1C)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-050505?style=flat-square&logo=googlecloud&logoColor=4285F4)
+![Apache Spark](https://img.shields.io/badge/Apache_Spark-050505?style=flat-square&logo=apachespark&logoColor=E25A1C)
+![Delta Lake](https://img.shields.io/badge/Delta_Lake-050505?style=flat-square&logo=databricks&logoColor=430098)
 ![Next.js](https://img.shields.io/badge/Next.js-050505?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
 
 <a href="https://github.com/iamdpsingh/Enterprise-Databricks-Lakehouse-Real-Time-Data-Intelligence-Platform"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
