@@ -365,7 +365,7 @@ Gemini (1.5-flash) chatbot with multi-turn dialogue, context management via prom
 <td width="50%" valign="top">
 
 ### 🌊 Enterprise Databricks Lakehouse & Real-Time Data Intelligence Platform
-Production-grade Data Intelligence Platform architected entirely on the Databricks Lakehouse (provisioned on GCP). Processes massive, globally distributed, high-velocity datasets (Ethereum Web3, GitHub Archive, Overture Maps) using Serverless PySpark, Delta Lake, Unity Catalog, and Next.js.
+Production-grade Data Intelligence Platform architected entirely on the Databricks Lakehouse (provisioned on GCP). Utilizes a high-throughput synthetic data generator mimicking the exact schema and scale of Ethereum Web3, GitHub Archive, and Overture Maps APIs to demonstrate massive scalability, fault-tolerance, and real-time streaming using Serverless PySpark and Delta Lake.
 
 ![Completed](https://img.shields.io/badge/Status-Completed-10B981?style=flat-square&logo=check&logoColor=white)
 ![Improvement Needed](https://img.shields.io/badge/Status-Improvement_Needed-FFDD00?style=flat-square&logo=git&logoColor=050505)
