@@ -346,6 +346,7 @@ Real-time video conferencing with secure auth, meeting management, and live stre
 ![Node.js](https://img.shields.io/badge/Node.js-050505?style=flat-square&logo=nodedotjs&logoColor=FF007F)
 
 <a href="https://github.com/iamdpsingh/Zoomer"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://zoomer-dps.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-000000?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 
 </td>
 <td width="50%" valign="top">
