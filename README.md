@@ -262,11 +262,20 @@
 <tr>
 <td width="50%" valign="top">
 
-### 🔎 V-INDEX / Rolewisp — Source-Backed Job Data Platform
+### 🔎 V-INDEX / Rolewisp
+Source-backed job search with platform-specific collectors, normalized listings, provenance tracking, and private Candidate / Employer workspaces.
+
+![Python](https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=00FFFF)
+![FastAPI](https://img.shields.io/badge/FastAPI-050505?style=flat-square&logo=fastapi&logoColor=00FFFF)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-050505?style=flat-square&logo=postgresql&logoColor=4169E1)
+![Next.js](https://img.shields.io/badge/Next.js-050505?style=flat-square&logo=nextdotjs&logoColor=FFFFFF)
+
+<a href="https://rolewisp.vercel.app/"><img src="https://img.shields.io/badge/Open_Application-F97316?style=for-the-badge&logo=vercel&logoColor=white" alt="Open Application: V-INDEX / Rolewisp" /></a>
+
+<details>
+<summary>Project details & evidence</summary>
 
 *Activity observed: 5–21 November 2026.*
-
-Platform-specific job collectors with shared normalization, source provenance, searchable indexing, and private Candidate / Employer workspaces.
 
 - 71/78 target platforms (91.0%) had native source coverage; seven requirements remained unmet. This is coverage, not project completion or reliability.
 - 9,187 indexed jobs at the 21 November 2026 review; 130/142 registered sources had an initial successful collection. Dated snapshot, not a live count.
@@ -274,23 +283,27 @@ Platform-specific job collectors with shared normalization, source provenance, s
 
 **Stack:** Python, FastAPI, PostgreSQL, SQLAlchemy, Redis, Next.js, GitHub Actions.
 
-![Python](https://img.shields.io/badge/Python-050505?style=flat-square&labelColor=050505&color=F97316)
-![FastAPI](https://img.shields.io/badge/FastAPI-050505?style=flat-square&labelColor=050505&color=F97316)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-050505?style=flat-square&labelColor=050505&color=F97316)
-![Next.js](https://img.shields.io/badge/Next.js-050505?style=flat-square&labelColor=050505&color=F97316)
+[Full evidence & scope](docs/PROJECT_EVIDENCE.md#rolewisp)
 
-<a href="https://rolewisp.vercel.app/"><img src="https://img.shields.io/badge/Open_Application-F97316?style=for-the-badge" alt="Open Application: V-INDEX / Rolewisp — Source-Backed Job Data Platform" /></a>
-
-[Evidence & scope](docs/PROJECT_EVIDENCE.md#rolewisp)
+</details>
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ Data Pipeline Immune System — Multi-Agent Data Reliability
+### 🛡️ Data Pipeline Immune System
+Policy-gated pipeline recovery across detection, diagnosis, remediation, and verification, with quarantine paths and human escalation.
+
+![Python](https://img.shields.io/badge/Python-050505?style=flat-square&logo=python&logoColor=00FFFF)
+![PySpark](https://img.shields.io/badge/PySpark-050505?style=flat-square&logo=apachespark&logoColor=E25A1C)
+![BigQuery](https://img.shields.io/badge/BigQuery-050505?style=flat-square&logo=googlebigquery&logoColor=00FFFF)
+![Airflow](https://img.shields.io/badge/Airflow-050505?style=flat-square&logo=apacheairflow&logoColor=FF007F)
+
+<a href="https://github.com/iamdpsingh/Data-Pipeline-Immune-System"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge&logo=github&logoColor=white" alt="View Repository: Data Pipeline Immune System" /></a>
+
+<details>
+<summary>Project details & evidence</summary>
 
 *Activity observed: 23–28 October 2026 (authored default-branch activity).*
-
-A six-agent recovery workflow separating detection, diagnosis, risk assessment, remediation, verification, and learning, with explicit policies and human-escalation gates.
 
 - Four simulated failure types: timeouts, corrupted records, volume drops, and additive schema drift. Scenario coverage, not production incidents resolved.
 - Bronze/Silver PySpark jobs for five domain families: orders, customers, payments, inventory, and shipments.
@@ -298,14 +311,9 @@ A six-agent recovery workflow separating detection, diagnosis, risk assessment, 
 
 **Stack:** Python, PySpark, BigQuery, Cloud Storage, Airflow, Cloud Run, Terraform.
 
-![Python](https://img.shields.io/badge/Python-050505?style=flat-square&labelColor=050505&color=F97316)
-![PySpark](https://img.shields.io/badge/PySpark-050505?style=flat-square&labelColor=050505&color=F97316)
-![BigQuery](https://img.shields.io/badge/BigQuery-050505?style=flat-square&labelColor=050505&color=F97316)
-![Airflow](https://img.shields.io/badge/Airflow-050505?style=flat-square&labelColor=050505&color=F97316)
+[Full evidence & scope](docs/PROJECT_EVIDENCE.md#data-pipeline-immune-system)
 
-<a href="https://github.com/iamdpsingh/Data-Pipeline-Immune-System"><img src="https://img.shields.io/badge/View_Repository-F97316?style=for-the-badge" alt="View Repository: Data Pipeline Immune System — Multi-Agent Data Reliability" /></a>
-
-[Evidence & scope](docs/PROJECT_EVIDENCE.md#data-pipeline-immune-system)
+</details>
 
 </td>
 </tr>

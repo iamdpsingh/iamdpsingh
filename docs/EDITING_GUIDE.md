@@ -41,7 +41,10 @@ Edit `data/additional-projects.json` and append:
 
 Replace the example values with real data. IDs are unique lowercase hyphenated
 slugs. URL must be HTTPS. Use an application link if no repository was supplied.
-Optional `button` changes the button text; `emoji` chooses the heading icon;
+Optional `card_title` supplies a short display title; `name` remains the full
+project name in the evidence document. Keep the visible summary to one or two
+sentences so cards match the existing projects. `button` changes the button text;
+`emoji` chooses the heading icon;
 `badges` chooses which stack labels get small badges. The builder creates badge
 URLs itself; do not enter arbitrary HTML or image URLs in project data.
 
@@ -57,7 +60,10 @@ Optional evidence entries retain detailed claim boundaries:
 ```
 
 Put these objects in the project's `evidence` list. The builder creates a compact
-README card and a full section in `docs/PROJECT_EVIDENCE.md`, linked from the card.
+README card and a full section in `docs/PROJECT_EVIDENCE.md`. Dates, highlights,
+full stack, and the evidence link sit inside the card's native expandable
+"Project details & evidence" section. The collapsed card shows just its short
+title, summary, tech badges, and action button, matching the older project cards.
 Add more cards freely: they are arranged in pairs, with an empty final cell when
 there is an odd number. Original project cards remain in the template; they are
 not removed to make room for additions.

@@ -44,6 +44,8 @@ def project_catalog():
                 plain(value)
         if p.get('period'):
             plain(p['period'])
+        if p.get('card_title'):
+            plain(p['card_title'])
         if p.get('button'):
             plain(p['button'])
         if p.get('emoji'):
@@ -57,21 +59,30 @@ def project_catalog():
 
 
 def card(p):
-    parts=['<td width="50%" valign="top">','',f'### {p.get("emoji", "🚀")} {p["name"]}','']
-    if p.get('period'):
-        parts += [f'*Activity observed: {p["period"]}.*','']
-    parts += [p['summary'],'']
-    parts += ['- '+highlight for highlight in p.get('highlights',[])]
-    parts.append('')
-    if p.get('stack'):
-        parts += ['**Stack:** '+', '.join(p['stack'])+'.','']
+    title=p.get('card_title',p['name'])
+    parts=['<td width="50%" valign="top">','',f'### {p.get("emoji", "🚀")} {title}',p['summary'],'']
+    logos={"Python":("python","00FFFF"),"FastAPI":("fastapi","00FFFF"),
+           "PostgreSQL":("postgresql","4169E1"),"Next.js":("nextdotjs","FFFFFF"),
+           "PySpark":("apachespark","E25A1C"),"BigQuery":("googlebigquery","00FFFF"),
+           "Airflow":("apacheairflow","FF007F")}
     for label in p.get('badges',p.get('stack',[])[:4]):
         badge=quote(label.replace('-','--'),safe='')
-        parts.append(f'![{label}](https://img.shields.io/badge/{badge}-050505?style=flat-square&labelColor=050505&color=F97316)')
+        logo,color=logos.get(label,(None,"F97316"))
+        icon=f'&logo={logo}&logoColor={color}' if logo else ''
+        parts.append(f'![{label}](https://img.shields.io/badge/{badge}-050505?style=flat-square{icon})')
     label=p.get('button','View Project')
     badge=quote(label.replace(' ','_'),safe='')
-    parts += ['',f'<a href="{escape(p["url"],quote=True)}"><img src="https://img.shields.io/badge/{badge}-F97316?style=for-the-badge" alt="{escape(label+": "+p["name"],quote=True)}" /></a>',
-              '',f'[Evidence & scope](docs/PROJECT_EVIDENCE.md#{p["id"]})','','</td>']
+    logo='github' if urlsplit(p['url']).netloc=='github.com' else 'vercel'
+    parts += ['',f'<a href="{escape(p["url"],quote=True)}"><img src="https://img.shields.io/badge/{badge}-F97316?style=for-the-badge&logo={logo}&logoColor=white" alt="{escape(label+": "+title,quote=True)}" /></a>','']
+    if p.get('period') or p.get('highlights') or p.get('evidence'):
+        parts += ['<details>','<summary>Project details & evidence</summary>','']
+        if p.get('period'):
+            parts += [f'*Activity observed: {p["period"]}.*','']
+        parts += ['- '+highlight for highlight in p.get('highlights',[])]
+        if p.get('stack'):
+            parts += ['','**Stack:** '+', '.join(p['stack'])+'.']
+        parts += ['',f'[Full evidence & scope](docs/PROJECT_EVIDENCE.md#{p["id"]})','','</details>','']
+    parts.append('</td>')
     return '\n'.join(parts)
 
 

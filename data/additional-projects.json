@@ -21,7 +21,7 @@
       "PostgreSQL",
       "Next.js"
     ],
-    "summary": "Platform-specific job collectors with shared normalization, source provenance, searchable indexing, and private Candidate / Employer workspaces.",
+    "summary": "Source-backed job search with platform-specific collectors, normalized listings, provenance tracking, and private Candidate / Employer workspaces.",
     "highlights": [
       "71/78 target platforms (91.0%) had native source coverage; seven requirements remained unmet. This is coverage, not project completion or reliability.",
       "9,187 indexed jobs at the 21 November 2026 review; 130/142 registered sources had an initial successful collection. Dated snapshot, not a live count.",
@@ -67,7 +67,8 @@
         "claim": "Established regression coverage with 1,269 passing backend tests and one skip in the final recorded cleanup run, by testing source collectors, lifecycle rules, account isolation, and PostgreSQL/Redis integrations.",
         "scope": "Final cleanup revision; earlier totals of 1,244, 1,249, and 1,272 refer to different revisions and must not be added together."
       }
-    ]
+    ],
+    "card_title": "V-INDEX / Rolewisp"
   },
   {
     "id": "data-pipeline-immune-system",
@@ -91,7 +92,7 @@
       "BigQuery",
       "Airflow"
     ],
-    "summary": "A six-agent recovery workflow separating detection, diagnosis, risk assessment, remediation, verification, and learning, with explicit policies and human-escalation gates.",
+    "summary": "Policy-gated pipeline recovery across detection, diagnosis, remediation, and verification, with quarantine paths and human escalation.",
     "highlights": [
       "Four simulated failure types: timeouts, corrupted records, volume drops, and additive schema drift. Scenario coverage, not production incidents resolved.",
       "Bronze/Silver PySpark jobs for five domain families: orders, customers, payments, inventory, and shipments.",
@@ -136,6 +137,7 @@
         "claim": "Added two operational notification cadences, hourly Telegram summaries and six-hour email briefings, by implementing a reporting daemon and timeout/retry handling for external notification and BigQuery calls.",
         "scope": "Configured schedules and error-handling work; no measured alert-delivery or downtime improvement is claimed."
       }
-    ]
+    ],
+    "card_title": "Data Pipeline Immune System"
   }
 ]
