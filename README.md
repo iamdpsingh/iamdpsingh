@@ -352,6 +352,8 @@ Source-backed job search with platform-specific collectors, normalized listings,
 <details>
 <summary>Project details & evidence</summary>
 
+*Activity observed: 5–21 November 2026.*
+
 - 71/78 target platforms (91.0%) had native source coverage; seven requirements remained unmet. This is coverage, not project completion or reliability.
 - 9,187 indexed jobs at the 21 November 2026 review; 130/142 registered sources had an initial successful collection. Dated snapshot, not a live count.
 - Conservative closure requires two complete-enumeration misses at least 24 hours apart; final backend cleanup run reported 1,269 passing tests and one skip.
@@ -377,6 +379,8 @@ Policy-gated pipeline recovery across detection, diagnosis, remediation, and ver
 
 <details>
 <summary>Project details & evidence</summary>
+
+*Activity observed: 23–28 October 2026 (authored default-branch activity).*
 
 - Four simulated failure types: timeouts, corrupted records, volume drops, and additive schema drift. Scenario coverage, not production incidents resolved.
 - Bronze/Silver PySpark jobs for five domain families: orders, customers, payments, inventory, and shipments.
@@ -610,7 +614,7 @@ Contributing to various open source projects and communities. Currently under re
 ## 🖥️ ＧＩＴＨＵＢ_ＡＣＴＩＶＩＴＹ
 
 <!-- ACTIVITY_SUMMARY_START -->
-**5,214 contributions** in GitHub's last-year calendar (2025-11-16–2026-11-21); snapshot 2026-11-21. [Source and daily data](data/contributions.json).
+**5,216 contributions** in GitHub's last-year calendar (2025-11-16–2026-11-21); snapshot 2026-11-21. [Source and daily data](data/contributions.json).
 <!-- ACTIVITY_SUMMARY_END -->
 
 *The 3D, snake, and gitartwork graphics below are preserved contribution-art snapshots; they are not the live count above.*
