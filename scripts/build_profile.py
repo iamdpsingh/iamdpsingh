@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """Preserve the original profile layout and add source-scoped project cards."""
 import json
-import math
 import re
 from datetime import datetime
 from html import escape
@@ -130,86 +129,6 @@ def replace_block(text,start,end,body):
     return re.sub(pattern,lambda _:start+'\n'+body+'\n'+end,text,flags=re.S)
 
 
-# Exact reviewed CSS: each row prints once; the last dot row finishes at 2.955 seconds.
-AVATAR_STYLE = ('@media (prefers-reduced-motion: no-preference) {\n'
-                '  .ink { animation: print-row .12s steps(1,end) 1 both; }\n'
-                + ''.join(f'  .r{i} {{ animation-delay: {i*45}ms; }}\n' for i in range(64))
-                + '}\n@keyframes print-row { from { opacity: 0; } to { opacity: 1; } }')
-
-
-def avatar_print(root,snapshot):
-    pattern=json.loads((root/'data/avatar-pattern.json').read_text())
-    lines=pattern['lines']
-    if (len(lines)!=64 or any(len(line)!=64 for line in lines)
-            or any(char not in '0123456789abcdef' for line in lines for char in line)):
-        raise ValueError('Avatar pattern must be a 64-by-64 luminance grid')
-    total=snapshot['total']
-    active=sum(day['count']>0 for day in snapshot['days'])
-    directory=root/'assets'
-    directory.mkdir(exist_ok=True)
-    for theme in ('dark','light'):
-        dark=theme=='dark'
-        bg,ink,muted,border=('#080808','#eeeeee','#aaa6a2','#35312e') if dark else ('#faf9f6','#181818','#68625c','#d6d0c9')
-        for mobile in (False,True):
-            w,h=(640,910) if mobile else (1080,460)
-            left,top,step=(36,47,8.8) if mobile else (24,32,6)
-            body=[f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="14" fill="{bg}" stroke="{border}"/>']
-            def text(x,y,value,size=18,color=ink,weight=400,extra=''):
-                return (f'<text x="{x}" y="{y}" fill="{color}" font-family="Courier New, monospace" '
-                        f'font-size="{size}" font-weight="{weight}" {extra}>{escape(str(value))}</text>')
-            body.append(text(left,top-17,'AVATAR / HALFTONE',12,muted,600))
-            rows=[]
-            for row,line in enumerate(lines):
-                dots=[]
-                for column,hex_value in enumerate(line):
-                    level=int(hex_value,16)/15
-                    density=level if dark else 1-level
-                    radius=round(math.sqrt(density)*step*.48,2)
-                    if radius < .15:
-                        continue
-                    cx=left+(column+.5)*step
-                    cy=top+(row+.5)*step
-                    dots.append(f'<circle cx="{cx:g}" cy="{cy:g}" r="{radius:g}"/>')
-                rows.append(f'<g class="ink r{row}" fill="{ink}">'+''.join(dots)+'</g>')
-            if mobile:
-                x,y=36,670
-                body.append(f'<path d="M36 630H604" stroke="{border}"/>')
-                name_size,body_size,line_space=28,21,36
-            else:
-                x,y=490,80
-                body.append(f'<path d="M458 28V432" stroke="{border}"/>')
-                name_size,body_size,line_space=33,21,44
-            body.append(text(x,y,'Dhruv Pratap Singh',name_size,ink,600))
-            body.append(text(x,y+line_space,'Data Engineer / Full-Stack',body_size,muted))
-            body.append(text(x,y+2*line_space,'PUBLIC ACTIVITY SNAPSHOT',14,muted,600))
-            body.append(text(x,y+3*line_space,f'contributions   {total:,}',body_size))
-            body.append(text(x,y+4*line_space,f'active days     {active}',body_size))
-            body.append(text(x,y+5*line_space,f'updated         {snapshot["fetched_on"]}',body_size))
-            if not mobile:
-                body.append(text(x,386,'Python / SQL / Google Cloud',18,muted))
-                body.append(text(x,417,'github.com/iamdpsingh',15,muted))
-            for static in (False,True):
-                filename=f'avatar-print-{theme}'+('-mobile' if mobile else '')+('-static' if static else '')+'.svg'
-                style='' if static else '<style>'+AVATAR_STYLE+'</style>'
-                svg=(f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc">'
-                     '<title id="title">Dhruv Pratap Singh — avatar formed from halftone dots</title>'
-                     f'<desc id="desc">Pattern portrait derived from his GitHub avatar. Public contribution snapshot: {total:,} contributions, {active} active days, refreshed {snapshot["fetched_on"]}.</desc>'
-                     +style+''.join(body+rows)+'</svg>\n')
-                (directory/filename).write_text(svg)
-    return '''<picture>
-  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/avatar-print-light-mobile-static.svg" />
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/avatar-print-dark-mobile-static.svg" />
-  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/avatar-print-light-static.svg" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/avatar-print-dark-static.svg" />
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/avatar-print-light-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="assets/avatar-print-dark-mobile.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/avatar-print-light.svg" />
-  <img src="assets/avatar-print-dark.svg" width="100%" alt="Dhruv Pratap Singh's GitHub avatar formed from printed halftone dots, beside a dated public contribution snapshot." />
-</picture>
-
-[Activity source and refresh date](data/contributions.json) · [Portrait pattern source](data/avatar-pattern.json)'''
-
-
 def main():
     projects=project_catalog()
     content=(ROOT/'templates/profile.md').read_text()
@@ -217,7 +136,6 @@ def main():
     snapshot=json.loads((ROOT/'data/contributions.json').read_text())
     if snapshot['total'] != sum(day['count'] for day in snapshot['days']):
         raise ValueError('Contribution total must match dated daily data')
-    content=replace_block(content,'<!-- AVATAR_PRINT_START -->','<!-- AVATAR_PRINT_END -->',avatar_print(ROOT,snapshot))
     activity=(f'**{snapshot["total"]:,} contributions** in GitHub\'s last-year calendar '
               f'({snapshot["days"][0]["date"]}–{snapshot["days"][-1]["date"]}); snapshot {snapshot["fetched_on"]}. '
               '[Source and daily data](data/contributions.json).')

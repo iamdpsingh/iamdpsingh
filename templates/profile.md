@@ -50,9 +50,6 @@
 
 <br clear="right"/>
 
-<!-- AVATAR_PRINT_START -->
-<!-- AVATAR_PRINT_END -->
-
 ## 💻 ＴＥＣＨ_ＡＲＳＥＮＡＬ
 
 <div align="center">

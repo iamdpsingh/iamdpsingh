@@ -15,19 +15,15 @@ terminal-style experiments.
   not production recoveries; reported tests are not independently rerun tests.
 - Never invent a repository link: Rolewisp uses the supplied application URL.
 - `docs/PROJECT_EVIDENCE.md` is generated from the additional-project evidence.
-- The owner removed the capability manifest, SQL bio, and project DAG. Do not
-  reintroduce them. The personal addition is a halftone-dot avatar print card.
-- `data/avatar-pattern.json` is a 64x64 hexadecimal luminance sample of the
-  owner-approved GitHub avatar. Preserve its source and identity; no invented face.
-- The card combines a short row-by-row print animation with factual, dated
-  contribution counts. Do not relabel those as uptime, SLA, token, or eval metrics.
-- Only exact `AVATAR_STYLE` CSS is permitted: opacity-only, one pass under three
-  seconds, static final state, reduced-motion fallbacks. No scripts or SMIL.
+- The owner removed the sketch/halftone avatar card, capability manifest, SQL bio,
+  and project DAG. Do not reintroduce them unless explicitly requested.
+- Keep contribution counts factual and dated; never relabel them as uptime,
+  SLA compliance, token usage, or evaluation metrics.
 - Use only the original reviewed image hosts and inline layout styles. No scripts,
   iframes, event handlers, unreviewed image services, or executable downloaded SVGs.
 - Keep action pins and checkout-credential hardening. Validation/render jobs are
   read-only; the trusted-main publish job may change only generated README,
-  contribution JSON, project-evidence documentation, and generated avatar SVGs.
+  contribution JSON, and project-evidence documentation.
 - Contribution art retained from the original design is labeled as snapshots.
   Only the dated contribution JSON summary is independently refreshed here.
 - Run `python3 scripts/build_profile.py`, `python3 scripts/validate_profile.py`,

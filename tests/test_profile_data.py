@@ -76,7 +76,7 @@ class ProfileDataTests(unittest.TestCase):
             root=Path(temp)
             (root/'data').mkdir()
             (root/'templates').mkdir()
-            for name in ('additional-projects.json','contributions.json','avatar-pattern.json'):
+            for name in ('additional-projects.json','contributions.json'):
                 (root/'data'/name).write_bytes((build_profile.ROOT/'data'/name).read_bytes())
             template=(build_profile.ROOT/'templates/profile.md').read_text()
             (root/'templates/profile.md').write_text(template)

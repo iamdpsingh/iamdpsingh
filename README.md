@@ -50,21 +50,6 @@
 
 <br clear="right"/>
 
-<!-- AVATAR_PRINT_START -->
-<picture>
-  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/avatar-print-light-mobile-static.svg" />
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/avatar-print-dark-mobile-static.svg" />
-  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/avatar-print-light-static.svg" />
-  <source media="(prefers-reduced-motion: reduce)" srcset="assets/avatar-print-dark-static.svg" />
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/avatar-print-light-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="assets/avatar-print-dark-mobile.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/avatar-print-light.svg" />
-  <img src="assets/avatar-print-dark.svg" width="100%" alt="Dhruv Pratap Singh's GitHub avatar formed from printed halftone dots, beside a dated public contribution snapshot." />
-</picture>
-
-[Activity source and refresh date](data/contributions.json) · [Portrait pattern source](data/avatar-pattern.json)
-<!-- AVATAR_PRINT_END -->
-
 ## 💻 ＴＥＣＨ_ＡＲＳＥＮＡＬ
 
 <div align="center">
