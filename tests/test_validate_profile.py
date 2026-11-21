@@ -77,6 +77,20 @@ class ProfileSecurityTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     validate(self.root)
 
+    def test_external_portraits_and_unreviewed_css_are_rejected(self):
+        for content in ('<image href="https://example.org/photo.jpg"/>',
+                        '<image href="data:image/svg+xml;base64,PHN2Zy8+"/>',
+                        '<style>@import "https://example.org/style.css";</style>',
+                        '<style>.x { animation: spin 1s infinite; }</style>'):
+            with self.subTest(content=content):
+                self.svg.write_text(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10">{content}</svg>')
+                with self.assertRaises(ValueError):
+                    validate_svg(self.svg)
+
+    def test_source_elements_cannot_load_remote_images(self):
+        with self.assertRaises(ValueError):
+            ProfileHTML(self.root).feed('<picture><source srcset="https://example.org/a.svg"/></picture>')
+
     def test_active_readme_html_is_rejected(self):
         for html in ('<script>alert(1)</script>', '<img src="art.svg" alt="Art" onload="x"/>'):
             with self.subTest(html=html), self.assertRaises(ValueError):

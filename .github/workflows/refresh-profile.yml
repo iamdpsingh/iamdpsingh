@@ -1,0 +1,74 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: '20 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/projects.json'
+      - 'data/portrait.txt'
+      - 'scripts/build_profile.py'
+      - 'scripts/refresh_activity.py'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  render:
+    if: github.repository == 'iamdpsingh/iamdpsingh' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+      - name: Read public GitHub numbers and build text-only profile
+        run: |
+          python3 scripts/refresh_activity.py
+          python3 scripts/build_profile.py
+          python3 scripts/validate_profile.py
+          python3 -m unittest discover -s tests -v
+      - name: Pass only generated profile files to the publishing job
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: profile-output
+          retention-days: 1
+          if-no-files-found: error
+          path: |
+            README.md
+            data/contributions.json
+
+  publish:
+    needs: render
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: profile-output
+          path: .
+      - name: Commit generated files if changed
+        run: |
+          git add -- README.md data/contributions.json
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh profile projects and contribution snapshot'
+      - name: Publish without saving credentials
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin HEAD:main

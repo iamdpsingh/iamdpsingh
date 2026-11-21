@@ -10,12 +10,6 @@ from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 SVG_NS = "http://www.w3.org/2000/svg"
-# Reviewed artwork only; legacy metric snapshots cannot enter the live profile.
-PROFILE_ARTWORK = {
-    "profile-banner.svg", "link-portfolio.svg", "link-linkedin.svg", "link-email.svg",
-    "project-supply-chain.svg", "project-fraud-detection.svg", "project-lakehouse.svg",
-    "toolkit.svg",
-}
 SVG_TAGS = {"svg", "title", "desc", "defs", "linearGradient", "radialGradient", "stop", "pattern",
             "path", "rect", "text", "g", "circle", "line", "polyline", "polygon", "ellipse"}
 
@@ -68,7 +62,7 @@ class ProfileHTML(HTMLParser):
         self.details = 0
 
     def handle_starttag(self, tag, attrs):
-        if tag not in {"p", "img", "details", "summary", "br", "a"}:
+        if tag not in {"p", "details", "summary", "br", "a"}:
             raise ValueError(f"Unsupported README HTML element: {tag}")
         allowed = {"align", "src", "width", "height", "alt", "href"}
         if any(key not in allowed for key, _ in attrs):
@@ -78,14 +72,6 @@ class ProfileHTML(HTMLParser):
             self.details += 1
         if tag == "a":
             validate_link(attrs.get("href", ""), self.root)
-        if tag == "img":
-            if not attrs.get("alt", "").strip():
-                raise ValueError("Profile artwork needs descriptive alt text")
-            path = local_file(attrs.get("src", ""), self.root)
-            if path.suffix != ".svg":
-                raise ValueError("Profile artwork must be a reviewed local SVG")
-            validate_svg(path)
-            self.images.append(path)
 
     handle_startendtag = handle_starttag
 
@@ -99,24 +85,17 @@ class ProfileHTML(HTMLParser):
 def validate(root: Path = ROOT) -> None:
     content = (root / "README.md").read_text(encoding="utf-8")
     if re.search(r"!\[", content):
-        raise ValueError("Use reviewed local HTML images instead of Markdown images")
+        raise ValueError("Keep the profile text-only: image embeds are disabled")
     parser = ProfileHTML(root)
     parser.feed(content)
     parser.close()
     if parser.details:
         raise ValueError("Unclosed details element")
-    if parser.images.count((root / "assets/profile-banner.svg").resolve()) != 1:
-        raise ValueError("Use exactly one local profile hero")
-    if len(parser.images) != len(set(parser.images)):
-        raise ValueError("Do not repeat artwork in the profile")
-    permitted = {(root / "assets" / name).resolve() for name in PROFILE_ARTWORK}
-    if any(path not in permitted for path in parser.images):
-        raise ValueError("Use only reviewed profile artwork; keep legacy snapshots archived")
     if len(re.findall(r"^# ", content, re.M)) != 1:
         raise ValueError("Use exactly one main Markdown heading")
     for target in re.findall(r"\[[^\]]*\]\(([^\s)]+)\)", content):
         validate_link(target, root)
-    print("Profile checks passed: local artwork, safe link schemes, and basic structure.")
+    print("Profile checks passed: text-only content, safe link schemes, and basic structure.")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,84 @@
+[
+  {
+    "name": "Supply Chain & Fleet Analytics",
+    "url": "https://github.com/iamdpsingh/Project-5-Enterprise-Supply-Chain-Logistics-Data-Platform-with-Real-Time-Fleet-Analytics-on-GCP",
+    "category": "Cloud data platform · Google Cloud",
+    "stack": "Pub/Sub / Dataflow / BigQuery / Next.js",
+    "description": "A Bronze → Silver → Gold platform connecting IoT fleet telemetry to a Next.js control tower.",
+    "featured": true
+  },
+  {
+    "name": "Financial Risk & Fraud Detection",
+    "url": "https://github.com/iamdpsingh/Project-4-Financial-Risk-Fraud-Detection-Data-Platform",
+    "category": "Streaming analytics · Apache Beam",
+    "stack": "Apache Beam / Airflow / dbt / Streamlit",
+    "description": "Batch and streaming pipelines with a seven-rule fraud scoring engine and analytical dashboards.",
+    "featured": true
+  },
+  {
+    "name": "Databricks Data Intelligence Platform",
+    "url": "https://github.com/iamdpsingh/Enterprise-Databricks-Lakehouse-Real-Time-Data-Intelligence-Platform",
+    "category": "Lakehouse · Serverless PySpark",
+    "stack": "Databricks / PySpark / Delta Lake / Next.js",
+    "description": "A GCP-hosted lakehouse using synthetic Web3, GitHub Archive, and mapping-style data.",
+    "featured": true
+  },
+  {
+    "name": "E-commerce Analytics Pipeline",
+    "url": "https://github.com/iamdpsingh/Project-3--E-commerce-Analytics-Pipeline",
+    "category": "Data & analytics",
+    "description": "GCS-to-BigQuery ELT, a star schema, and a Streamlit analytics dashboard."
+  },
+  {
+    "name": "Weather Data Pipeline",
+    "url": "https://github.com/iamdpsingh/Project-2--Weather-Data-Pipeline",
+    "category": "Data & analytics",
+    "description": "REST API ingestion, incremental PostgreSQL loads, and scheduled processing."
+  },
+  {
+    "name": "Vendor Performance Analysis",
+    "url": "https://github.com/iamdpsingh/Vendor_Performance_Analysis",
+    "category": "Data & analytics",
+    "description": "purchase, sales, and logistics analysis with Python, Pandas, and SQL."
+  },
+  {
+    "name": "House Price Prediction",
+    "url": "https://github.com/iamdpsingh/House-Price-Prediction-Web-App",
+    "category": "Data & analytics",
+    "description": "Random Forest and XGBoost regression served through Flask."
+  },
+  {
+    "name": "Zoomer",
+    "url": "https://github.com/iamdpsingh/Zoomer",
+    "category": "Applications & AI",
+    "description": "Video conferencing and meeting management.",
+    "demo": "https://zoomer-dps.vercel.app/"
+  },
+  {
+    "name": "Gemini Chatbot",
+    "url": "https://github.com/iamdpsingh/AI5-chatbot-gemini",
+    "category": "Applications & AI",
+    "description": "multi-turn conversations with a Streamlit interface."
+  },
+  {
+    "name": "Career Intelligence & Personal Brand Autopilot",
+    "url": "https://github.com/iamdpsingh/Career-Intelligence-Personal-Brand-Autopilot",
+    "category": "Applications & AI",
+    "description": "career tracking and personal branding with Next.js and TypeScript."
+  },
+  {
+    "name": "Smart Cane for Visually Impaired",
+    "category": "IoT & hardware",
+    "description": "obstacle detection with haptic and audio feedback, GPS, and GSM using Arduino and Raspberry Pi 3."
+  },
+  {
+    "name": "Home Automation System",
+    "category": "IoT & hardware",
+    "description": "servo and ultrasonic sensors, RGB lighting, and TV automation."
+  },
+  {
+    "name": "Room Heater with Controlled Humidification",
+    "category": "IoT & hardware",
+    "description": "temperature and humidity regulation using Arduino and a DHT11 sensor."
+  }
+]

@@ -23,5 +23,6 @@ jobs:
           persist-credentials: false
       - name: Validate profile and run security regression tests
         run: |
+          python3 scripts/build_profile.py
           python3 scripts/validate_profile.py
           python3 -m unittest discover -s tests -v
