@@ -1,0 +1,141 @@
+[
+  {
+    "id": "rolewisp",
+    "name": "V-INDEX / Rolewisp — Source-Backed Job Data Platform",
+    "emoji": "🔎",
+    "url": "https://rolewisp.vercel.app/",
+    "button": "Open Application",
+    "period": "5–21 November 2026",
+    "stack": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "SQLAlchemy",
+      "Redis",
+      "Next.js",
+      "GitHub Actions"
+    ],
+    "badges": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Next.js"
+    ],
+    "summary": "Platform-specific job collectors with shared normalization, source provenance, searchable indexing, and private Candidate / Employer workspaces.",
+    "highlights": [
+      "71/78 target platforms (91.0%) had native source coverage; seven requirements remained unmet. This is coverage, not project completion or reliability.",
+      "9,187 indexed jobs at the 21 November 2026 review; 130/142 registered sources had an initial successful collection. Dated snapshot, not a live count.",
+      "Conservative closure requires two complete-enumeration misses at least 24 hours apart; final backend cleanup run reported 1,269 passing tests and one skip."
+    ],
+    "sources": [
+      "https://rolewisp.vercel.app/"
+    ],
+    "evidence": [
+      {
+        "id": "V1",
+        "status": "OBSERVED / IMPLEMENTED",
+        "claim": "Delivered native job-source coverage across 71 of 78 target platforms (91.0%), by implementing platform-specific collectors, shared normalization, provenance tracking, and independently live-verified examples.",
+        "scope": "Seven platform requirements remained unmet; 91.0% is platform coverage, not project completion or reliability."
+      },
+      {
+        "id": "V2",
+        "status": "OBSERVED",
+        "claim": "Built a searchable hosted index containing 9,187 jobs at the 21 November review, by running a persistent indexing worker across 142 registered sources, 130 of which had completed an initial successful collection.",
+        "scope": "Dated snapshot, not a current live count or a sustained-throughput result; 12 sources still lacked initial success."
+      },
+      {
+        "id": "V3",
+        "status": "IMPLEMENTED",
+        "claim": "Implemented conservative job-closure handling requiring two complete-enumeration misses at least 24 hours apart, by retaining source observations and rejecting incomplete batches before index mutation.",
+        "scope": "Closure-policy scope; no measured false-closure reduction is claimed."
+      },
+      {
+        "id": "V4",
+        "status": "OBSERVED",
+        "claim": "Verified recoverability of all 16 database tables with matching row counts in a recorded restore drill, by restoring a 42,387,200-byte encrypted production snapshot into an isolated PostgreSQL instance.",
+        "scope": "The drill did not mutate production; independent recovery-key custody and deletion reconciliation were still open."
+      },
+      {
+        "id": "V5",
+        "status": "IMPLEMENTED / OBSERVED",
+        "claim": "Delivered private workspaces for two account roles, Candidate and Employer, by implementing ownership checks, protected profile/resume operations, hashed session tokens, and Redis-backed credential rate limits.",
+        "scope": "Hosted ownership checks are documented; live email/OAuth provider activation remained a separate gate."
+      },
+      {
+        "id": "V6",
+        "status": "REPORTED",
+        "claim": "Established regression coverage with 1,269 passing backend tests and one skip in the final recorded cleanup run, by testing source collectors, lifecycle rules, account isolation, and PostgreSQL/Redis integrations.",
+        "scope": "Final cleanup revision; earlier totals of 1,244, 1,249, and 1,272 refer to different revisions and must not be added together."
+      }
+    ]
+  },
+  {
+    "id": "data-pipeline-immune-system",
+    "name": "Data Pipeline Immune System — Multi-Agent Data Reliability",
+    "emoji": "🛡️",
+    "url": "https://github.com/iamdpsingh/Data-Pipeline-Immune-System",
+    "button": "View Repository",
+    "period": "23–28 October 2026 (authored default-branch activity)",
+    "stack": [
+      "Python",
+      "PySpark",
+      "BigQuery",
+      "Cloud Storage",
+      "Airflow",
+      "Cloud Run",
+      "Terraform"
+    ],
+    "badges": [
+      "Python",
+      "PySpark",
+      "BigQuery",
+      "Airflow"
+    ],
+    "summary": "A six-agent recovery workflow separating detection, diagnosis, risk assessment, remediation, verification, and learning, with explicit policies and human-escalation gates.",
+    "highlights": [
+      "Four simulated failure types: timeouts, corrupted records, volume drops, and additive schema drift. Scenario coverage, not production incidents resolved.",
+      "Bronze/Silver PySpark jobs for five domain families: orders, customers, payments, inventory, and shipments.",
+      "Five-factor health scoring and configured reporting cadences. Diagnosis is currently heuristic, not a verified live LLM integration; no universal recovery rate or achieved SLA is claimed."
+    ],
+    "sources": [
+      "https://github.com/iamdpsingh/Data-Pipeline-Immune-System",
+      "https://github.com/iamdpsingh/Data-Pipeline-Immune-System/blob/main/agents/diagnosis_agent.py",
+      "https://github.com/iamdpsingh/Data-Pipeline-Immune-System/blob/main/agents/risk_agent.py",
+      "https://github.com/iamdpsingh/Data-Pipeline-Immune-System/blob/main/src/diagnosis/llm_client.py",
+      "https://github.com/iamdpsingh/Data-Pipeline-Immune-System/blob/main/scripts/run_5_day_simulation.py",
+      "https://github.com/iamdpsingh/Data-Pipeline-Immune-System/tree/main/spark/jobs"
+    ],
+    "evidence": [
+      {
+        "id": "D1",
+        "status": "IMPLEMENTED",
+        "claim": "Delivered a six-agent pipeline-recovery workflow, by separating detection, diagnosis, risk assessment, remediation, verification, and learning behind explicit action policies and human-escalation gates.",
+        "scope": "Agent count measures implemented responsibilities; the current diagnosis client is heuristic, not a verified live LLM integration."
+      },
+      {
+        "id": "D2",
+        "status": "IMPLEMENTED",
+        "claim": "Added recovery-scenario coverage for four failure types, by injecting timeouts, corrupted records, volume drops, and additive schema drift into a controlled simulation harness with quarantine and verification paths.",
+        "scope": "Scenario coverage, not proof of four production incidents resolved or a universal recovery-success rate."
+      },
+      {
+        "id": "D3",
+        "status": "IMPLEMENTED",
+        "claim": "Added Bronze/Silver processing jobs for five business domains, by implementing PySpark ingestion and transformation modules for orders, customers, payments, inventory, and shipments.",
+        "scope": "Five domain families are present in the codebase; this is not a measured processed-row count."
+      },
+      {
+        "id": "D4",
+        "status": "IMPLEMENTED",
+        "claim": "Implemented a five-factor pipeline-health score, by combining reliability, freshness, data quality, schema stability, and SLA compliance into a weighted operational indicator.",
+        "scope": "The factors are weighted 30%, 20%, 20%, 15%, and 15%; the formula does not establish achieved SLA compliance."
+      },
+      {
+        "id": "D5",
+        "status": "IMPLEMENTED",
+        "claim": "Added two operational notification cadences, hourly Telegram summaries and six-hour email briefings, by implementing a reporting daemon and timeout/retry handling for external notification and BigQuery calls.",
+        "scope": "Configured schedules and error-handling work; no measured alert-delivery or downtime improvement is claimed."
+      }
+    ]
+  }
+]

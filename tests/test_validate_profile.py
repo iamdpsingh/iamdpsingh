@@ -65,7 +65,7 @@ class ProfileSecurityTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate(self.root)
 
-    def test_legacy_artwork_and_duplicate_hero_are_rejected(self):
+    def test_unreviewed_local_artwork_is_rejected(self):
         assets = self.root / "assets"
         assets.mkdir()
         (assets / "profile-banner.svg").write_bytes(self.svg.read_bytes())

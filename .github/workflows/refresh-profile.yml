@@ -7,8 +7,8 @@ on:
   push:
     branches: [main]
     paths:
-      - 'data/projects.json'
-      - 'data/portrait.txt'
+      - 'data/additional-projects.json'
+      - 'templates/profile.md'
       - 'scripts/build_profile.py'
       - 'scripts/refresh_activity.py'
 
@@ -28,7 +28,7 @@ jobs:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
         with:
           persist-credentials: false
-      - name: Read public GitHub numbers and build text-only profile
+      - name: Read public GitHub numbers and preserve original profile layout
         run: |
           python3 scripts/refresh_activity.py
           python3 scripts/build_profile.py
@@ -43,6 +43,7 @@ jobs:
           path: |
             README.md
             data/contributions.json
+            docs/PROJECT_EVIDENCE.md
 
   publish:
     needs: render
@@ -61,7 +62,7 @@ jobs:
           path: .
       - name: Commit generated files if changed
         run: |
-          git add -- README.md data/contributions.json
+          git add -- README.md data/contributions.json docs/PROJECT_EVIDENCE.md
           if git diff --cached --quiet; then
             exit 0
           fi

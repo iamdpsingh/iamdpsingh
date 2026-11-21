@@ -1,28 +1,28 @@
 # Instructions for AI editors
 
-Read `docs/EDITING_GUIDE.md` before editing. This is a GitHub profile README,
-not a standalone web application.
+Read `docs/EDITING_GUIDE.md` before editing. This is a GitHub profile README.
+The owner's latest request explicitly restores the original design from before
+this chat's edits (baseline commit `6f86ae0`), superseding the monochrome and
+terminal-style experiments.
 
-- The owner's latest preference is a lightweight, monochrome, text-first profile
-  suitable for older PCs. Preserve its personal-workstation direction: file-style
-  links, a small data-flow diagram, optional ASCII portrait, and text activity.
-  Use native Markdown and GitHub's light/dark theme.
-  Do not add custom colors, images, badges, animation, CSS, scripts, or fonts.
-- Keep headings readable and the layout compact. Use native expandable sections
-  for the full catalog and secondary information. No layout tables or fake UI.
-- Add projects in `data/projects.json`; run `python3 scripts/build_profile.py`.
-  Keep all existing entries unless the owner requests removal. Feature three.
-- Keep facts grounded. Do not invent employers, credentials, project benchmarks,
-  contribution counts, or merged open-source contributions.
-- `data/contributions.json` holds actual public GitHub calendar data. Refresh via
-  `python3 scripts/refresh_activity.py`; show its date and source in the README.
-- Validation/render jobs stay read-only. The trusted-main refresh workflow's
-  `publish` job may update only README.md and data/contributions.json. This is
-  the documented exception for contribution refreshes and easy project updates.
-- Pin actions to verified full commit SHAs; disable checkout credentials.
-- Existing SVGs are archived artwork, not live metrics. Do not embed them.
+- Preserve the original charcoal/red/orange waves, typing effects, social badges,
+  technology grids, project-card table, and contribution-art sections.
+- Edit `templates/profile.md` for the original layout and existing project cards.
+- Add new project cards in `data/additional-projects.json`, then run
+  `python3 scripts/build_profile.py`. Do not hard-code new cards into README.md.
+- Preserve dates, evidence labels, caveats, and sources for project claims.
+  Coverage is not completion; dated counts are not live counts; simulations are
+  not production recoveries; reported tests are not independently rerun tests.
+- Never invent a repository link: Rolewisp uses the supplied application URL.
+- `docs/PROJECT_EVIDENCE.md` is generated from the additional-project evidence.
+- Use only the original reviewed image hosts and inline layout styles. No scripts,
+  iframes, event handlers, unreviewed image services, or executable downloaded SVGs.
+- Keep action pins and checkout-credential hardening. Validation/render jobs are
+  read-only; the trusted-main publish job may change only generated README,
+  contribution JSON, and project-evidence documentation.
+- Contribution art retained from the original design is labeled as snapshots.
+  Only the dated contribution JSON summary is independently refreshed here.
 - Run `python3 scripts/build_profile.py`, `python3 scripts/validate_profile.py`,
   `python3 -m unittest discover -s tests -v`, and `git diff --check` after edits.
-- Preview desktop and narrow layouts. Verify no image or external media requests,
-  no horizontal overflow, and keyboard-operable expandable sections.
+- Verify the new cards and source links in the rendered original layout.
 - Do not commit, push, or change repository settings unless requested.
