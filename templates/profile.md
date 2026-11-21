@@ -33,7 +33,7 @@
 
 ## 🌐 ＳＹＳＴＥＭ_ＯＶＥＲＶＩＥＷ
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300" alt="" />
+
 
 
 > *I architect robust data pipelines and build immersive full-stack applications. Inspired by visually rich virtual worlds and intricate storytelling, I craft digital experiences that are as performant as they are beautiful.*
@@ -50,8 +50,8 @@
 
 <br clear="right"/>
 
-<!-- ENGINEERING_PROFILE_START -->
-<!-- ENGINEERING_PROFILE_END -->
+<!-- AVATAR_PRINT_START -->
+<!-- AVATAR_PRINT_END -->
 
 ## 💻 ＴＥＣＨ_ＡＲＳＥＮＡＬ
 

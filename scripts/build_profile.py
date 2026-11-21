@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Preserve the original profile layout and add source-scoped project cards."""
 import json
+import math
 import re
 from datetime import datetime
 from html import escape
@@ -129,99 +130,94 @@ def replace_block(text,start,end,body):
     return re.sub(pattern,lambda _:start+'\n'+body+'\n'+end,text,flags=re.S)
 
 
-def engineering_profile(root):
-    """Four small, static SVGs: light/dark and desktop/mobile; no external resources."""
-    paths=[('Job sources','Python / PostgreSQL','Rolewisp'),
-           ('Fleet telemetry','Pub/Sub / Dataflow','Fleet analytics'),
-           ('Pipeline signals','Python / PySpark','Immune System')]
+# Exact reviewed CSS: each row prints once; the last dot row finishes at 2.955 seconds.
+AVATAR_STYLE = ('@media (prefers-reduced-motion: no-preference) {\n'
+                '  .ink { animation: print-row .12s steps(1,end) 1 both; }\n'
+                + ''.join(f'  .r{i} {{ animation-delay: {i*45}ms; }}\n' for i in range(64))
+                + '}\n@keyframes print-row { from { opacity: 0; } to { opacity: 1; } }')
+
+
+def avatar_print(root,snapshot):
+    pattern=json.loads((root/'data/avatar-pattern.json').read_text())
+    lines=pattern['lines']
+    if (len(lines)!=64 or any(len(line)!=64 for line in lines)
+            or any(char not in '0123456789abcdef' for line in lines for char in line)):
+        raise ValueError('Avatar pattern must be a 64-by-64 luminance grid')
+    total=snapshot['total']
+    active=sum(day['count']>0 for day in snapshot['days'])
     directory=root/'assets'
     directory.mkdir(exist_ok=True)
     for theme in ('dark','light'):
         dark=theme=='dark'
-        bg,card,ink,muted,line=('#050505','#131110','#fafafa','#bab2ad','#45352c') if dark else ('#faf9f6','#ffffff','#171717','#625b55','#ded3c9')
-        accent='#F97316' if dark else '#a74213'
+        bg,ink,muted,border=('#080808','#eeeeee','#aaa6a2','#35312e') if dark else ('#faf9f6','#181818','#68625c','#d6d0c9')
         for mobile in (False,True):
-            w,h=(640,575) if mobile else (1080,350)
-            parts=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc">',
-                   '<title id="title">Three project paths from source to shipped application</title>',
-                   '<desc id="desc">Job sources through Python and PostgreSQL to Rolewisp; fleet telemetry through Pub/Sub and Dataflow to fleet analytics; pipeline signals through Python and PySpark to the Immune System.</desc>',
-                   f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="14" fill="{bg}" stroke="{line}"/>']
-            def text(x,y,value,size=20,color=ink,weight=400,extra=''):
-                return f'<text x="{x}" y="{y}" fill="{color}" font-family="Arial, Helvetica, sans-serif" font-size="{size}" font-weight="{weight}" {extra}>{escape(value)}</text>'
+            w,h=(640,910) if mobile else (1080,460)
+            left,top,step=(36,47,8.8) if mobile else (24,32,6)
+            body=[f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="14" fill="{bg}" stroke="{border}"/>']
+            def text(x,y,value,size=18,color=ink,weight=400,extra=''):
+                return (f'<text x="{x}" y="{y}" fill="{color}" font-family="Courier New, monospace" '
+                        f'font-size="{size}" font-weight="{weight}" {extra}>{escape(str(value))}</text>')
+            body.append(text(left,top-17,'AVATAR / HALFTONE',12,muted,600))
+            rows=[]
+            for row,line in enumerate(lines):
+                dots=[]
+                for column,hex_value in enumerate(line):
+                    level=int(hex_value,16)/15
+                    density=level if dark else 1-level
+                    radius=round(math.sqrt(density)*step*.48,2)
+                    if radius < .15:
+                        continue
+                    cx=left+(column+.5)*step
+                    cy=top+(row+.5)*step
+                    dots.append(f'<circle cx="{cx:g}" cy="{cy:g}" r="{radius:g}"/>')
+                rows.append(f'<g class="ink r{row}" fill="{ink}">'+''.join(dots)+'</g>')
             if mobile:
-                for i,(source,stack,project) in enumerate(paths):
-                    y=20+i*181
-                    parts += [f'<rect x="18" y="{y}" width="604" height="165" rx="10" fill="{card}" stroke="{line}"/>',
-                              text(36,y+39,f'0{i+1} / {project}',28,ink,600),
-                              text(36,y+78,source,23,muted),
-                              f'<path d="M44 {y+88}V{y+112}M39 {y+107}L44 {y+112}L49 {y+107}" fill="none" stroke="{accent}" stroke-width="2"/>',
-                              text(64,y+130,stack,24,accent,500)]
+                x,y=36,670
+                body.append(f'<path d="M36 630H604" stroke="{border}"/>')
+                name_size,body_size,line_space=28,21,36
             else:
-                for x,label in ((28,'SOURCE'),(410,'PROCESSING'),(792,'PROJECT')):
-                    parts.append(text(x,32,label,13,muted,600,'letter-spacing="2"'))
-                for i,row in enumerate(paths):
-                    y=58+i*94
-                    for x,label in zip((24,406,788),row):
-                        parts += [f'<rect x="{x}" y="{y}" width="268" height="68" rx="9" fill="{card}" stroke="{line}"/>',
-                                  text(x+134,y+42,label,20,accent if x==788 else ink,600 if x==788 else 400,'text-anchor="middle"')]
-                    for start,end in ((292,406),(674,788)):
-                        cy=y+34
-                        parts.append(f'<path d="M{start} {cy}H{end-7}M{end-14} {cy-5}L{end-7} {cy}L{end-14} {cy+5}" stroke="{accent}" stroke-width="2" fill="none"/>')
-            parts.append('</svg>')
-            filename=f'project-dag-{theme}'+('-mobile' if mobile else '')+'.svg'
-            (directory/filename).write_text('\n'.join(parts)+'\n')
-    manifest=json.loads((root/'data/capabilities.json').read_text())
-    if manifest.get('callable_mcp_server') is not False:
-        raise ValueError('The illustrative manifest must not claim to be a running MCP server')
-    return '''### Source → system → product
-
-<picture>
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/project-dag-light-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="assets/project-dag-dark-mobile.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/project-dag-light.svg" />
-  <img src="assets/project-dag-dark.svg" width="100%" alt="Three project paths: job sources to Rolewisp; fleet telemetry to fleet analytics; pipeline signals to the Data Pipeline Immune System." />
+                x,y=490,80
+                body.append(f'<path d="M458 28V432" stroke="{border}"/>')
+                name_size,body_size,line_space=33,21,44
+            body.append(text(x,y,'Dhruv Pratap Singh',name_size,ink,600))
+            body.append(text(x,y+line_space,'Data Engineer / Full-Stack',body_size,muted))
+            body.append(text(x,y+2*line_space,'PUBLIC ACTIVITY SNAPSHOT',14,muted,600))
+            body.append(text(x,y+3*line_space,f'contributions   {total:,}',body_size))
+            body.append(text(x,y+4*line_space,f'active days     {active}',body_size))
+            body.append(text(x,y+5*line_space,f'updated         {snapshot["fetched_on"]}',body_size))
+            if not mobile:
+                body.append(text(x,386,'Python / SQL / Google Cloud',18,muted))
+                body.append(text(x,417,'github.com/iamdpsingh',15,muted))
+            for static in (False,True):
+                filename=f'avatar-print-{theme}'+('-mobile' if mobile else '')+('-static' if static else '')+'.svg'
+                style='' if static else '<style>'+AVATAR_STYLE+'</style>'
+                svg=(f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc">'
+                     '<title id="title">Dhruv Pratap Singh — avatar formed from halftone dots</title>'
+                     f'<desc id="desc">Pattern portrait derived from his GitHub avatar. Public contribution snapshot: {total:,} contributions, {active} active days, refreshed {snapshot["fetched_on"]}.</desc>'
+                     +style+''.join(body+rows)+'</svg>\n')
+                (directory/filename).write_text(svg)
+    return '''<picture>
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/avatar-print-light-mobile-static.svg" />
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/avatar-print-dark-mobile-static.svg" />
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/avatar-print-light-static.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/avatar-print-dark-static.svg" />
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/avatar-print-light-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="assets/avatar-print-dark-mobile.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/avatar-print-light.svg" />
+  <img src="assets/avatar-print-dark.svg" width="100%" alt="Dhruv Pratap Singh's GitHub avatar formed from printed halftone dots, beside a dated public contribution snapshot." />
 </picture>
 
-[Rolewisp](https://rolewisp.vercel.app/) · [Fleet analytics](https://github.com/iamdpsingh/Project-5-Enterprise-Supply-Chain-Logistics-Data-Platform-with-Real-Time-Fleet-Analytics-on-GCP) · [Immune System](https://github.com/iamdpsingh/Data-Pipeline-Immune-System)
-
-<details>
-<summary>About me, as SQL</summary>
-
-```sql
-SELECT
-    'Dhruv Pratap Singh' AS name,
-    'Data Engineer' AS role,
-    'Python / SQL / GCP' AS stack;
-```
-
-| name | role | stack |
-| --- | --- | --- |
-| Dhruv Pratap Singh | Data Engineer | Python / SQL / GCP |
-
-</details>
-
-<details>
-<summary>Capability manifest</summary>
-
-A portfolio capability description, not a running MCP server or callable tool registry.
-
-```json
-'''+json.dumps(manifest,indent=2)+'''
-```
-
-[Inspect the manifest source](data/capabilities.json)
-
-</details>'''
+[Activity source and refresh date](data/contributions.json) · [Portrait pattern source](data/avatar-pattern.json)'''
 
 
 def main():
     projects=project_catalog()
     content=(ROOT/'templates/profile.md').read_text()
-    content=replace_block(content,'<!-- ENGINEERING_PROFILE_START -->','<!-- ENGINEERING_PROFILE_END -->',engineering_profile(ROOT))
     content=replace_block(content,'<!-- ADDITIONAL_PROJECTS_START -->','<!-- ADDITIONAL_PROJECTS_END -->',build_projects(projects))
     snapshot=json.loads((ROOT/'data/contributions.json').read_text())
     if snapshot['total'] != sum(day['count'] for day in snapshot['days']):
         raise ValueError('Contribution total must match dated daily data')
+    content=replace_block(content,'<!-- AVATAR_PRINT_START -->','<!-- AVATAR_PRINT_END -->',avatar_print(ROOT,snapshot))
     activity=(f'**{snapshot["total"]:,} contributions** in GitHub\'s last-year calendar '
               f'({snapshot["days"][0]["date"]}–{snapshot["days"][-1]["date"]}); snapshot {snapshot["fetched_on"]}. '
               '[Source and daily data](data/contributions.json).')

@@ -22,36 +22,46 @@ most custom CSS and controls the outer page. Layout tables and original animatio
 retain the limitations of the source design; no responsive or accessibility audit
 of all historical widgets is implied.
 
-## Focused engineering additions
+## Personal halftone avatar
 
-The owner supplied further creative ideas. The additions deliberately preserve the
-restored header, technology grids, and compact project cards:
+The owner asked to remove the capability manifest, SQL bio, and Source → system →
+product DAG, then clarified the replacement as **halftone dots forming the face**.
+Those three additions, their generator code, and their assets are removed.
+The original decorative developer GIF beside the bio is replaced by the personal
+avatar card; the header, technology grids, and compact project cards remain.
 
-- A local static project DAG shows three factual paths: job sources through Python /
-  PostgreSQL to Rolewisp; fleet telemetry through Pub/Sub / Dataflow to fleet
-  analytics; pipeline signals through Python / PySpark to the Immune System.
-  It describes selected project architecture, not an executing orchestrator.
-- An expandable SQL bio is a runnable, self-contained SELECT with a matching
-  Markdown result table. It is an illustration, not a query against a real profile DB.
-- `data/capabilities.json` describes documented capabilities. Its explicit
-  `callable_mcp_server: false` must remain unless an actual server is separately
-  implemented and verified. Do not add aspirational tools as proven skills.
+`data/avatar-pattern.json` stores a 64-by-64 luminance sample of the owner's
+approved GitHub avatar at `https://avatars.githubusercontent.com/u/115564211?v=4`,
+sampled on 2026-11-21. Each character is hexadecimal brightness (`0` dark, `f`
+light). The source photo is sampled, not redrawn into an invented identity.
+The final asset uses SVG circles of varying radius: bright dots on dark surfaces
+and dark ink dots on light surfaces. It is not an ASCII-character portrait.
 
-`engineering_profile()` in the builder generates four tiny SVG assets: light/dark
-and desktop/mobile. Native `picture` selects the variant; actual project links
-remain outside the image because SVG image nodes cannot act as website buttons.
-No scripts, external SVG resources, fonts, or animation are added. The image
-validator accepts exactly these local filenames and validates their SVG content.
+Design brief: a recognizable monochrome halftone portrait that prints row by row,
+paired with a compact, truthful terminal-style public activity snapshot.
+The initial generative pencil-sketch preview was superseded by this clarification
+and is not used in the profile. The final assets are deterministic SVGs rendered
+from the actual photograph's sampled luminance.
 
-The original current theme remains; the new light variant uses neutral paper/ink
-and the dark variant follows the charcoal/orange identity. Edit the path definitions
-in the builder and rerun it to update the diagram. Edit the capability JSON to
-update the expandable manifest. The diagram is not a runtime health monitor.
+`avatar_print()` in `scripts/build_profile.py` generates eight assets: light/dark,
+desktop/mobile, each with animated and static versions. `picture` chooses the
+correct variant. The 64 dot rows print once in 2.955 seconds. The exact reviewed
+`AVATAR_STYLE` uses opacity only and is enabled only for
+`prefers-reduced-motion: no-preference`. Reduced-motion users receive a static SVG;
+all rows remain visible when animation is disabled or complete. Never add infinite
+loops, arbitrary styles, scripts, external SVG resources, fonts, or SMIL elements.
 
-Do not invent token usage, latency, eval pass rates, SLA compliance, or claim that
-coding activity proves production uptime. Such telemetry would require an actual
-project measurement source, units, and timestamps. A staged agent demonstration
-must not be presented as a real private thought trace. No such trace is added here.
+The terminal panel shows actual contributions, active days, and refresh date from
+`data/contributions.json`. These are a dated public snapshot, not live monitoring,
+production health, uptime, SLA compliance, or model-evaluation metrics. Source and
+pattern-data links remain available below the panel.
+
+To update the portrait, obtain an owner-approved source, resample to 64x64
+luminance levels, update the JSON provenance, and rebuild. The checked-in pattern
+keeps daily builds dependency-free and avoids repeated photo downloads.
+The validator accepts only the named local avatar SVGs, bounds their size to
+350 KB, checks allowed SVG elements, and accepts only the exact print CSS.
+No raster photo or generated pencil image is needed by README visitors.
 
 ## Add a project — one JSON entry
 
@@ -149,12 +159,12 @@ such. Retired third-party artwork generators are not reinstated.
 
 `README.md` and `docs/PROJECT_EVIDENCE.md` are generated outputs. Edit the template
 or additional-project JSON instead. The builder changes only the added-card,
-date-badge, contribution-summary, and engineering-profile marker blocks in the template.
+date-badge, contribution-summary, and avatar-print marker blocks in the template.
 
 `validate-profile.yml` builds and checks using read-only repository access.
 `refresh-profile.yml` runs daily at 03:20 UTC, manually, or after template/project/
 builder changes. Its read-only render job fetches numeric GitHub data and passes
-only generated Markdown, evidence documentation, and contribution JSON, and the four generated DAG assets to an
+generated Markdown, evidence documentation, contribution JSON, and avatar SVGs to an
 isolated trusted-main publishing job. Its script stages only those generated files,
 uses the built-in token only for the push, and does not persist checkout credentials.
 A concurrent update causes a safe push rejection instead of a force-push.

@@ -33,7 +33,7 @@
 
 ## 🌐 ＳＹＳＴＥＭ_ＯＶＥＲＶＩＥＷ
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="300" alt="" />
+
 
 
 > *I architect robust data pipelines and build immersive full-stack applications. Inspired by visually rich virtual worlds and intricate storytelling, I craft digital experiences that are as performant as they are beautiful.*
@@ -50,82 +50,20 @@
 
 <br clear="right"/>
 
-<!-- ENGINEERING_PROFILE_START -->
-### Source → system → product
-
+<!-- AVATAR_PRINT_START -->
 <picture>
-  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/project-dag-light-mobile.svg" />
-  <source media="(max-width: 600px)" srcset="assets/project-dag-dark-mobile.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="assets/project-dag-light.svg" />
-  <img src="assets/project-dag-dark.svg" width="100%" alt="Three project paths: job sources to Rolewisp; fleet telemetry to fleet analytics; pipeline signals to the Data Pipeline Immune System." />
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/avatar-print-light-mobile-static.svg" />
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="assets/avatar-print-dark-mobile-static.svg" />
+  <source media="(prefers-color-scheme: light) and (prefers-reduced-motion: reduce)" srcset="assets/avatar-print-light-static.svg" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/avatar-print-dark-static.svg" />
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/avatar-print-light-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="assets/avatar-print-dark-mobile.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/avatar-print-light.svg" />
+  <img src="assets/avatar-print-dark.svg" width="100%" alt="Dhruv Pratap Singh's GitHub avatar formed from printed halftone dots, beside a dated public contribution snapshot." />
 </picture>
 
-[Rolewisp](https://rolewisp.vercel.app/) · [Fleet analytics](https://github.com/iamdpsingh/Project-5-Enterprise-Supply-Chain-Logistics-Data-Platform-with-Real-Time-Fleet-Analytics-on-GCP) · [Immune System](https://github.com/iamdpsingh/Data-Pipeline-Immune-System)
-
-<details>
-<summary>About me, as SQL</summary>
-
-```sql
-SELECT
-    'Dhruv Pratap Singh' AS name,
-    'Data Engineer' AS role,
-    'Python / SQL / GCP' AS stack;
-```
-
-| name | role | stack |
-| --- | --- | --- |
-| Dhruv Pratap Singh | Data Engineer | Python / SQL / GCP |
-
-</details>
-
-<details>
-<summary>Capability manifest</summary>
-
-A portfolio capability description, not a running MCP server or callable tool registry.
-
-```json
-{
-  "kind": "illustrative_portfolio_manifest",
-  "owner": "iamdpsingh",
-  "callable_mcp_server": false,
-  "capabilities": [
-    {
-      "name": "collect_source_backed_jobs",
-      "stack": [
-        "Python",
-        "FastAPI",
-        "PostgreSQL"
-      ],
-      "project": "Rolewisp"
-    },
-    {
-      "name": "build_cloud_data_pipelines",
-      "stack": [
-        "Python",
-        "SQL",
-        "BigQuery",
-        "Airflow",
-        "dbt"
-      ],
-      "project": "Supply Chain & Fleet Analytics"
-    },
-    {
-      "name": "evaluate_pipeline_recovery",
-      "stack": [
-        "Python",
-        "PySpark"
-      ],
-      "project": "Data Pipeline Immune System",
-      "scope": "Heuristic diagnosis and controlled simulations"
-    }
-  ]
-}
-```
-
-[Inspect the manifest source](data/capabilities.json)
-
-</details>
-<!-- ENGINEERING_PROFILE_END -->
+[Activity source and refresh date](data/contributions.json) · [Portrait pattern source](data/avatar-pattern.json)
+<!-- AVATAR_PRINT_END -->
 
 ## 💻 ＴＥＣＨ_ＡＲＳＥＮＡＬ
 

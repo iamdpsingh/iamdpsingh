@@ -9,9 +9,11 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+from scripts.build_profile import AVATAR_STYLE
 SVG_NS = "http://www.w3.org/2000/svg"
 SVG_TAGS = {"svg", "title", "desc", "defs", "linearGradient", "radialGradient", "stop", "pattern",
-            "path", "rect", "text", "g", "circle", "line", "polyline", "polygon", "ellipse"}
+            "path", "rect", "text", "g", "circle", "line", "polyline", "polygon", "ellipse", "style"}
 
 
 def local_file(target: str, root: Path) -> Path:
@@ -35,9 +37,9 @@ def validate_link(target: str, root: Path) -> None:
     local_file(target, root)
 
 
-def validate_svg(path: Path) -> None:
+def validate_svg(path: Path, max_bytes=100_000) -> None:
     data = path.read_bytes()
-    if len(data) > 100_000 or re.search(br"<!\s*(DOCTYPE|ENTITY)", data, re.I):
+    if len(data) > max_bytes or b"<?" in data or re.search(br"<!\s*(DOCTYPE|ENTITY)", data, re.I):
         raise ValueError(f"SVG is oversized or contains a DTD/entity: {path}")
     tree = ET.fromstring(data)
     if tree.tag != f"{{{SVG_NS}}}svg" or "viewBox" not in tree.attrib:
@@ -45,6 +47,8 @@ def validate_svg(path: Path) -> None:
     for element in tree.iter():
         if element.tag not in {f"{{{SVG_NS}}}{tag}" for tag in SVG_TAGS}:
             raise ValueError(f"Unsupported SVG element: {element.tag}")
+        if element.tag == f"{{{SVG_NS}}}style" and element.text != AVATAR_STYLE:
+            raise ValueError("Only the reviewed finite avatar-print CSS is allowed")
         for key, value in element.attrib.items():
             attr = key.rsplit("}", 1)[-1].lower()
             if attr.startswith("on") or attr in {"href", "style", "src"}:
@@ -75,11 +79,8 @@ def validate_image(target, root):
         return
     path = local_file(target,root)
     relative=path.relative_to(root.resolve()).as_posix()
-    if relative in {
-        "assets/project-dag-dark.svg", "assets/project-dag-light.svg",
-        "assets/project-dag-dark-mobile.svg", "assets/project-dag-light-mobile.svg",
-    }:
-        validate_svg(path)
+    if re.fullmatch(r"assets/avatar-print-(?:dark|light)(?:-mobile)?(?:-static)?\.svg",relative):
+        validate_svg(path,max_bytes=350_000)
         return
     if relative not in {"gitartwork.svg", "profile-3d-contrib/profile-night-view.svg"}:
         raise ValueError("Unreviewed local profile artwork")
