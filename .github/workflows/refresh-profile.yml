@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - 'data/additional-projects.json'
+      - 'data/capabilities.json'
       - 'templates/profile.md'
       - 'scripts/build_profile.py'
       - 'scripts/refresh_activity.py'
@@ -44,6 +45,7 @@ jobs:
             README.md
             data/contributions.json
             docs/PROJECT_EVIDENCE.md
+            assets/project-dag-*.svg
 
   publish:
     needs: render
@@ -62,7 +64,7 @@ jobs:
           path: .
       - name: Commit generated files if changed
         run: |
-          git add -- README.md data/contributions.json docs/PROJECT_EVIDENCE.md
+          git add -- README.md data/contributions.json docs/PROJECT_EVIDENCE.md assets/project-dag-*.svg
           if git diff --cached --quiet; then
             exit 0
           fi

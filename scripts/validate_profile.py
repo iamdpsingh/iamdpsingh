@@ -74,7 +74,14 @@ def validate_image(target, root):
             raise ValueError("Image host is not part of the restored original profile")
         return
     path = local_file(target,root)
-    if path.relative_to(root.resolve()).as_posix() not in {"gitartwork.svg", "profile-3d-contrib/profile-night-view.svg"}:
+    relative=path.relative_to(root.resolve()).as_posix()
+    if relative in {
+        "assets/project-dag-dark.svg", "assets/project-dag-light.svg",
+        "assets/project-dag-dark-mobile.svg", "assets/project-dag-light-mobile.svg",
+    }:
+        validate_svg(path)
+        return
+    if relative not in {"gitartwork.svg", "profile-3d-contrib/profile-night-view.svg"}:
         raise ValueError("Unreviewed local profile artwork")
     tree = ET.parse(path)
     for element in tree.iter():

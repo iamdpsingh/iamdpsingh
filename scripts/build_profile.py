@@ -129,9 +129,95 @@ def replace_block(text,start,end,body):
     return re.sub(pattern,lambda _:start+'\n'+body+'\n'+end,text,flags=re.S)
 
 
+def engineering_profile(root):
+    """Four small, static SVGs: light/dark and desktop/mobile; no external resources."""
+    paths=[('Job sources','Python / PostgreSQL','Rolewisp'),
+           ('Fleet telemetry','Pub/Sub / Dataflow','Fleet analytics'),
+           ('Pipeline signals','Python / PySpark','Immune System')]
+    directory=root/'assets'
+    directory.mkdir(exist_ok=True)
+    for theme in ('dark','light'):
+        dark=theme=='dark'
+        bg,card,ink,muted,line=('#050505','#131110','#fafafa','#bab2ad','#45352c') if dark else ('#faf9f6','#ffffff','#171717','#625b55','#ded3c9')
+        accent='#F97316' if dark else '#a74213'
+        for mobile in (False,True):
+            w,h=(640,575) if mobile else (1080,350)
+            parts=[f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc">',
+                   '<title id="title">Three project paths from source to shipped application</title>',
+                   '<desc id="desc">Job sources through Python and PostgreSQL to Rolewisp; fleet telemetry through Pub/Sub and Dataflow to fleet analytics; pipeline signals through Python and PySpark to the Immune System.</desc>',
+                   f'<rect x="1" y="1" width="{w-2}" height="{h-2}" rx="14" fill="{bg}" stroke="{line}"/>']
+            def text(x,y,value,size=20,color=ink,weight=400,extra=''):
+                return f'<text x="{x}" y="{y}" fill="{color}" font-family="Arial, Helvetica, sans-serif" font-size="{size}" font-weight="{weight}" {extra}>{escape(value)}</text>'
+            if mobile:
+                for i,(source,stack,project) in enumerate(paths):
+                    y=20+i*181
+                    parts += [f'<rect x="18" y="{y}" width="604" height="165" rx="10" fill="{card}" stroke="{line}"/>',
+                              text(36,y+39,f'0{i+1} / {project}',28,ink,600),
+                              text(36,y+78,source,23,muted),
+                              f'<path d="M44 {y+88}V{y+112}M39 {y+107}L44 {y+112}L49 {y+107}" fill="none" stroke="{accent}" stroke-width="2"/>',
+                              text(64,y+130,stack,24,accent,500)]
+            else:
+                for x,label in ((28,'SOURCE'),(410,'PROCESSING'),(792,'PROJECT')):
+                    parts.append(text(x,32,label,13,muted,600,'letter-spacing="2"'))
+                for i,row in enumerate(paths):
+                    y=58+i*94
+                    for x,label in zip((24,406,788),row):
+                        parts += [f'<rect x="{x}" y="{y}" width="268" height="68" rx="9" fill="{card}" stroke="{line}"/>',
+                                  text(x+134,y+42,label,20,accent if x==788 else ink,600 if x==788 else 400,'text-anchor="middle"')]
+                    for start,end in ((292,406),(674,788)):
+                        cy=y+34
+                        parts.append(f'<path d="M{start} {cy}H{end-7}M{end-14} {cy-5}L{end-7} {cy}L{end-14} {cy+5}" stroke="{accent}" stroke-width="2" fill="none"/>')
+            parts.append('</svg>')
+            filename=f'project-dag-{theme}'+('-mobile' if mobile else '')+'.svg'
+            (directory/filename).write_text('\n'.join(parts)+'\n')
+    manifest=json.loads((root/'data/capabilities.json').read_text())
+    if manifest.get('callable_mcp_server') is not False:
+        raise ValueError('The illustrative manifest must not claim to be a running MCP server')
+    return '''### Source → system → product
+
+<picture>
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/project-dag-light-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="assets/project-dag-dark-mobile.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-dag-light.svg" />
+  <img src="assets/project-dag-dark.svg" width="100%" alt="Three project paths: job sources to Rolewisp; fleet telemetry to fleet analytics; pipeline signals to the Data Pipeline Immune System." />
+</picture>
+
+[Rolewisp](https://rolewisp.vercel.app/) · [Fleet analytics](https://github.com/iamdpsingh/Project-5-Enterprise-Supply-Chain-Logistics-Data-Platform-with-Real-Time-Fleet-Analytics-on-GCP) · [Immune System](https://github.com/iamdpsingh/Data-Pipeline-Immune-System)
+
+<details>
+<summary>About me, as SQL</summary>
+
+```sql
+SELECT
+    'Dhruv Pratap Singh' AS name,
+    'Data Engineer' AS role,
+    'Python / SQL / GCP' AS stack;
+```
+
+| name | role | stack |
+| --- | --- | --- |
+| Dhruv Pratap Singh | Data Engineer | Python / SQL / GCP |
+
+</details>
+
+<details>
+<summary>Capability manifest</summary>
+
+A portfolio capability description, not a running MCP server or callable tool registry.
+
+```json
+'''+json.dumps(manifest,indent=2)+'''
+```
+
+[Inspect the manifest source](data/capabilities.json)
+
+</details>'''
+
+
 def main():
     projects=project_catalog()
     content=(ROOT/'templates/profile.md').read_text()
+    content=replace_block(content,'<!-- ENGINEERING_PROFILE_START -->','<!-- ENGINEERING_PROFILE_END -->',engineering_profile(ROOT))
     content=replace_block(content,'<!-- ADDITIONAL_PROJECTS_START -->','<!-- ADDITIONAL_PROJECTS_END -->',build_projects(projects))
     snapshot=json.loads((ROOT/'data/contributions.json').read_text())
     if snapshot['total'] != sum(day['count'] for day in snapshot['days']):

@@ -15,11 +15,15 @@ terminal-style experiments.
   not production recoveries; reported tests are not independently rerun tests.
 - Never invent a repository link: Rolewisp uses the supplied application URL.
 - `docs/PROJECT_EVIDENCE.md` is generated from the additional-project evidence.
+- Keep the optional project DAG, SQL bio, and illustrative capability manifest
+  compact. DAGs are local static SVGs with desktop/mobile and light/dark variants.
+  Never relabel GitHub activity as uptime, SLA compliance, or live evaluation data.
+  The manifest is documentation, not a running MCP server.
 - Use only the original reviewed image hosts and inline layout styles. No scripts,
   iframes, event handlers, unreviewed image services, or executable downloaded SVGs.
 - Keep action pins and checkout-credential hardening. Validation/render jobs are
   read-only; the trusted-main publish job may change only generated README,
-  contribution JSON, and project-evidence documentation.
+  contribution JSON, project-evidence documentation, and the four generated DAGs.
 - Contribution art retained from the original design is labeled as snapshots.
   Only the dated contribution JSON summary is independently refreshed here.
 - Run `python3 scripts/build_profile.py`, `python3 scripts/validate_profile.py`,

@@ -50,6 +50,83 @@
 
 <br clear="right"/>
 
+<!-- ENGINEERING_PROFILE_START -->
+### Source → system → product
+
+<picture>
+  <source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/project-dag-light-mobile.svg" />
+  <source media="(max-width: 600px)" srcset="assets/project-dag-dark-mobile.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/project-dag-light.svg" />
+  <img src="assets/project-dag-dark.svg" width="100%" alt="Three project paths: job sources to Rolewisp; fleet telemetry to fleet analytics; pipeline signals to the Data Pipeline Immune System." />
+</picture>
+
+[Rolewisp](https://rolewisp.vercel.app/) · [Fleet analytics](https://github.com/iamdpsingh/Project-5-Enterprise-Supply-Chain-Logistics-Data-Platform-with-Real-Time-Fleet-Analytics-on-GCP) · [Immune System](https://github.com/iamdpsingh/Data-Pipeline-Immune-System)
+
+<details>
+<summary>About me, as SQL</summary>
+
+```sql
+SELECT
+    'Dhruv Pratap Singh' AS name,
+    'Data Engineer' AS role,
+    'Python / SQL / GCP' AS stack;
+```
+
+| name | role | stack |
+| --- | --- | --- |
+| Dhruv Pratap Singh | Data Engineer | Python / SQL / GCP |
+
+</details>
+
+<details>
+<summary>Capability manifest</summary>
+
+A portfolio capability description, not a running MCP server or callable tool registry.
+
+```json
+{
+  "kind": "illustrative_portfolio_manifest",
+  "owner": "iamdpsingh",
+  "callable_mcp_server": false,
+  "capabilities": [
+    {
+      "name": "collect_source_backed_jobs",
+      "stack": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL"
+      ],
+      "project": "Rolewisp"
+    },
+    {
+      "name": "build_cloud_data_pipelines",
+      "stack": [
+        "Python",
+        "SQL",
+        "BigQuery",
+        "Airflow",
+        "dbt"
+      ],
+      "project": "Supply Chain & Fleet Analytics"
+    },
+    {
+      "name": "evaluate_pipeline_recovery",
+      "stack": [
+        "Python",
+        "PySpark"
+      ],
+      "project": "Data Pipeline Immune System",
+      "scope": "Heuristic diagnosis and controlled simulations"
+    }
+  ]
+}
+```
+
+[Inspect the manifest source](data/capabilities.json)
+
+</details>
+<!-- ENGINEERING_PROFILE_END -->
+
 ## 💻 ＴＥＣＨ_ＡＲＳＥＮＡＬ
 
 <div align="center">

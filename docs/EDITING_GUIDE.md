@@ -22,6 +22,37 @@ most custom CSS and controls the outer page. Layout tables and original animatio
 retain the limitations of the source design; no responsive or accessibility audit
 of all historical widgets is implied.
 
+## Focused engineering additions
+
+The owner supplied further creative ideas. The additions deliberately preserve the
+restored header, technology grids, and compact project cards:
+
+- A local static project DAG shows three factual paths: job sources through Python /
+  PostgreSQL to Rolewisp; fleet telemetry through Pub/Sub / Dataflow to fleet
+  analytics; pipeline signals through Python / PySpark to the Immune System.
+  It describes selected project architecture, not an executing orchestrator.
+- An expandable SQL bio is a runnable, self-contained SELECT with a matching
+  Markdown result table. It is an illustration, not a query against a real profile DB.
+- `data/capabilities.json` describes documented capabilities. Its explicit
+  `callable_mcp_server: false` must remain unless an actual server is separately
+  implemented and verified. Do not add aspirational tools as proven skills.
+
+`engineering_profile()` in the builder generates four tiny SVG assets: light/dark
+and desktop/mobile. Native `picture` selects the variant; actual project links
+remain outside the image because SVG image nodes cannot act as website buttons.
+No scripts, external SVG resources, fonts, or animation are added. The image
+validator accepts exactly these local filenames and validates their SVG content.
+
+The original current theme remains; the new light variant uses neutral paper/ink
+and the dark variant follows the charcoal/orange identity. Edit the path definitions
+in the builder and rerun it to update the diagram. Edit the capability JSON to
+update the expandable manifest. The diagram is not a runtime health monitor.
+
+Do not invent token usage, latency, eval pass rates, SLA compliance, or claim that
+coding activity proves production uptime. Such telemetry would require an actual
+project measurement source, units, and timestamps. A staged agent demonstration
+must not be presented as a real private thought trace. No such trace is added here.
+
 ## Add a project — one JSON entry
 
 Edit `data/additional-projects.json` and append:
@@ -118,13 +149,13 @@ such. Retired third-party artwork generators are not reinstated.
 
 `README.md` and `docs/PROJECT_EVIDENCE.md` are generated outputs. Edit the template
 or additional-project JSON instead. The builder changes only the added-card,
-date-badge, and contribution-summary marker blocks in the template.
+date-badge, contribution-summary, and engineering-profile marker blocks in the template.
 
 `validate-profile.yml` builds and checks using read-only repository access.
 `refresh-profile.yml` runs daily at 03:20 UTC, manually, or after template/project/
 builder changes. Its read-only render job fetches numeric GitHub data and passes
-only generated Markdown, evidence documentation, and contribution JSON to an
-isolated trusted-main publishing job. That job can write those three files only,
+only generated Markdown, evidence documentation, and contribution JSON, and the four generated DAG assets to an
+isolated trusted-main publishing job. Its script stages only those generated files,
 uses the built-in token only for the push, and does not persist checkout credentials.
 A concurrent update causes a safe push rejection instead of a force-push.
 
