@@ -1,36 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="280" viewBox="0 0 960 280" role="img" aria-labelledby="title desc">
-  <title id="title">From signal to system</title>
-  <desc id="desc">A charcoal, orange, and red data engineering schematic: ingest, transform, serve.</desc>
-  <defs>
-    <linearGradient id="heat" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#ef4444"/><stop offset="1" stop-color="#f97316"/>
-    </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035"/>
-    </pattern>
-  </defs>
-  <rect width="960" height="280" rx="16" fill="#050505"/>
-  <rect width="960" height="280" rx="16" fill="url(#grid)"/>
-  <path d="M40 39H72" stroke="url(#heat)" stroke-width="3"/>
-  <text x="84" y="44" fill="#b7b7bf" font-family="monospace" font-size="12" letter-spacing="2">DPS / ENGINEERING NOTEBOOK</text>
-  <g font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" letter-spacing="-2">
-    <text x="40" y="119" fill="#ffffff">FROM SIGNAL</text>
-    <text x="40" y="179" fill="url(#heat)">TO SYSTEM.</text>
-  </g>
-  <text x="42" y="234" fill="#b7b7bf" font-family="monospace" font-size="13">DATA PIPELINES / CLOUD SYSTEMS / USEFUL PRODUCTS</text>
-  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M611 95H647L682 139H738L773 95H885M611 185H647L682 141M738 141L773 185H885" stroke="#393939" stroke-width="2"/>
-    <path d="M611 95H647L682 139H738L773 185H885" stroke="url(#heat)" stroke-width="3"/>
-    <rect x="678" y="112" width="66" height="56" rx="10" fill="#14100e" stroke="#f97316"/>
-    <path d="M695 133L705 141L695 149M716 149H728" stroke="#f97316" stroke-width="2"/>
-    <g fill="#050505" stroke="#ef4444" stroke-width="2">
-      <circle cx="611" cy="95" r="6"/><circle cx="611" cy="185" r="6"/>
-    </g>
-    <g fill="#f97316" stroke="#f97316"><circle cx="885" cy="95" r="5"/><circle cx="885" cy="185" r="5"/></g>
-  </g>
-  <g fill="#b7b7bf" font-family="monospace" font-size="11" text-anchor="middle" letter-spacing="1">
-    <text x="611" y="226">INGEST</text><text x="711" y="226">TRANSFORM</text><text x="869" y="226">SERVE</text>
-  </g>
-  <path d="M40 265H920" stroke="#252525"/>
-  <path d="M40 265H204" stroke="url(#heat)" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="420" viewBox="0 0 1080 420" role="img" aria-labelledby="title">
+<title id="title">Engineer the flow — data engineering, full-stack development, and ML / AI</title>
+<defs>
+<linearGradient id="heat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EF4444"/><stop offset="1" stop-color="#F97316"/></linearGradient>
+<radialGradient id="glow"><stop stop-color="#F97316" stop-opacity=".2"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+</defs>
+<rect x="1" y="1" width="1078" height="418" rx="20" fill="#050505" stroke="#30231e"/><rect x="2" y="2" width="1076" height="416" rx="20" fill="url(#grid)"/><ellipse cx="875" cy="245" rx="300" ry="280" fill="url(#glow)"/><text x="42" y="46" font-family="SFMono-Regular, Consolas, monospace" font-size="14" font-weight="400" fill="#c6bcb6" letter-spacing="2">DPS / ENGINEERING AT THE INTERSECTION</text><path d="M42 67H1038" stroke="#30231e"/><text x="42" y="157" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" fill="#ffffff" letter-spacing="-4">ENGINEER</text><text x="42" y="247" font-family="Arial, Helvetica, sans-serif" font-size="84" font-weight="800" fill="url(#heat)" letter-spacing="-4">THE FLOW.</text><text x="46" y="292" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="400" fill="#c6bcb6" >From raw data to systems that make sense.</text><g fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M730 145L850 80L982 150L850 220Z" fill="#130d09" stroke="#59301c" stroke-width="1.5"/><path d="M730 215L850 150L982 220L850 290Z" fill="#130d09" stroke="#59301c" stroke-width="1.5"/><path d="M730 285L850 220L982 290L850 360Z" fill="#130d09" stroke="#59301c" stroke-width="1.5"/><path d="M730 215L850 280L982 215M730 285L850 350L982 285" stroke="url(#heat)" stroke-width="2"/><path d="M666 146H712L850 220L982 150H1022M666 286H704L850 360" stroke="#F97316" stroke-width="2"/><path d="M850 80V350" stroke="#F97316" stroke-opacity=".28" stroke-dasharray="4 8"/><circle cx="666" cy="146" r="6" fill="#F97316" stroke="#050505" stroke-width="2"/><circle cx="850" cy="220" r="6" fill="#F97316" stroke="#050505" stroke-width="2"/><circle cx="1022" cy="150" r="6" fill="#F97316" stroke="#050505" stroke-width="2"/><circle cx="850" cy="350" r="6" fill="#F97316" stroke="#050505" stroke-width="2"/></g><path d="M42 343H614" stroke="#30231e"/><text x="44" y="379" font-family="SFMono-Regular, Consolas, monospace" font-size="15" font-weight="600" fill="#e4d8d0" letter-spacing="1">DATA ENGINEERING</text><text x="258" y="379" font-family="SFMono-Regular, Consolas, monospace" font-size="15" font-weight="600" fill="#e4d8d0" letter-spacing="1">FULL-STACK</text><text x="440" y="379" font-family="SFMono-Regular, Consolas, monospace" font-size="15" font-weight="600" fill="#e4d8d0" letter-spacing="1">ML / AI</text>
 </svg>

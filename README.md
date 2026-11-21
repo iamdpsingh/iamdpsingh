@@ -1,22 +1,28 @@
-<p align="center">
-  <img src="assets/profile-banner.svg" width="100%" alt="From signal to system — a data pipeline connecting ingestion, transformation, and serving." />
-</p>
-
 # Dhruv Pratap Singh
-
-**Data engineering · Full-stack development · Applied ML**
-
-I build the path from raw data to useful products: cloud pipelines, analytical models, and the interfaces that make them usable.
-
-[Portfolio](https://iamdpsingh-github-io.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/dhruvpratapsingh30/) · [Email](mailto:dhruvpratapsingh30.official2.o@gmail.com)
 
 [Selected work](#selected-work) · [Toolkit](#toolkit) · [Background](#background)
 
----
+<p align="center">
+  <img src="assets/profile-banner.svg" width="100%" alt="Engineer the flow — data engineering, full-stack development, and ML / AI." />
+</p>
+
+<p align="center">
+  <a href="https://iamdpsingh-github-io.vercel.app/"><img src="assets/link-portfolio.svg" width="110" height="32" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/dhruvpratapsingh30/"><img src="assets/link-linkedin.svg" width="110" height="32" alt="LinkedIn" /></a>
+  <a href="mailto:dhruvpratapsingh30.official2.o@gmail.com"><img src="assets/link-email.svg" width="110" height="32" alt="Email" /></a>
+</p>
+
+**Data engineer. Full-stack builder. Always connecting the dots.**
+
+I build cloud pipelines, analytical models, and the applications that bring them together. My focus: turning raw data into something people can use.
 
 ## Selected work
 
 ### 01 / Move data. Make it visible.
+
+<p>
+  <a href="https://github.com/iamdpsingh/Project-5-Enterprise-Supply-Chain-Logistics-Data-Platform-with-Real-Time-Fleet-Analytics-on-GCP"><img src="assets/project-supply-chain.svg" width="100%" alt="View project: Supply Chain & Fleet Analytics — streaming data and operational visibility." /></a>
+</p>
 
 **[Supply Chain & Fleet Analytics](https://github.com/iamdpsingh/Project-5-Enterprise-Supply-Chain-Logistics-Data-Platform-with-Real-Time-Fleet-Analytics-on-GCP)**
 
@@ -26,6 +32,10 @@ A Bronze → Silver → Gold platform on Google Cloud, connecting IoT fleet tele
 
 ### 02 / Turn events into decisions.
 
+<p>
+  <a href="https://github.com/iamdpsingh/Project-4-Financial-Risk-Fraud-Detection-Data-Platform"><img src="assets/project-fraud-detection.svg" width="100%" alt="View project: Financial Risk & Fraud Detection — transaction events and risk signals." /></a>
+</p>
+
 **[Financial Risk & Fraud Detection](https://github.com/iamdpsingh/Project-4-Financial-Risk-Fraud-Detection-Data-Platform)**
 
 Batch and streaming pipelines with a seven-rule fraud scoring engine. Apache Beam handles event processing; dbt and Airflow support transformation and orchestration.
@@ -33,6 +43,10 @@ Batch and streaming pipelines with a seven-rule fraud scoring engine. Apache Bea
 `GCS + Pub/Sub → Apache Beam → BigQuery → Streamlit`
 
 ### 03 / Explore the lakehouse.
+
+<p>
+  <a href="https://github.com/iamdpsingh/Enterprise-Databricks-Lakehouse-Real-Time-Data-Intelligence-Platform"><img src="assets/project-lakehouse.svg" width="100%" alt="View project: The Lakehouse — Databricks Data Intelligence Platform with synthetic events." /></a>
+</p>
 
 **[Databricks Data Intelligence Platform](https://github.com/iamdpsingh/Enterprise-Databricks-Lakehouse-Real-Time-Data-Intelligence-Platform)**
 
@@ -67,6 +81,10 @@ A GCP-hosted lakehouse exploring streaming and data intelligence with Serverless
 </details>
 
 ## Toolkit
+
+<p>
+  <img src="assets/toolkit.svg" width="100%" alt="Data: Python, SQL, BigQuery. Build: Next.js, TypeScript, GCP. Explore: PySpark, Kafka, Terraform." />
+</p>
 
 **Data & orchestration**<br>
 Python · SQL · BigQuery · Airflow · dbt · Pandas

@@ -1,11 +1,12 @@
 # Instructions for AI editors
 
 Read `docs/EDITING_GUIDE.md` before editing. This repository is a GitHub profile,
-not a web application. The deliverable is `README.md` and its local SVG banner.
+not a web application. The deliverable is `README.md` and its local SVG artwork.
 
 - Preserve the charcoal `#050505`, red `#EF4444`, and orange `#F97316` identity.
-- Keep the profile quiet: one static hero, three featured projects, native
-  expandable sections for the longer catalog. Use readable normal text headings.
+- Preserve the website-style presentation: one static hero, three featured
+  project covers, compact contact buttons, and a toolkit panel. Keep the longer
+  catalog in native expandable sections. Use readable normal text headings.
 - Keep meaningful text in Markdown. GitHub strips scripts and most custom CSS.
 - Do not invent employers, dates, credentials, benchmarks, or contribution claims.
 - Do not add remote image widgets, tracking pixels, dependencies, SVG scripts,

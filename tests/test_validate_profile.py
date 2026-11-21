@@ -65,6 +65,18 @@ class ProfileSecurityTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate(self.root)
 
+    def test_legacy_artwork_and_duplicate_hero_are_rejected(self):
+        assets = self.root / "assets"
+        assets.mkdir()
+        (assets / "profile-banner.svg").write_bytes(self.svg.read_bytes())
+        (assets / "stats.svg").write_bytes(self.svg.read_bytes())
+        hero = '<img src="assets/profile-banner.svg" alt="Hero"/>'
+        for extra in (hero, '<img src="assets/stats.svg" alt="Old statistics"/>'):
+            with self.subTest(extra=extra):
+                (self.root / "README.md").write_text("# Profile\n" + hero + extra)
+                with self.assertRaises(ValueError):
+                    validate(self.root)
+
     def test_active_readme_html_is_rejected(self):
         for html in ('<script>alert(1)</script>', '<img src="art.svg" alt="Art" onload="x"/>'):
             with self.subTest(html=html), self.assertRaises(ValueError):

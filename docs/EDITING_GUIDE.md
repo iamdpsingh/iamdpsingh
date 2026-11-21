@@ -7,7 +7,10 @@ API key, or network access is needed to edit or validate this profile.
 ## Repository map
 
 - `README.md`: public GitHub profile and source of truth for visible content.
-- `assets/profile-banner.svg`: original, static vector hero, editable as XML.
+- `assets/profile-banner.svg`: original static vector hero, editable as XML.
+- `assets/project-*.svg`: three original project covers.
+- `assets/link-*.svg`: local Portfolio, LinkedIn, and Email button graphics.
+- `assets/toolkit.svg`: compact visual overview of the main technology groups.
 - `scripts/validate_profile.py`: offline structural and content guardrails.
 - `tests/test_validate_profile.py`: security regression tests.
 - `.github/workflows/validate-profile.yml`: read-only checks on pushes and PRs.
@@ -19,9 +22,11 @@ API key, or network access is needed to edit or validate this profile.
 
 ## Visual direction
 
-The concept is an **engineering notebook**: a quiet, linear story about moving
-from a raw signal to a usable system. The custom branching pipeline graphic is
-part of the identity, rather than a stock developer animation.
+The concept is a **data control room**: a website-style portfolio inside GitHub,
+with an oversized typographic hero, warm red/orange light, layered data geometry,
+original project covers, and compact contact buttons. This richer presentation
+restores the visual energy of the earlier profile while using only local artwork.
+All illustrations are original editable SVG primitives, not remote widgets.
 
 Keep the existing palette:
 
@@ -40,13 +45,13 @@ uses native Markdown for readability in either mode. Do not try to override the
 GitHub canvas with inline styles. Never add a stylesheet, script, iframe, or app
 framework to make a profile README behave like a website.
 
-Keep one hero, three selected projects, and three main sections (selected work,
+Keep one hero, three selected projects with covers, and three main sections (selected work,
 toolkit, background). Use native `details`/`summary` for secondary material.
 Avoid layout tables, full-width Unicode headings, badge walls, repeated calls to
 action, counters, animated separators, and competing activity widgets. Tables
 are appropriate for actual data such as this palette.
 
-The hero uses a `960 × 280` viewBox and `width="100%"` in the README. It is static
+The hero uses a `1080 × 420` viewBox and `width="100%"` in the README. It is static
 and uses installed system font fallbacks. The banner's small labels are secondary;
 all essential identity, project details, and contact links must remain real text
 below the image so they stay readable at narrow widths and with screen readers.
@@ -89,13 +94,22 @@ contribution claims without supporting repository evidence. The earlier profile
 contained numerical claims without benchmark context; the redesign describes
 capabilities instead. The Databricks dataset remains explicitly synthetic.
 
-### Edit the banner
+### Edit the artwork
 
-Edit the local SVG directly. Keep its title, description, namespace, viewBox,
+Edit the local SVG directly. Keep its title, namespace, viewBox,
 contrast, and text margins. Use SVG primitives, local gradients, and system fonts.
 Do not use embedded HTML, external images/fonts, animation, event handlers,
 links, DTDs, or entities. Update the README alt text if the meaning changes.
-Preview wide and narrow layouts before delivery.
+Preview wide and narrow layouts before delivery. The three project covers use
+`1080 × 240` viewBoxes, the toolkit uses `1080 × 220`, and the contact graphics use
+`168 × 48` (displayed at `110 × 32` to fit three across on mobile). Contact button
+SVGs are images wrapped in ordinary HTML links; do not draw fake controls with no
+link. Keep the alt text equal to the visible label. Artwork is static by design.
+
+The validator's `PROFILE_ARTWORK` set explicitly lists the eight reviewed assets.
+Keep one hero and avoid duplicate images. Changing the number of featured
+projects or adding artwork requires a deliberate design and validation update.
+Adding ordinary entries to the expandable catalog needs only a Markdown edit.
 
 ### Run checks
 
@@ -108,7 +122,7 @@ git diff --check
 ```
 
 The validator intentionally accepts a small Markdown/HTML/SVG subset. Use inline
-Markdown links, a single local SVG image with meaningful alt text, and the native
+Markdown links, reviewed local SVG images with meaningful alt text, and the native
 HTML elements already present. It checks local path containment (including
 symlinks), permitted link schemes, basic structure, and active SVG constructs.
 It is a regression guard, not a general-purpose sanitizer or security audit.
@@ -150,7 +164,7 @@ Those require their own access and review. A public email remains public.
 
 > Read AGENTS.md and docs/EDITING_GUIDE.md, then inspect the entire README and
 > local banner. Make the requested edit while preserving the dark/red/orange
-> engineering-notebook identity and minimal layout. Keep factual claims grounded
+> data-control-room identity and minimal layout. Keep factual claims grounded
 > in the owner's supplied information. Use native GitHub Markdown and static
 > local SVG only. Run the validator, regression tests, and diff whitespace check;
 > inspect the rendered result if layout changes. Report changed files and any
