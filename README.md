@@ -537,7 +537,7 @@ Contributing to various open source projects and communities. Currently under re
 ## 🖥️ ＧＩＴＨＵＢ_ＡＣＴＩＶＩＴＹ
 
 <!-- ACTIVITY_SUMMARY_START -->
-**5,223 contributions** in GitHub's last-year calendar (2025-11-23–2026-11-23); snapshot 2026-11-23. [Source and daily data](data/contributions.json).
+**5,223 contributions** in GitHub's last-year calendar (2025-11-23–2026-11-24); snapshot 2026-11-24. [Source and daily data](data/contributions.json).
 <!-- ACTIVITY_SUMMARY_END -->
 
 *The 3D, snake, and gitartwork graphics below are preserved contribution-art snapshots; they are not the live count above.*
